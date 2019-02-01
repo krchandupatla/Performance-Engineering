@@ -1,0 +1,86 @@
+[General]
+Type=TruClientWeb
+DefaultCfg=default.cfg
+MajorVersion=12
+MinorVersion=60
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+LastActiveAction=Action
+DevelopTool=Vugen
+LastModifyVer=12.60.0.971
+ActiveTypes=TruClientWeb
+AdditionalTypes=TruClientWeb
+GenerateTypes=TruClientWeb
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+RunType=cci
+LastCodeGenerationVer=12.60.0.971
+DisableRegenerate=0
+Encoding=
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Lib-View=Lib-View.c
+Action=Action.c
+vuser_end=vuser_end.c
+[VisibleActions]
+Lib-View=1
+vuser_init=1
+Action=1
+vuser_end=1
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+"Default Profile"=default.cfg
+[RunLogicFiles]
+"Default Profile"=default.usp
+[ExtraFiles]
+C-functions.c=
+globals.h=
+JS-functions.js=
+[Interpreters]
+vuser_init=no
+Lib-View=no
+Action=no
+vuser_end=no
+[Recorded Actions]
+vuser_init=0
+Lib-View=1
+Action=0
+vuser_end=0
+[Modified Actions]
+vuser_init=0
+Lib-View=0
+Action=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Lib-View=1
+Action=1
+vuser_end=1
+[TransactionsOrder]
+Order="GIS_AA_Launch__*delimiter*__GIS_AA_Login__*delimiter*__GIS_AA_Search Bar_Parcel Panel_Show Records__*delimiter*__GIS_AA_Search Bar_Parcel Panel__*delimiter*__GIS_AA_Search Bar_Address Panel_Create New record_Show Record__*delimiter*__GIS_AA_Search Bar_Address Panel_Records_Show Document__*delimiter*__GIS_AA_Search Bar_Parcel Panel_Create New Record__*delimiter*__GIS_AA_Search Bar_Parcel Panel_Show Document__*delimiter*__GIS_AA_Search Bar_Address Panel_Create New record_Buffer selection__*delimiter*__GIS_AA_Search Bar_Address Panel_Parcel_Create New record__*delimiter*__GIS_AA_Search Bar_Address Panel_Buffer Select__*delimiter*__GIS_AA_Search Bar_Address Panel_Create New record__*delimiter*__GIS_AA_Search Bar_Address Panel__*delimiter*__GIS_AA_Search Bar_Address Panel_Show GIS Information__*delimiter*__GIS_AA_Sign Out"
+[StateManagement]
+LastReplayStatus=3
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=
+[Transactions]
+GIS_AA_Launch=
+GIS_AA_Login=
+"GIS_AA_Search Bar_Parcel Panel_Show Records"=
+"GIS_AA_Search Bar_Parcel Panel"=
+"GIS_AA_Search Bar_Address Panel_Create New record_Show Record"=
+"GIS_AA_Search Bar_Address Panel_Records_Show Document"=
+"GIS_AA_Search Bar_Parcel Panel_Create New Record"=
+"GIS_AA_Search Bar_Parcel Panel_Show Document"=
+"GIS_AA_Search Bar_Address Panel_Create New record_Buffer selection"=
+"GIS_AA_Search Bar_Address Panel_Parcel_Create New record"=
+"GIS_AA_Search Bar_Address Panel_Buffer Select"=
+"GIS_AA_Search Bar_Address Panel_Create New record"=
+"GIS_AA_Search Bar_Address Panel"=
+"GIS_AA_Search Bar_Address Panel_Show GIS Information"=
+"GIS_AA_Sign Out"=

@@ -1,0 +1,102 @@
+[General]
+Type=TruClientWeb
+DefaultCfg=default.cfg
+MajorVersion=12
+MinorVersion=60
+ParameterFile=Chrome_PASCO_Ferrari UI_Form Designer_AA_New_AppD Headers.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+LastActiveAction=Action
+DevelopTool=Vugen
+LastModifyVer=12.60.0.971
+ActiveTypes=TruClientWeb
+AdditionalTypes=TruClientWeb
+GenerateTypes=TruClientWeb
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+RunType=cci
+LastCodeGenerationVer=12.60.0.971
+DisableRegenerate=0
+Description=
+ScriptLocale=en-US
+Encoding=
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+Lib-View=Lib-View.c
+vuser_end=vuser_end.c
+[VisibleActions]
+Lib-View=1
+vuser_init=1
+Action=1
+vuser_end=1
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+"Default Profile"=default.cfg
+[RunLogicFiles]
+"Default Profile"=default.usp
+[ExtraFiles]
+C-functions.c=
+globals.h=
+JS-functions.js=
+[Interpreters]
+vuser_init=no
+Action=no
+Lib-View=no
+vuser_end=no
+[Recorded Actions]
+vuser_init=0
+Action=0
+Lib-View=1
+vuser_end=0
+[Modified Actions]
+vuser_init=0
+Action=0
+Lib-View=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+Lib-View=1
+vuser_end=1
+[TransactionsOrder]
+Order="Ferrari UI Forms_AA_PASCO_TC00_Launch Agency URL__*delimiter*__Ferrari UI Forms_AA_PASCO_TC01_Login__*delimiter*__Ferrari UI Forms_AA_PASCO_TC02_Record search_Click Record  Search__*delimiter*__Ferrari UI Forms_AA_PASCO_TC03_Record Detail_Click Record link__*delimiter*__Ferrari UI Forms_AA_PASCO_TC04_Address search_Click Search and select__*delimiter*__Ferrari UI Forms_AA_PASCO_TC05_Address lookup_Click  lookup link(Address)__*delimiter*__Ferrari UI Forms_AA_PASCO_TC09_Parcel Search_Click Search and Select__*delimiter*__Ferrari UI Forms_AA_PASCO_TC10_Parcel Search Lookup_Click Lookup__*delimiter*__Ferrari UI Forms_AA_PASCO_TC11_Owner New_Click Parcel New__*delimiter*__Ferrari UI Forms_AA_PASCO_TC12_Owner Search Lookup_Click LookUp__*delimiter*__Ferrari UI Forms_AA_PASCO_TC13_Owner New_Click New__*delimiter*__Ferrari UI Forms_AA_PASCO_TC06_Record status_Click Status(Record)__*delimiter*__Ferrari UI Forms_AA_PASCO_TC07_Record status History_Click Status History (Application Histrory)__*delimiter*__Ferrari UI Forms_AA_PASCO_TC08_Record status History_Click Status History Search(Application Histrory)__*delimiter*__Ferrari UI Forms_AA_PASCO_TC14_Documents LookUp_Select Info from Manage Documents Lookup(default record)__*delimiter*__Ferrari UI Forms_AA_PASCO_TC15_Documents_Click Documents__*delimiter*__Ferrari UI Forms_AA_PASCO_TC16_LookUpContacts_Select LookUp Contact__*delimiter*__Ferrari UI Forms_AA_PASCO_TC17_Contacts Type_Click Contacts Number(Type)__*delimiter*__Ferrari UI Forms_AA_PASCO_TC18_ContactsAddress_Click ContactsAddressID__*delimiter*__Ferrari UI Forms_AA_PASCO_TC19_Contacts Address LookUp_Click Contacts Address LookUpNew__*delimiter*__Ferrari UI Forms_AA_PASCO_TC20_Inspections Search_Click On Inspections Search__*delimiter*__Ferrari UI Forms_AA_PASCO_TC21_Inspection Record Detail_Click On Inspection Type link__*delimiter*__Ferrari UI Forms_AA_PASCO_TC22_Professionals LookUp_Click On LookUp link__*delimiter*__Ferrari UI Forms_AA_PASCO_TC23_Professionals New_Click Professionals New__*delimiter*__Ferrari UI Forms_AA_PASCO_TC24_Professionals New_Click Professionals Detail__*delimiter*__Ferrari UI Forms_AA_PASCO_TC25_WorkflowNew_Click On WorkflowNew Link__*delimiter*__Ferrari UI Forms_AA_PASCO_TC26_WorkflowNew_Click On Workflow History Link__*delimiter*__Ferrari UI Forms_AA_PASCO_TC27_SingleEntry Address Form_SingleEntry Address Form Detail__*delimiter*__Ferrari UI Forms_AA_PASCO_TC28_SingleEntry Parcel Form_SingleEntry Parcel Form Details__*delimiter*__Ferrari UI Forms_AA_PASCO_TC30_Click Sign Out__*delimiter*__Ferrari UI Forms_AA_PASCO_TC29_SingleEntry Owner Form_SingleEntry Owner Form Details"
+[StateManagement]
+LastReplayStatus=2
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=
+[Transactions]
+"Ferrari UI Forms_AA_PASCO_TC00_Launch Agency URL"=
+"Ferrari UI Forms_AA_PASCO_TC01_Login"=
+"Ferrari UI Forms_AA_PASCO_TC02_Record search_Click Record  Search"=
+"Ferrari UI Forms_AA_PASCO_TC03_Record Detail_Click Record link"=
+"Ferrari UI Forms_AA_PASCO_TC04_Address search_Click Search and select"=
+"Ferrari UI Forms_AA_PASCO_TC05_Address lookup_Click  lookup link(Address)"=
+"Ferrari UI Forms_AA_PASCO_TC09_Parcel Search_Click Search and Select"=
+"Ferrari UI Forms_AA_PASCO_TC10_Parcel Search Lookup_Click Lookup"=
+"Ferrari UI Forms_AA_PASCO_TC11_Owner New_Click Parcel New"=
+"Ferrari UI Forms_AA_PASCO_TC12_Owner Search Lookup_Click LookUp"=
+"Ferrari UI Forms_AA_PASCO_TC13_Owner New_Click New"=
+"Ferrari UI Forms_AA_PASCO_TC06_Record status_Click Status(Record)"=
+"Ferrari UI Forms_AA_PASCO_TC07_Record status History_Click Status History (Application Histrory)"=
+"Ferrari UI Forms_AA_PASCO_TC08_Record status History_Click Status History Search(Application Histrory)"=
+"Ferrari UI Forms_AA_PASCO_TC14_Documents LookUp_Select Info from Manage Documents Lookup(default record)"=
+"Ferrari UI Forms_AA_PASCO_TC15_Documents_Click Documents"=
+"Ferrari UI Forms_AA_PASCO_TC16_LookUpContacts_Select LookUp Contact"=
+"Ferrari UI Forms_AA_PASCO_TC17_Contacts Type_Click Contacts Number(Type)"=
+"Ferrari UI Forms_AA_PASCO_TC18_ContactsAddress_Click ContactsAddressID"=
+"Ferrari UI Forms_AA_PASCO_TC19_Contacts Address LookUp_Click Contacts Address LookUpNew"=
+"Ferrari UI Forms_AA_PASCO_TC20_Inspections Search_Click On Inspections Search"=
+"Ferrari UI Forms_AA_PASCO_TC21_Inspection Record Detail_Click On Inspection Type link"=
+"Ferrari UI Forms_AA_PASCO_TC22_Professionals LookUp_Click On LookUp link"=
+"Ferrari UI Forms_AA_PASCO_TC23_Professionals New_Click Professionals New"=
+"Ferrari UI Forms_AA_PASCO_TC24_Professionals New_Click Professionals Detail"=
+"Ferrari UI Forms_AA_PASCO_TC25_WorkflowNew_Click On WorkflowNew Link"=
+"Ferrari UI Forms_AA_PASCO_TC26_WorkflowNew_Click On Workflow History Link"=
+"Ferrari UI Forms_AA_PASCO_TC27_SingleEntry Address Form_SingleEntry Address Form Detail"=
+"Ferrari UI Forms_AA_PASCO_TC28_SingleEntry Parcel Form_SingleEntry Parcel Form Details"=
+"Ferrari UI Forms_AA_PASCO_TC30_Click Sign Out"=
+"Ferrari UI Forms_AA_PASCO_TC29_SingleEntry Owner Form_SingleEntry Owner Form Details"=

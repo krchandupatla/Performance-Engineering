@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\kchandupatla\Documents\VuGen\Scripts\GIS_PT Ferrari_10.0_02_10102018
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\kchandupatla\documents\vugen\scripts\gis_pt ferrari_10.0_02_10102018\\logfile.log
+c:\users\kchandupatla\documents\vugen\scripts\gis_pt ferrari_10.0_02_10102018\\combined_GIS_PT Ferrari_10.0_02_10102018.c
+c:\users\kchandupatla\documents\vugen\scripts\gis_pt ferrari_10.0_02_10102018\\pre_cci.c

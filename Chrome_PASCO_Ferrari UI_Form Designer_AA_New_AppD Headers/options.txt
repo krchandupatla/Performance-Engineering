@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\kchandupatla\OneDrive - Accela, Inc\Documents\VuGen\Scripts\Chrome_PASCO_Ferrari UI_Form Designer_AA_New_AppD Headers
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\kchandupatla\onedrive - accela, inc\documents\vugen\scripts\chrome_pasco_ferrari ui_form designer_aa_new_appd headers\\logfile.log
+c:\users\kchandupatla\onedrive - accela, inc\documents\vugen\scripts\chrome_pasco_ferrari ui_form designer_aa_new_appd headers\\combined_Chrome_PASCO_Ferrari UI_Form Designer_AA_New_AppD Headers.c
+c:\users\kchandupatla\onedrive - accela, inc\documents\vugen\scripts\chrome_pasco_ferrari ui_form designer_aa_new_appd headers\\pre_cci.c

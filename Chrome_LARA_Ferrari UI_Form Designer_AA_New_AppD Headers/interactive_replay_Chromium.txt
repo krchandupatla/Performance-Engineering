@@ -1,0 +1,16 @@
+Virtual User Script started at : 2018-10-15 17:57:42
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Ferrari UI Forms_AA_LARA_TC01_Login" started.
+Notify: Transaction "Ferrari UI Forms_AA_LARA_TC28_SingleEntry Parcel Form_SingleEntry Parcel Form Details" started.
+t=00002969ms: Warning -205179: Not attaching to a tab: ""    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_LARA_TC28_SingleEntry Parcel Form_SingleEntry Parcel Form Details" ended with a "Pass" status (Duration: 5.0630 Think Time: 0.0440 Wasted Time: 3.7250).
+t=00016283ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_LARA_TC30_Click Sign Out" started.
+Notify: Transaction "Ferrari UI Forms_AA_LARA_TC30_Click Sign Out" ended with a "Pass" status (Duration: 8.2550 Think Time: 0.0210 Wasted Time: 3.0570).
+Ending iteration 1.
+Ending Vuser...
+Error: Vuser started transaction "Ferrari UI Forms_AA_LARA_TC01_Login", but did not reach a corresponding end transaction statement. The transaction ended automatically with status 'fail'.
+Notify: Transaction "Ferrari UI Forms_AA_LARA_TC01_Login" ended with a "Fail" status (Duration: 25.8661 Think Time: 6.2400 Wasted Time: 11.2280).
+Notify: Transaction "Ferrari UI Forms_AA_LARA_TC01_Login" has 0 error message(s).
+Vuser Terminated.

@@ -1,0 +1,39 @@
+
+t=01477639ms: End of response for "https://av-pt-ferrari.accela.com/security/images/accela_logo_v2.jpg" (internal ID=0)    [MsgId: MMSG-204691]
+
+t=01477651ms: First response segment received for "https://av-pt-ferrari.accela.com/security/images/hook.png" (internal ID=0)    [MsgId: MMSG-204694]
+
+t=01477652ms: End of response for "https://av-pt-ferrari.accela.com/security/images/hook.png" (internal ID=0)    [MsgId: MMSG-204691]
+
+t=01477653ms: First response segment received for "https://av-pt-ferrari.accela.com/security/images/spacer.gif" (internal ID=0)    [MsgId: MMSG-204694]
+
+t=01477654ms: End of response for "https://av-pt-ferrari.accela.com/security/images/spacer.gif" (internal ID=0)    [MsgId: MMSG-204691]
+
+t=01477681ms: Request initiated for "https://av-pt-ferrari.accela.com/security/images/login-bar.gif" (internal ID=0)    [MsgId: MMSG-204692]
+
+t=01477706ms: First response segment received for "https://use.typekit.net/c/2e9066/1w;proxima-nova,2,b5x:R:i4,b61:R:i7,b5w:R:n4,bBh:R:n7/l?3bb2a6e53c9684ffdc9a9af1195b2a62d69a4fbfbedecc7b6a1ca4a2f465fc6de1e789e0f31638c0f2c06cab515671a39937bdd0377dcc75d96fbefdaf06299c28ca55726044c37fd1" (internal ID=0)    [MsgId: MMSG-204694]
+
+t=01477707ms: End of response for "https://use.typekit.net/c/2e9066/1w;proxima-nova,2,b5x:R:i4,b61:R:i7,b5w:R:n4,bBh:R:n7/l?3bb2a6e53c9684ffdc9a9af1195b2a62d69a4fbfbedecc7b6a1ca4a2f465fc6de1e789e0f31638c0f2c06cab515671a39937bdd0377dcc75d96fbefdaf06299c28ca55726044c37fd1" (internal ID=0)    [MsgId: MMSG-204691]
+
+t=01477733ms: Browser cache entry used as response for "https://av-pt-ferrari.accela.com/security/images/login-bar.gif" (internal ID=0)    [MsgId: MMSG-204690]
+
+t=01477734ms: End of response for "https://av-pt-ferrari.accela.com/security/images/login-bar.gif" (internal ID=0)    [MsgId: MMSG-204691]
+
+t=01477764ms: Request initiated for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/src/json.js" (internal ID=0)    [MsgId: MMSG-204692]
+
+t=01477767ms: Browser cache entry used as response for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/src/json.js" (internal ID=0)    [MsgId: MMSG-204690]
+
+t=01477768ms: End of response for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/src/json.js" (internal ID=0)    [MsgId: MMSG-204691]
+
+t=01477777ms: Request initiated for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/src/AdapterRegistry.js" (internal ID=0)    [MsgId: MMSG-204692]
+
+t=01477784ms: Browser cache entry used as response for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/src/AdapterRegistry.js" (internal ID=0)    [MsgId: MMSG-204690]
+
+t=01477785ms: End of response for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/src/AdapterRegistry.js" (internal ID=0)    [MsgId: MMSG-204691]
+
+t=01477844ms: Step 307: Click on Sign Out link successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]
+Notify: Transaction "GIS_AA_Sign Out" ended with a "Pass" status (Duration: 4.0400).
+Ending iteration 5.
+Ending Vuser...
+Vuser Terminated.
+Vuser 0 (thread 10672), ended OK."

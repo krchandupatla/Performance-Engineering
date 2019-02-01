@@ -1,0 +1,177 @@
+Virtual User Script started at : 2018-11-01 16:46:27
+Running Vuser...
+Starting iteration 1.
+t=00004393ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC00_Launch Agency URL" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC00_Launch Agency URL" ended with a "Pass" status (Duration: 3.0590 Think Time: 0.0190 Wasted Time: 0.4020).
+t=00011060ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC01_Login" started.
+t=00012559ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+t=00014644ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+t=00016497ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC01_Login" ended with a "Pass" status (Duration: 11.1450 Think Time: 0.4610 Wasted Time: 5.2090).
+t=00033818ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC02_Record search_Click Record  Search" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC02_Record search_Click Record  Search" ended with a "Pass" status (Duration: 5.0980 Think Time: 0.0160 Wasted Time: 0.9480).
+t=00054303ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC03_Record Detail_Click Record link" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC03_Record Detail_Click Record link" ended with a "Pass" status (Duration: 3.9650 Think Time: 0.0830 Wasted Time: 0.5260).
+t=00065702ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC04_Address search_Click Search and select" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC04_Address search_Click Search and select" ended with a "Pass" status (Duration: 4.1890 Think Time: 0.1350 Wasted Time: 1.0620).
+t=00077337ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC05_Address lookup_Click  lookup link(Address)" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC05_Address lookup_Click  lookup link(Address)" ended with a "Pass" status (Duration: 3.5300 Think Time: 0.0470 Wasted Time: 0.5140).
+t=00106472ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC09_Parcel Search_Click Search and Select" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC09_Parcel Search_Click Search and Select" ended with a "Pass" status (Duration: 3.7920 Think Time: 0.0840 Wasted Time: 0.7180).
+t=00117731ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC10_Parcel Search Lookup_Click Lookup" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC10_Parcel Search Lookup_Click Lookup" ended with a "Pass" status (Duration: 3.7250 Think Time: 0.0190 Wasted Time: 0.6930).
+t=00129935ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC11_Owner New_Click Parcel New" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC11_Owner New_Click Parcel New" ended with a "Pass" status (Duration: 3.4940 Think Time: 0.0170 Wasted Time: 0.6220).
+t=00162996ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC12_Owner Search Lookup_Click LookUp" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC12_Owner Search Lookup_Click LookUp" ended with a "Pass" status (Duration: 3.8960 Think Time: 0.0730 Wasted Time: 0.7010).
+t=00174609ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC13_Owner New_Click New" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC13_Owner New_Click New" ended with a "Pass" status (Duration: 4.4630 Think Time: 0.0760 Wasted Time: 1.2500).
+t=00186983ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC06_Record status_Click Status(Record)" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC06_Record status_Click Status(Record)" ended with a "Pass" status (Duration: 4.0300 Think Time: 0.0690 Wasted Time: 0.5060).
+t=00197387ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC07_Record status History_Click Status History (Application Histrory)" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC07_Record status History_Click Status History (Application Histrory)" ended with a "Pass" status (Duration: 3.7450 Think Time: 0.0370 Wasted Time: 0.7530).
+t=00204764ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC08_Record status History_Click Status History Search(Application Histrory)" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC08_Record status History_Click Status History Search(Application Histrory)" ended with a "Pass" status (Duration: 3.9750 Think Time: 0.0230 Wasted Time: 0.8480).
+t=00225511ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC14_Documents LookUp_Select Info from Manage Documents Lookup(default record)" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC14_Documents LookUp_Select Info from Manage Documents Lookup(default record)" ended with a "Pass" status (Duration: 3.7660 Think Time: 0.0590 Wasted Time: 0.6800).
+t=00237204ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC15_Documents_Click Documents" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC15_Documents_Click Documents" ended with a "Pass" status (Duration: 4.1120 Think Time: 0.0180 Wasted Time: 0.7710).
+t=00259517ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC16_LookUpContacts_Select LookUp Contact" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC16_LookUpContacts_Select LookUp Contact" ended with a "Pass" status (Duration: 3.2470 Think Time: 0.1130 Wasted Time: 1.4880).
+t=00270313ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC17_Contacts Type_Click Contacts Number(Type)" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC17_Contacts Type_Click Contacts Number(Type)" ended with a "Pass" status (Duration: 6.0660 Think Time: 0.0190 Wasted Time: 0.6480).
+t=00280345ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC18_ContactsAddress_Click ContactsAddressID" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC18_ContactsAddress_Click ContactsAddressID" ended with a "Pass" status (Duration: 3.1810 Think Time: 0.0190 Wasted Time: 2.0590).
+t=00295059ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC19_Contacts Address LookUp_Click Contacts Address LookUpNew" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC19_Contacts Address LookUp_Click Contacts Address LookUpNew" ended with a "Pass" status (Duration: 4.5060 Think Time: 0.0910 Wasted Time: 0.4790).
+t=00312613ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC20_Inspections Search_Click On Inspections Search" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC20_Inspections Search_Click On Inspections Search" ended with a "Pass" status (Duration: 4.6000 Think Time: 0.0480 Wasted Time: 3.2160).
+t=00325682ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC21_Inspection Record Detail_Click On Inspection Type link" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC21_Inspection Record Detail_Click On Inspection Type link" ended with a "Pass" status (Duration: 5.7320 Think Time: 0.0470 Wasted Time: 0.8590).
+t=00343915ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC22_Professionals LookUp_Click On LookUp link" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC22_Professionals LookUp_Click On LookUp link" ended with a "Pass" status (Duration: 3.4190 Think Time: 0.0550 Wasted Time: 2.0490).
+t=00355454ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC23_Professionals New_Click Professionals New" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC23_Professionals New_Click Professionals New" ended with a "Pass" status (Duration: 3.6310 Think Time: 0.0480 Wasted Time: 2.4430).
+t=00367670ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC24_Professionals New_Click Professionals Detail" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC24_Professionals New_Click Professionals Detail" ended with a "Pass" status (Duration: 3.7110 Think Time: 0.0450 Wasted Time: 2.4680).
+t=00386134ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC25_WorkflowNew_Click On WorkflowNew Link" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC25_WorkflowNew_Click On WorkflowNew Link" ended with a "Pass" status (Duration: 2.5560 Think Time: 0.0280 Wasted Time: 1.6740).
+t=00397256ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC26_WorkflowNew_Click On Workflow History Link" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC26_WorkflowNew_Click On Workflow History Link" ended with a "Pass" status (Duration: 3.8250 Think Time: 0.0730 Wasted Time: 0.5570).
+Ending iteration 1.
+Warning: Iteration pacing cannot be reached (pace time = 10.000000, actual time = 404.852000).
+Starting iteration 2.
+t=00410388ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC00_Launch Agency URL" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC00_Launch Agency URL" ended with a "Pass" status (Duration: 4.0180 Think Time: 0.0270 Wasted Time: 0.4580).
+t=00418049ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC01_Login" started.
+t=00419703ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+t=00421814ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+t=00423684ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC01_Login" ended with a "Pass" status (Duration: 13.6260 Think Time: 0.3070 Wasted Time: 8.4930).
+t=00443413ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC02_Record search_Click Record  Search" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC02_Record search_Click Record  Search" ended with a "Pass" status (Duration: 5.9250 Think Time: 0.1470 Wasted Time: 0.5280).
+t=00465247ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC03_Record Detail_Click Record link" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC03_Record Detail_Click Record link" ended with a "Pass" status (Duration: 4.3410 Think Time: 0.1020 Wasted Time: 0.4020).
+t=00477589ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC04_Address search_Click Search and select" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC04_Address search_Click Search and select" ended with a "Pass" status (Duration: 3.9820 Think Time: 0.0970 Wasted Time: 0.9060).
+t=00489474ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC05_Address lookup_Click  lookup link(Address)" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC05_Address lookup_Click  lookup link(Address)" ended with a "Pass" status (Duration: 3.6340 Think Time: 0.0180 Wasted Time: 0.6960).
+t=00518496ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC09_Parcel Search_Click Search and Select" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC09_Parcel Search_Click Search and Select" ended with a "Pass" status (Duration: 3.8250 Think Time: 0.0180 Wasted Time: 0.6120).
+t=00530405ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC10_Parcel Search Lookup_Click Lookup" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC10_Parcel Search Lookup_Click Lookup" ended with a "Pass" status (Duration: 4.2030 Think Time: 0.1050 Wasted Time: 0.7320).
+t=00543027ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC11_Owner New_Click Parcel New" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC11_Owner New_Click Parcel New" ended with a "Pass" status (Duration: 3.9390 Think Time: 0.0790 Wasted Time: 0.8790).
+t=00578021ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC12_Owner Search Lookup_Click LookUp" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC12_Owner Search Lookup_Click LookUp" ended with a "Pass" status (Duration: 3.8230 Think Time: 0.0780 Wasted Time: 0.8290).
+t=00589496ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC13_Owner New_Click New" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC13_Owner New_Click New" ended with a "Pass" status (Duration: 4.0120 Think Time: 0.1580 Wasted Time: 0.6320).
+t=00601543ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC06_Record status_Click Status(Record)" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC06_Record status_Click Status(Record)" ended with a "Pass" status (Duration: 3.9660 Think Time: 0.0990 Wasted Time: 0.5490).
+t=00611767ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC07_Record status History_Click Status History (Application Histrory)" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC07_Record status History_Click Status History (Application Histrory)" ended with a "Pass" status (Duration: 3.9740 Think Time: 0.1070 Wasted Time: 0.8440).
+t=00619300ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC08_Record status History_Click Status History Search(Application Histrory)" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC08_Record status History_Click Status History Search(Application Histrory)" ended with a "Pass" status (Duration: 4.1920 Think Time: 0.0430 Wasted Time: 0.6210).
+t=00640270ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC14_Documents LookUp_Select Info from Manage Documents Lookup(default record)" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC14_Documents LookUp_Select Info from Manage Documents Lookup(default record)" ended with a "Pass" status (Duration: 3.8840 Think Time: 0.0220 Wasted Time: 0.7390).
+t=00650823ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC15_Documents_Click Documents" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC15_Documents_Click Documents" ended with a "Pass" status (Duration: 4.1120 Think Time: 0.0360 Wasted Time: 0.7280).
+t=00675249ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC16_LookUpContacts_Select LookUp Contact" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC16_LookUpContacts_Select LookUp Contact" ended with a "Pass" status (Duration: 3.5080 Think Time: 0.0960 Wasted Time: 2.0110).
+t=00686883ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC17_Contacts Type_Click Contacts Number(Type)" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC17_Contacts Type_Click Contacts Number(Type)" ended with a "Pass" status (Duration: 6.4360 Think Time: 0.0480 Wasted Time: 0.6330).
+t=00697259ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC18_ContactsAddress_Click ContactsAddressID" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC18_ContactsAddress_Click ContactsAddressID" ended with a "Pass" status (Duration: 4.5240 Think Time: 0.0180 Wasted Time: 0.6280).
+t=00713337ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC19_Contacts Address LookUp_Click Contacts Address LookUpNew" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC19_Contacts Address LookUp_Click Contacts Address LookUpNew" ended with a "Pass" status (Duration: 4.6530 Think Time: 0.0460 Wasted Time: 0.3060).
+t=00731560ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC20_Inspections Search_Click On Inspections Search" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC20_Inspections Search_Click On Inspections Search" ended with a "Pass" status (Duration: 5.8490 Think Time: 0.0470 Wasted Time: 0.6180).
+t=00746236ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC21_Inspection Record Detail_Click On Inspection Type link" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC21_Inspection Record Detail_Click On Inspection Type link" ended with a "Pass" status (Duration: 5.0490 Think Time: 0.0190 Wasted Time: 0.9050).
+t=00764441ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC22_Professionals LookUp_Click On LookUp link" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC22_Professionals LookUp_Click On LookUp link" ended with a "Pass" status (Duration: 4.4190 Think Time: 0.0850 Wasted Time: 0.7440).
+t=00777196ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC23_Professionals New_Click Professionals New" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC23_Professionals New_Click Professionals New" ended with a "Pass" status (Duration: 5.0360 Think Time: 0.0470 Wasted Time: 0.6990).
+t=00790922ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC24_Professionals New_Click Professionals Detail" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC24_Professionals New_Click Professionals Detail" ended with a "Pass" status (Duration: 4.9350 Think Time: 0.0480 Wasted Time: 0.7400).
+t=00809907ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC25_WorkflowNew_Click On WorkflowNew Link" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC25_WorkflowNew_Click On WorkflowNew Link" ended with a "Pass" status (Duration: 4.1850 Think Time: 0.0700 Wasted Time: 0.5300).
+t=00820985ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC26_WorkflowNew_Click On Workflow History Link" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC26_WorkflowNew_Click On Workflow History Link" ended with a "Pass" status (Duration: 4.1180 Think Time: 0.0780 Wasted Time: 0.4900).
+Ending iteration 2.
+Ending Vuser...
+Vuser Terminated.

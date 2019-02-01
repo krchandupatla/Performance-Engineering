@@ -1,0 +1,12 @@
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+t=02940650ms: Step 204: Wait 2 seconds started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=02942880ms: Step 204: Wait 2 seconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=02943640ms: Step 206: Click on Cancel  started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=02947751ms: Step 206: Click on Cancel  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=02947760ms: Step 207: Wait 2 seconds started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=02949996ms: Step 207: Wait 2 seconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=02950749ms: Step 208: Select Single Entry Owner Form from Portlet listbox started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=03951492ms: Error -205177: Step 208: Select Single Entry Owner Form from Portlet listbox failed - Target object was not found. Identification Method: Descriptors       Snapshot Info [MSH 5 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

@@ -1,0 +1,444 @@
+t=00487171ms: First response segment received for "https://use.typekit.net/c/2e9066/1w;proxima-nova,2,b5x:R:i4,b61:R:i7,b5w:R:n4,bBh:R:n7/l?3bb2a6e53c9684ffdc9a9af1195b2a62d69a4fbfbedecc7b6a1ca4a2f465fc6de1e789e0f31638c0f2c06cab515671a39937bdd0377dcc75d96fbefdaf06299c28ca55726044c37fd1" (internal ID=0)    [MsgId: MMSG-204694]	[MsgId: MMSG-204694]
+	[MsgId: MMSG0]
+t=00487172ms: End of response for "https://use.typekit.net/c/2e9066/1w;proxima-nova,2,b5x:R:i4,b61:R:i7,b5w:R:n4,bBh:R:n7/l?3bb2a6e53c9684ffdc9a9af1195b2a62d69a4fbfbedecc7b6a1ca4a2f465fc6de1e789e0f31638c0f2c06cab515671a39937bdd0377dcc75d96fbefdaf06299c28ca55726044c37fd1" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487243ms: Request initiated for "https://www.accela.com/ext/web/aa/header.htm" (internal ID=0)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+	[MsgId: MMSG0]
+t=00487247ms: Request initiated for "https://av-pt-ferrari.accela.com/security/hostSignon.do?hostSignOn=true&signOff=true" (internal ID=0)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+	[MsgId: MMSG0]
+t=00487257ms: Browser cache entry used as response for "https://www.accela.com/ext/web/aa/header.htm" (internal ID=0)    [MsgId: MMSG-204690]	[MsgId: MMSG-204690]
+	[MsgId: MMSG0]
+t=00487259ms: End of response for "https://www.accela.com/ext/web/aa/header.htm" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487301ms: Request initiated for "https://www.accela.com/ext/web/aa/assets/aalogin_header.gif" (internal ID=0)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+	[MsgId: MMSG0]
+t=00487304ms: Request initiated for "https://www.accela.com/ext/web/aa/assets/spacer.gif" (internal ID=0)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+	[MsgId: MMSG0]
+t=00487334ms: First response segment received for "https://av-pt-ferrari.accela.com/security/hostSignon.do?hostSignOn=true&signOff=true" (internal ID=0)    [MsgId: MMSG-204694]	[MsgId: MMSG-204694]
+	[MsgId: MMSG0]
+t=00487335ms: Browser cache entry used as response for "https://www.accela.com/ext/web/aa/assets/aalogin_header.gif" (internal ID=0)    [MsgId: MMSG-204690]	[MsgId: MMSG-204690]
+	[MsgId: MMSG0]
+t=00487346ms: End of response for "https://www.accela.com/ext/web/aa/assets/aalogin_header.gif" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487347ms: Browser cache entry used as response for "https://www.accela.com/ext/web/aa/assets/spacer.gif" (internal ID=0)    [MsgId: MMSG-204690]	[MsgId: MMSG-204690]
+	[MsgId: MMSG0]
+t=00487362ms: End of response for "https://av-pt-ferrari.accela.com/security/hostSignon.do?hostSignOn=true&signOff=true" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487366ms: End of response for "https://www.accela.com/ext/web/aa/assets/spacer.gif" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487260ms: Response body for "https://www.accela.com/ext/web/aa/header.htm" (1088 byte(s), decoded) (internal ID=4716)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+		  <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+		  <table width="800" border="0" cellspacing="0" cellpadding="0">
+		    <tr>
+		      <td height="94" style="background-repeat: no-repeat;"><img src="https://www.accela.com/ext/web/aa/assets/aalogin_header.gif" alt="" width="800" height="126" usemap="#Map" border="0"/></a></td>
+		    </tr>
+		    <tr>
+		      <td height="64" valign="top" style="background-repeat: no-repeat; font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; font-size: 24px;"><table width="800" border="0" cellspacing="0" cellpadding="0">
+		        <tr>
+		          <td><img src="https://www.accela.com/ext/web/aa/assets/spacer.gif" width="28" height="12" alt="spacer"></td>
+		          <td><img src="https://www.accela.com/ext/web/aa/assets/spacer.gif" width="762" height="1" alt="spacer"></td>
+		        </tr>
+		        <tr>
+		          <td>&nbsp;</td>
+		          <td valign="top">Accela Automation Login</td>
+		        </tr>
+		      </table></td>
+		    </tr>
+		  </table>
+		  
+		  <map name="Map">
+		    <area shape="rect" coords="0,0,798,111" href="http://www.accela.com" target="_blank">
+		  </map>
+		  </body>
+		  </html>	[MsgId: MMSG0]
+t=00487425ms: Response body for "https://av-pt-ferrari.accela.com/security/hostSignon.do?hostSignOn=true&signOff=true" (11432 byte(s), decoded) (internal ID=4717)    [MsgId: MMSG-204696]	[MsgId: MMSG-204696]
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  <style type="text/css">
+		  <!--
+		  .tblr 
+		  {
+		  	border: 1px dotted #999999;
+		  }
+		  .style1 
+		  {
+		  	font-size: 1.13em;
+		  	color: #003366;
+		  }
+		  .style2 
+		  {
+		  	font-size: 0.75em
+		  }
+		  .style3 
+		  {
+		  	font-size: 1.125em;
+		  	font-weight: bold;
+		  }
+		  .text {
+		  	font-family: Arial, Helvetica, Verdana, sans-serif;
+		  	font-size: 1.034em;
+		  	line-height: 15px;
+		  	color: #606264;
+		  }
+		  -->
+		  </style>
+		  
+		  
+		  <html>
+		  	<head>
+		  		<title>Accela Automation</title>
+		  		<link rel="stylesheet" href="https://use.typekit.net/c/2e9066/1w;proxima-nova,2,b5x:R:i4,b61:R:i7,b5w:R:n4,bBh:R:n7/l?3bb2a6e53c9684ffdc9a9af1195b2a62d69a4fbfbedecc7b6a1ca4a2f465fc6de1e789e0f31638c0f2c06cab515671a39937bdd0377dcc75d96fbefdaf06299c28ca55726044c37fd1" media="all">
+		  		<link rel="stylesheet" TYPE="text/css" HREF="includes/login.css">		
+		  		<script type="text/javascript" src="/portlets/framework/includes/javascript/dojo/dojo.js"></script>
+		  		<script type="text/javascript" src="javascript/sso.js"></script>
+		  		<script language="JavaScript">
+		  <!--
+		  			function setFocus()
+		  			{
+		  				adjustPwdLength();
+		  				var username = document.getElementById("username");
+		  				var password = document.querySelector("input[name=password]");
+		  
+		  				var servProvCode = "null";
+		  
+		  				if(servProvCode == null || servProvCode == 'null')
+		  				{
+		  					document.signonBean.servProvCode.value = document.signonBean.cookieAgencyName.value;
+		  					servProvCode = document.signonBean.servProvCode.value;
+		  				}
+		  				inputServProvCode(servProvCode);
+		  
+		  					document.signonBean.username.value = document.signonBean.cookieUserName.value;
+		  
+		  				if(document.signonBean.servProvCode.value=="")
+		  				{
+		  					document.signonBean.servProvCode.focus();
+		  				}
+		  				else if(document.signonBean.username.value == '')
+		  				{
+		  					document.signonBean.username.focus();
+		  				}
+		  				else
+		  				{
+		  					document.signonBean.password.focus();
+		  				}
+		  			}
+		  			
+		  			function getEnableCookiesFlag()
+		  			{
+		  
+		  				return navigator.preference("network.cookie.cookieBehavior");
+		  
+		  			}
+		  				
+		  			function adjustPwdLength()
+		  			{
+		  				var   objnav   =   window.navigator;
+		  				if(objnav.appMinorVersion==";SP2;" && objnav.appName=="Microsoft Internet Explorer" && objnav.platform=="Win32")
+		  				{
+		  					document.signonBean.password.size=30;  							
+		  				}
+		  				else if(objnav.appMinorVersion==";SP1;" && objnav.appName=="Microsoft Internet Explorer" && objnav.platform=="Win32")
+		  				{
+		  					document.signonBean.password.size=30;  							
+		  				}
+		  				else if(window.navigator.appVersion.substring(window.navigator.appVersion.indexOf("MSIE")+5,window.navigator.appVersion.indexOf("MSIE")+8) >=7.0 && 
+		  							objnav.appName=="Microsoft Internet Explorer" && objnav.platform=="Win32")
+		  				{						
+		  					document.signonBean.password.size=30;  							
+		  				}
+		  			}		
+		  			function checkInput()//Fixbug 34549
+		  			{
+		  				dojo.require("dojo.string");
+		  				document.signonBean.servProvCode.value=dojo.string.trim(document.signonBean.servProvCode.value);
+		  				document.signonBean.username.value=dojo.string.trim(document.signonBean.username.value);
+		  				return true;
+		  			}		
+		  //-->      
+		  		</script>
+		  
+		  	</head>
+		  	<body onLoad="setFocus()">
+		  		<form name="signonBean" method="post" action="/security/hostSignon.do?hostSignOn=true" onsubmit="return checkInput();">
+		  		<input type="hidden" name="action" value="signon">
+		  		<input type="hidden" name="successUrl" value="https://av-pt-ferrari.accela.com/portlets/spa/dashboard.do">
+		  		<input type="hidden" name="cookieUserName" value="">
+		  		<input type="hidden" name="cookieAgencyName" value="">
+		  		<input type="hidden" name="requestToken" value="b164b3d42e">
+		  		<input type="hidden" name="requestLanguageToken" value="c12ff2793b2" id="requestLanguageToken">
+		  		
+		  		<!--Add a hidden password field to avoid IE11 to remember the password, IE11 do not support 'autocomplete' attribute again. -->
+		  		<div style="display:none">
+		  				<input type="password" id="password1" name="password1"/>
+		  		</div>
+		  		
+		  		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  			<tr>
+		  				<td >
+		  					<table width="216" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+		  					<tr>
+		  						<td class="logo"><img src="images/accela_logo_v2.jpg" alt=""></td>
+		  					</tr>
+		  					
+		  					<tr>
+		  						<td><table width="216" border="0" cellspacing="0" cellpadding="0">
+		  							
+		  							<tr class="login_messaging success">
+		  								<td align="right" valign="top"><img src="images/hook.png" width="16" height="16" alt=""/></td>
+		  								<td><p align="center" class="notice_msg">You have successfully logged out.</p></td>
+		  								<td>&nbsp;</td>
+		  							</tr>
+		  							
+		  							
+		  							
+		  							
+		  							
+		  							
+		  							
+		  							
+		  							
+		  							
+		  							
+		  							<tr class="login_form_spacer">
+		  								<td><img src="images/spacer.gif" alt="" width="16" height="16"></td>
+		  							</tr>
+		  							<tr>
+		  								<td class="login_form_spacer"><img src="images/spacer.gif" width="16" height="16" alt=""/></td>
+		  								<td><table width="182" border="0" cellspacing="0" cellpadding="0" id="login_form">
+		  									<tr>
+		  										<td bgcolor="f1f4f8" class="tblr"> 
+		  											<form><table width="182" border="0" cellpadding="0" cellspacing="0">
+		  												<tr id="login_bar">
+		  													<td colspan="3"><img src="images/login-bar.gif" width="182" height="30" alt=""/></td>
+		  												</tr>
+		  												<tr>
+		  													<td><p><img src="images/spacer.gif" width="8" height="8" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="166" height="12" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="8" height="8" alt=""></p></td>
+		  												</tr>
+		  												<tr>
+		  													<td>&nbsp;</td>
+		  													<td><p><strong class="form-label">Agency:</strong></p></td>
+		  													<td>&nbsp;</td>
+		  												</tr>
+		  												
+		  												<tr>
+		  													<td>&nbsp;</td>
+		  													<td class="form-input"><input type="text" name="servProvCode" ID="servProvCode" size="30" value="" onchange="inputServProvCode(this.value);"></td>
+		  													<td>&nbsp;</td>
+		  												</tr>
+		  												
+		  												<tr>
+		  													<td><img src="images/spacer.gif" width="8" height="8" alt=""></td>
+		  													<td><img src="images/spacer.gif" width="166" height="12" alt=""></td>
+		  													<td><img src="images/spacer.gif" width="8" height="8" alt=""></td>
+		  												</tr>
+		  												<tr>
+		  													<td><p>&nbsp;</p></td>
+		  													<td><p>
+		  													<label for="label9"><strong class="form-label">User Name:</strong></label>
+		  													</p></td>
+		  													<td><p>&nbsp;</p></td>
+		  												</tr>
+		  												<tr>
+		  													<td><p><img src="images/spacer.gif" width="8" height="2" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="166" height="2" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="8" height="2" alt=""></p></td>
+		  												</tr>
+		  												<tr>
+		  													<td><p>&nbsp;</p></td>
+		  													<td class="form-input"><input type="text" name="username" ID="username" size="30" value="" autocomplete='off'></td>
+		  													<td><p>&nbsp;</p></td>
+		  												</tr>
+		  												<tr>
+		  													<td><p><img src="images/spacer.gif" width="8" height="8" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="166" height="12" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="8" height="8" alt=""></p></td>
+		  												</tr>
+		  												<tr>
+		  													<td><p>&nbsp;</p></td>
+		  													<td><p> 
+		  													<label for="label10"><strong class="form-label">Password:</strong></label>
+		  													</p></td>
+		  													<td><p>&nbsp;</p></td>
+		  												</tr>
+		  												<tr>
+		  													<td><p><img src="images/spacer.gif" width="8" height="2" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="166" height="2" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="8" height="2" alt=""></p></td>
+		  												</tr>
+		  												<tr>
+		  													<td><p>&nbsp;</p></td>
+		  													<td class="form-input"><input type="password" name="password" size="30" value="" autocomplete='off'></td>
+		  													<td><p>&nbsp;</p></td>
+		  												</tr>
+		  												<tr>
+		  													<td><p><img src="images/spacer.gif" width="8" height="12" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="166" height="12" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="8" height="12" alt=""></p></td>
+		  												</tr>
+		  												
+		  												<tr id="langtr2" style="display:none"><td>
+		  													<input type="hidden" name="accela_select_language" value="en_US">				        
+		  												</td></tr>
+		  													
+		  												<tr id="langtr3" style="display:none">
+		  													<td><p><img src="images/spacer.gif" width="8" height="12" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="166" height="12" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="8" height="12" alt=""></p></td>
+		  												</tr>
+		  												
+		  												<tr>
+		  													<td><p><img src="images/spacer.gif" width="8" height="24" alt=""></p></td>
+		  													<td>
+		  													
+		  														<input name="submit_" id="submit_" type="submit" alt="" value="Login">
+		  													</td>
+		  													<td><p><img src="images/spacer.gif" width="8" height="24" alt=""></p></td>
+		  												</tr>
+		  												<tr>
+		  													<td><p><img src="images/spacer.gif" width="8" height="12" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="166" height="12" alt=""></p></td>
+		  													<td><p><img src="images/spacer.gif" width="8" height="12" alt=""></p></td>
+		  												</tr>
+		  												
+		  												
+		  											</table></form>
+		  										</td>	
+		  									</tr>
+		  								</table></td>
+		  								<td><img src="images/spacer.gif " width="16" height="16" alt=""></td>
+		  							</tr>
+		  							<tr>
+		  								<td>&nbsp;</td>
+		  								<td>&nbsp;</td>
+		  								<td>&nbsp;</td>
+		  							</tr>
+		  						</table></td>
+		  					</tr>
+		  					<tr class="login_form_add_to_favorites">
+		  						<td>
+		  							<center>
+		  							<a class="text" style='cursor:hand;text-decoration:underline;' onclick="window.external.AddFavorite(parent.location.href,document.title);">
+		  							Add this page to your favorites
+		  							</a>
+		  							</center>
+		  						</td>
+		  					</tr>
+		  					<tr>
+		  						<td class="support_login">
+		  							<center>
+		  							<span class="text">Looking for <a href="https://na4.salesforce.com/secur/login_portal.jsp?orgId=00D300000000B1r&portalId=060600000004fKT" target = "_top">Support Login?</a></span>
+		  							</center>
+		  						</td>
+		  					</tr>
+		  				</table></td>
+		  			</tr>
+		  		</table>
+		  		</form>
+		  	</body>
+		  	
+		  	<script language="JavaScript">
+		  		<!--
+		  		dojo.require("dojo.json");
+		  		dojo.require("dojo.string");
+		  	    
+		  		function selectLanguage(){
+		  		    dojo.io.bind({
+		  				url: '/jetspeed/portal',
+		  				formNode: document.forms[0],
+		  				sync: true,
+		  				load: function(type, data){
+		  					document.forms[0].switchLanguageForV360.value='true';
+		  					document.forms[0].target = "_top";
+		  		    		document.forms[0].submit();
+		  				},
+		  			    error:function(type,error) {alert(error);} , 
+		  			    timeout: function(type) { alert("timeout"); }
+		  			});
+		  		}
+		  	        
+		  		var directUrl;
+		  		
+		  
+		  			
+		  			
+		  			
+		  		
+		  		//-->
+		  	</script>
+		  </html>
+		  
+	[MsgId: MMSG0]
+t=00487484ms: Request initiated for "https://use.typekit.net/c/2e9066/1w;proxima-nova,2,b5x:R:i4,b61:R:i7,b5w:R:n4,bBh:R:n7/l?3bb2a6e53c9684ffdc9a9af1195b2a62d69a4fbfbedecc7b6a1ca4a2f465fc6de1e789e0f31638c0f2c06cab515671a39937bdd0377dcc75d96fbefdaf06299c28ca55726044c37fd1" (internal ID=0)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+	[MsgId: MMSG0]
+t=00487484ms: Request initiated for "https://av-pt-ferrari.accela.com/security/includes/login.css" (internal ID=0)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+	[MsgId: MMSG0]
+t=00487485ms: Request initiated for "https://av-pt-ferrari.accela.com/security/javascript/sso.js" (internal ID=0)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+	[MsgId: MMSG0]
+t=00487486ms: Request initiated for "https://av-pt-ferrari.accela.com/security/images/accela_logo_v2.jpg" (internal ID=0)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+	[MsgId: MMSG0]
+t=00487487ms: Request initiated for "https://av-pt-ferrari.accela.com/security/images/hook.png" (internal ID=0)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+	[MsgId: MMSG0]
+t=00487488ms: Request initiated for "https://av-pt-ferrari.accela.com/security/images/spacer.gif" (internal ID=0)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+	[MsgId: MMSG0]
+t=00487489ms: Request initiated for "https://av-pt-ferrari.accela.com/security/images/login-bar.gif" (internal ID=0)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+	[MsgId: MMSG0]
+t=00487516ms: Browser cache entry used as response for "https://av-pt-ferrari.accela.com/security/includes/login.css" (internal ID=0)    [MsgId: MMSG-204690]	[MsgId: MMSG-204690]
+	[MsgId: MMSG0]
+t=00487518ms: End of response for "https://av-pt-ferrari.accela.com/security/includes/login.css" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487519ms: Browser cache entry used as response for "https://av-pt-ferrari.accela.com/security/javascript/sso.js" (internal ID=0)    [MsgId: MMSG-204690]	[MsgId: MMSG-204690]
+	[MsgId: MMSG0]
+t=00487529ms: End of response for "https://av-pt-ferrari.accela.com/security/javascript/sso.js" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487530ms: Browser cache entry used as response for "https://av-pt-ferrari.accela.com/security/images/accela_logo_v2.jpg" (internal ID=0)    [MsgId: MMSG-204690]	[MsgId: MMSG-204690]
+	[MsgId: MMSG0]
+t=00487533ms: End of response for "https://av-pt-ferrari.accela.com/security/images/accela_logo_v2.jpg" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487541ms: First response segment received for "https://av-pt-ferrari.accela.com/security/images/spacer.gif" (internal ID=0)    [MsgId: MMSG-204694]	[MsgId: MMSG-204694]
+	[MsgId: MMSG0]
+t=00487541ms: End of response for "https://av-pt-ferrari.accela.com/security/images/spacer.gif" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487543ms: First response segment received for "https://av-pt-ferrari.accela.com/security/images/hook.png" (internal ID=0)    [MsgId: MMSG-204694]	[MsgId: MMSG-204694]
+	[MsgId: MMSG0]
+t=00487545ms: End of response for "https://av-pt-ferrari.accela.com/security/images/hook.png" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487545ms: Browser cache entry used as response for "https://av-pt-ferrari.accela.com/security/images/login-bar.gif" (internal ID=0)    [MsgId: MMSG-204690]	[MsgId: MMSG-204690]
+	[MsgId: MMSG0]
+t=00487548ms: End of response for "https://av-pt-ferrari.accela.com/security/images/login-bar.gif" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487641ms: First response segment received for "https://use.typekit.net/c/2e9066/1w;proxima-nova,2,b5x:R:i4,b61:R:i7,b5w:R:n4,bBh:R:n7/l?3bb2a6e53c9684ffdc9a9af1195b2a62d69a4fbfbedecc7b6a1ca4a2f465fc6de1e789e0f31638c0f2c06cab515671a39937bdd0377dcc75d96fbefdaf06299c28ca55726044c37fd1" (internal ID=0)    [MsgId: MMSG-204694]	[MsgId: MMSG-204694]
+	[MsgId: MMSG0]
+t=00487641ms: End of response for "https://use.typekit.net/c/2e9066/1w;proxima-nova,2,b5x:R:i4,b61:R:i7,b5w:R:n4,bBh:R:n7/l?3bb2a6e53c9684ffdc9a9af1195b2a62d69a4fbfbedecc7b6a1ca4a2f465fc6de1e789e0f31638c0f2c06cab515671a39937bdd0377dcc75d96fbefdaf06299c28ca55726044c37fd1" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487687ms: Request initiated for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/src/json.js" (internal ID=0)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+	[MsgId: MMSG0]
+t=00487692ms: Browser cache entry used as response for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/src/json.js" (internal ID=0)    [MsgId: MMSG-204690]	[MsgId: MMSG-204690]
+	[MsgId: MMSG0]
+t=00487693ms: End of response for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/src/json.js" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487699ms: Request initiated for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/src/AdapterRegistry.js" (internal ID=0)    [MsgId: MMSG-204692]	[MsgId: MMSG-204692]
+	[MsgId: MMSG0]
+t=00487703ms: Browser cache entry used as response for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/src/AdapterRegistry.js" (internal ID=0)    [MsgId: MMSG-204690]	[MsgId: MMSG-204690]
+	[MsgId: MMSG0]
+t=00487704ms: End of response for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/src/AdapterRegistry.js" (internal ID=0)    [MsgId: MMSG-204691]	[MsgId: MMSG-204691]
+	[MsgId: MMSG0]
+t=00487744ms: Step 307: Click on Sign Out link successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "GIS_AA_Sign Out" ended with a "Pass" status (Duration: 3.4820 Wasted Time: 1.2070).	[MsgId: MMSG-16871]
+Ending iteration 2.	[MsgId: MMSG-15965]
+Ending Vuser...	[MsgId: MMSG-205066]
+Vuser Terminated.	[MsgId: MMSG-205063]
+Vuser 0 (thread 16804), ended OK."	[MsgId: MMSG-10695]

@@ -1,0 +1,12 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Notify: Transaction "MILARA_Ferrari UI Forms_AA_Record status_TC06_Click Status(Record)" ended with a "Pass" status (Duration: 1.9710 Wasted Time: 0.4020).	[MsgId: MMSG-16871]
+t=00118385ms: Step 49: Wait until Status Date label exists started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00118630ms: Step 49: Wait until Status Date label exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00119380ms: Step 50: Click on Menu Save Reset Help...  started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00120381ms: Step 50: Click on Menu Save Reset Help...  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "MILARA_Ferrari UI Forms_AA_Record status History_TC07(1)_Click Status History (Application Histrory)" started.	[MsgId: MMSG-16999]
+t=00121147ms: Step 51: Click on Application History link started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00166633ms: Error -205177: Step 51: Click on Application History link failed - End event error due to network timeout. Open requests: https://app.pendo.io/data/ptm.gif/567a146e-65ac-46a5-7a13-b32474a4f67b?v=1.18.5_prod&ct=1536359007404&jzb=eJw9kEGL-jAUxL-K5OBJbdI0aSPI4uXPLrgX97gs8pq8YqA1JUn9I-J396nLHgKZCcNvMt9Xli8jsjXrAzi2YG0M_xPGQ_YDuUJJLZXhvJbGLNjZJ59DPHhHATTQiQ6UqAWg4-BaRM7LpoJKKd7oSisAKTortdISHbQdeSiEUwo0bxpuFJQSO6ScBaVrLp3gRhsnwaoKTW2gLYVoTImotMPOGmEr3VS1Bt5QWbA2TKf86vP5sdvut-ROsSd5zHlM66KA83LMyw5jhOhXlMAeVjYMxRhi7jGnwsL4OF8Z8pTefaIfXlYuvA3B4aYnPbc9QvwX4rD5u83pdepxs_MWTwkTcccYxsTW1-eUvwNqTbNlTyCqtEcbopulJ2h2fJFmDwK73X7utv5_vg;       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

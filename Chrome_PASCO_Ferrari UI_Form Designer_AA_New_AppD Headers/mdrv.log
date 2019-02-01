@@ -1,0 +1,25 @@
+Virtual User Script started at : 2018-10-22 18:08:27
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Ferrari UI Forms_AA_PASCO_TC01_Login" started.
+t=00008479ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_PASCO_TC27_SingleEntry Address Form_SingleEntry Address Form Detail" started.
+t=00011294ms: Warning -205179: Not attaching to a tab: ""    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_PASCO_TC27_SingleEntry Address Form_SingleEntry Address Form Detail" ended with a "Pass" status (Duration: 7.4790 Think Time: 0.0010).
+t=00032894ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_PASCO_TC28_SingleEntry Parcel Form_SingleEntry Parcel Form Details" started.
+t=00036092ms: Warning -205179: Not attaching to a tab: ""    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_PASCO_TC28_SingleEntry Parcel Form_SingleEntry Parcel Form Details" ended with a "Pass" status (Duration: 4.9530 Think Time: 0.0460).
+t=00049522ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_PASCO_TC29_SingleEntry Owner Form_SingleEntry Owner Form Details" started.
+t=00052184ms: Warning -205179: Not attaching to a tab: ""    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_PASCO_TC29_SingleEntry Owner Form_SingleEntry Owner Form Details" ended with a "Pass" status (Duration: 7.1320 Think Time: 0.0570).
+t=00066606ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_PASCO_TC30_Click Sign Out" started.
+Notify: Transaction "Ferrari UI Forms_AA_PASCO_TC30_Click Sign Out" ended with a "Pass" status (Duration: 11.5970 Think Time: 0.0010).
+Ending iteration 1.
+Ending Vuser...
+Error: Vuser started transaction "Ferrari UI Forms_AA_PASCO_TC01_Login", but did not reach a corresponding end transaction statement. The transaction ended automatically with status 'fail'.
+Notify: Transaction "Ferrari UI Forms_AA_PASCO_TC01_Login" ended with a "Fail" status (Duration: 79.8437 Think Time: 12.7880).
+Notify: Transaction "Ferrari UI Forms_AA_PASCO_TC01_Login" has 0 error message(s).
+Vuser Terminated.

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>Chrome_MILWAUKEE_Ferrari UI_Form Designer_AA_New_AppD Headers</ScriptName>
+  <Protocol>TruClient - Web</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="Lib-View.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="Chrome_MILWAUKEE_Ferrari UI_Form Designer_AA_New_AppD Headers.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="Chrome_MILWAUKEE_Ferrari UI_Form Designer_AA_New_AppD Headers.prm" Filter="2" />
+    <FileEntry Name="C-functions.c" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="JS-functions.js" Filter="2" />
+    <FileEntry Name="InspectionType.dat" Filter="2" />
+    <FileEntry Name="ContactNumber.dat" Filter="2" />
+    <FileEntry Name="ProfessinalsNew.dat" Filter="2" />
+    <FileEntry Name="Agency.dat" Filter="2" />
+    <FileEntry Name="Pwd.dat" Filter="2" />
+    <FileEntry Name="RecordId.dat" Filter="2" />
+    <FileEntry Name="Owner.dat" Filter="2" />
+    <FileEntry Name="Parcel.dat" Filter="2" />
+    <FileEntry Name="ContactAddressID.dat" Filter="2" />
+    <FileEntry Name="OwnerName.dat" Filter="2" />
+    <FileEntry Name="UserName.dat" Filter="2" />
+    <FileEntry Name="default.xml" Filter="2" />
+    <FileEntry Name="TruClientScriptMetadata.xml" Filter="2" />
+    <FileEntry Name="TC.xsl" Filter="2" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="2" />
+    <FileEntry Name="Libraries\" Filter="2" />
+    <FileEntry Name="profiles\" Filter="2" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="Chrome_MILARA_Ferrari UI_Form Designer_AA_New.prm.bak" Filter="1" />
+    <FileEntry Name="Chrome_MILARA_Ferrari UI_Form Designer_AA_New_AppD Headers.prm.bak" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="default.cfg.bak" Filter="1" />
+    <FileEntry Name="IE_MILARA_Ferrari UI_Form Designer_AA_New.prm.bak" Filter="1" />
+    <FileEntry Name="interactive_replay_Chromium.txt" Filter="1" />
+    <FileEntry Name="interactive_replay_IE.txt" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvAuw.669.log" Filter="1" />
+    <FileEntry Name="mdrvgVs.831.log" Filter="1" />
+    <FileEntry Name="mdrvtKe.501.log" Filter="1" />
+    <FileEntry Name="mdrvUjl.715.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam(1).dat" Filter="1" />
+    <FileEntry Name="NewParam.dat" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+    <FileEntry Name="results\" Filter="1" />
+    <FileEntry Name="resultSnap\" Filter="1" />
+    <FileEntry Name="snapshots\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

@@ -1,0 +1,9 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC00_Launch Agency URL" started.	[MsgId: MMSG-16999]
+t=00005746ms: Step 1: Navigate to "https://av-pt-ferrari.accela.com/" started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00007171ms: Step 1: Navigate to https://av-pt-ferrari.accela.com/ successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00007208ms: Step 2: Wait until [object HTMLParagraphElem... decorator exists started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01007663ms: Error -205177: Step 2: Wait until [object HTMLParagraphElem... decorator exists failed - Target object was not found. Identification Method: Automatic       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

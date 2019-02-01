@@ -1,0 +1,86 @@
+<truLibrary engineVersion="12.60.1053.0" timestamp="Tue Oct 23 2018 18:13:13 GMT-0700 (Pacific Daylight Time)">
+<step type="library" stepId="step:{98a8a463-f327-7584-eae7-68de94ae167e}" action="AV2" level="43" arguments="{}" snapshotId="ndwioatsi"><step type="function" stepId="step:{ee8b8391-ac66-7db2-1fb6-fcc391ec2cba}" action="NewUI" level="1" arguments="{}" snapshotId="zuenyzi" index="1"><step type="block" stepId="step:{727666bf-ff75-0586-a832-7a10706f0413}" action="internal" level="43" arguments="{}" snapshotId="jareca"><step type="testObject" stepId="step:{ea035dc7-3daa-da4a-f60d-d22d17b6bde0}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:38},&quot;Y Coordinate&quot;:{&quot;value&quot;:6}}" snapshotId="glenqxbcv" testObject="testObj:{78ca54f4-d1cc-2edb-57da-36d7087a0936}" index="1"/></step></step></step>
+<testObjects><testObject testObjId="testObj:{78ca54f4-d1cc-2edb-57da-36d7087a0936}" platform="web" autoName="Switch New UI"><roles><role>element</role><role>link</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"//nobr[text()=\"Switch New UI\"]",
+	"suggestions":["//nobr[text()=\"Switch New UI\"]","(//div[@id=\"header_system_links_sign_out\"]/a/nobr)[2]"]
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.7735969,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"NOBR","score":0.01},
+		{"id":"text","value":{"text":"Switch New UI","tagName":"NOBR"},"score":0.4},
+		{"id":"title","value":"Switch New UI","score":0.3},
+		{"id":"a/href","value":{"url":"/portlets/switchVAndNewUI.do?newui=Y","protocol":"https:","host":"av-pt-ferrari.accela.com","pathname":"/portlets/switchVAndNewUI.do","search":"?newui=Y"},"score":0.45000000000000007},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 28,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 26,
+						"text": 1,
+						"title": 2,
+						"a/href": 2,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"NOBR"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Switch New UI"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"title",
+			"args":[
+				{"op":"property", "args":"title"},
+				{"op": "value", "args":"Switch New UI"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 26,
+						"text": 1,
+						"title": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject></testObjects>
+<transactions/>
+</truLibrary>

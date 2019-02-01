@@ -1,0 +1,13 @@
+Virtual User Script started at : 2018-09-25 23:07:26
+TruClient Replay (build 1053) for LoadRunner 12.60.0, build 0971. OS: Windows 10, Browser: IE 11.228.0.17134, initialized on 2018/09/25 at 23:07:23 (1537942043.684s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Launch LARA Agency URL" started.
+t=00005692ms: Step 1: Navigate to "https://av-pt-ferrari.accela.com/" started    [MsgId: MMSG-205180]
+t=01004853ms: Error -205177: Step 1: Navigate to https://av-pt-ferrari.accela.com/ - Request timed out:        Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+Notify: Transaction "Launch LARA Agency URL" ended with a "Fail" status (Duration: 999.2145).
+Notify: Transaction "Launch LARA Agency URL" has 1 error message(s).
+Notify: The 1st error message associated with transaction "Launch LARA Agency URL" is "Error -205177: Step 1: Navigate to https://av-pt-ferrari.accela.com/ - Request timed out: "
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

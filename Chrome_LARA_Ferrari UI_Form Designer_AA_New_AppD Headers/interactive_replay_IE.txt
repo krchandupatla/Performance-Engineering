@@ -1,0 +1,29 @@
+Virtual User Script started at : 2018-10-02 13:01:17
+TruClient Replay (build 1053) for LoadRunner 12.60.0, build 0971. OS: Windows 10, Browser: IE 11.228.0.17134, initialized on 2018/10/02 at 13:01:17 (1538510477.423s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC00_Launch Agency URL" started.
+t=00005266ms: Step 1: Navigate to "https://av-pt-ferrari.accela.com/" started    [MsgId: MMSG-205180]
+t=00007683ms: Step 1: Navigate to https://av-pt-ferrari.accela.com/ successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]
+t=00007792ms: Step 2: Wait until [object HTMLParagraphElem... decorator exists started    [MsgId: MMSG-205180]
+t=00008168ms: Step 2: Wait until [object HTMLParagraphElem... decorator exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC00_Launch Agency URL" ended with a "Pass" status (Duration: 2.9950 Think Time: 0.0210 Wasted Time: 0.4180).
+t=00008280ms: Step 3: Wait 2 seconds started    [MsgId: MMSG-205180]
+t=00010626ms: Step 3: Wait 2 seconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC01_Login" started.
+t=00011090ms: Step 4: Login started    [MsgId: MMSG-205180]
+t=00012019ms: Step 4.1: Type TC.getParam("Agency") in Agency textbox started    [MsgId: MMSG-205180]
+t=00012091ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+t=00013252ms: Step 4.1: Type MILARA in Agency textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00014113ms: Step 4.3: Type TC.getParam("UserName") in User Name textbox started    [MsgId: MMSG-205180]
+t=00014137ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+t=00014878ms: Step 4.3: Type admin in User Name textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00015723ms: Step 4.5: Type ****************** in Password passwordbox started    [MsgId: MMSG-205180]
+t=00015762ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+t=00017124ms: Step 4.5: Type ***** in Password passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00018057ms: Step 4.6: Press key Enter on Password passwordbox started    [MsgId: MMSG-205180]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC01_Login" ended with a "Stop" status (Duration: 12.2376).
+Ending Vuser...
+t=00023080ms: Step 4.6: Press key Enter on Password passwordbox was stopped    [MsgId: MMSG-205180]
+t=00023489ms: Step 4: Login was stopped    [MsgId: MMSG-205180]
+Vuser Terminated.

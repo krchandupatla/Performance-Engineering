@@ -1,0 +1,10 @@
+Virtual User Script started at : 2018-10-15 15:17:20
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC01_Login" started.
+t=00006635ms: Warning -205179: The Utils.addAutoHeader API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC05_Address lookup_Click  lookup link(Address)" started.
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC05_Address lookup_Click  lookup link(Address)" ended with a "Pass" status (Duration: 4.0110 Think Time: 0.0380 Wasted Time: 1.4640).
+Notify: Transaction "Ferrari UI Forms_AA_MILARA_TC01_Login" ended with a "Stop" status (Duration: 27.8508 Think Time: 2.0830 Wasted Time: 4.1710).
+Ending Vuser...
+Vuser Terminated.

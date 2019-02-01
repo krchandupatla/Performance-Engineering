@@ -1,0 +1,29 @@
+Virtual User Script started at : 2018-10-02 09:35:32
+TruClient Replay (build 1053) for LoadRunner 12.60.0, build 0971. OS: Windows 10, Browser: IE 11.228.0.17134, initialized on 2018/10/02 at 09:35:31 (1538498131.629s)
+Selected Run-Time Settings:
+    Simulate a new user on each iteration...............: 1
+    Using system proxy settings
+    Check for newer versions of stored pages: 4 (Automatically)
+    Keep-Alive..........................................: 1
+    Proxy Keep-Alive....................................: 1
+    Keep-Alive timeout (ms).............................: 60000
+    HTTP Version........................................: 1.1
+    Proxy HTTP Version..................................: 1.1
+    DNS cache timeout (ms)..............................: 2800
+    Run-Time Settings file..............................: "C:\Users\kchandupatla\Documents\VuGen\Scripts\GIS_PT Ferrari_10.0_01\\default.cfg"
+    Vuser directory.....................................: "C:\Users\kchandupatla\Documents\VuGen\Scripts\GIS_PT Ferrari_10.0_01"
+    Vuser output directory..............................: "C:\Users\kchandupatla\Documents\VuGen\Scripts\GIS_PT Ferrari_10.0_01"
+End of selected Run-Time Settings
+Please refer to the ReadMe file in the LoadRunner installation directory for notes about measurements and logging
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "GIS_AA_Login" started.
+t=00001534ms: Step 5: Login started    [MsgId: MMSG-205180]
+t=00001570ms: Step 5: Login successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00001679ms: Step 15: Wait until Search Addresses, Parcels textbox exists started    [MsgId: MMSG-205180]
+Notify: Transaction "GIS_AA_Login" ended with a "Stop" status (Duration: 19.9374).
+Action was aborted.
+Ending Vuser...
+t=00021459ms: Step 15: Wait until Search Addresses, Parcels textbox exists was stopped    [MsgId: MMSG-205180]
+Vuser Terminated.
+Action was aborted.
