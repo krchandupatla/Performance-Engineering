@@ -1,0 +1,220 @@
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): t=3412038ms: Connecting [0] to host 64.74.214.116:443  	[MsgId: MMSG-26000]
+Action.c(6): Error -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): t=3437217ms: Connecting [0] to host 64.74.214.116:443  	[MsgId: MMSG-26000]
+Action.c(6): Error -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): t=3442255ms: Connecting [0] to host 64.74.214.116:443  	[MsgId: MMSG-26000]
+Action.c(6): Error -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(6):     Set-Cookie: LB_SESSION=!pHdP+H0oQzY5m09tMa0UeW3ebJ0wgqNgLVKNda0aVvxXf/XTMQblBviBSYX6Yy2L2f
+Action.c(6):     IADSBzkF2hXw==; path=/; Httponly; Secure\r\n
+Action.c(6):     \r\n
+Action.c(6): Redirecting "https://av-pt-ferrari.accela.com/portlets/spa/dashboard.do" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(6): To location "https://av-pt-ferrari.accela.com/ssoAdapter/loginAction.do?successURL=https%3A%2F%2Fav-pt-ferrari.accela.com%2Fportlets%2Fspa%2Fdashboard.do&SignOnModule="  	[MsgId: MMSG-26693]
+Action.c(6): t=3492105ms: Request done "https://av-pt-ferrari.accela.com/portlets/spa/dashboard.do"  	[MsgId: MMSG-26000]
+Action.c(6): t=3492106ms: Connecting [1] to host 64.74.214.116:443  	[MsgId: MMSG-26000]
+Action.c(6): Error -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Action.c(950):     Hx8hrbfY+fvZZjQ8Y6nmPZ+Z6XPeW6+duqYp6vk6ldvxnv3M9H75zXSAAAAedVrI0C67xOFH1Xj8xrbMYsa/0zfD/o
+Action.c(950):     H5gvunz3v58i7Xhp9U4/oVx3ueC+vS9Jo2Bpv0vld0PlfYbn8z6wAAAAAAGoW3TyUtU+juGzpRhs+Hw+Hw+A+A+HwA
+Action.c(950):     +A+AHwA+AAFurWhoF13ich/onMd0/lXY8HPrHG9cfnnTcMvqnH92vlPY8b/pHLdZPn/S87ex8L1OhZ958m7zz7Hw+2
+Action.c(950):     3zDrdz+Z9YAAAAAADUjbp5P2qluRb4ignKgiKCFKmjmKSFKmllTFMmmJCJCadEmZkwkkklE
+Action.c(950): Warning -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MWAR-27792]
+Action.c(950): t=3515166ms: Closed connection [6] to av-pt-ferrari.accela.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(950): Error -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): t=3520848ms: Connecting [0] to host 64.74.214.116:443  	[MsgId: MMSG-26000]
+Action.c(6): Error -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): t=3538320ms: Connecting [0] to host 64.74.214.116:443  	[MsgId: MMSG-26000]
+Action.c(6): t=3541638ms: Connected socket [0] from 10.3.6.125:55715 to 64.74.214.116:443 in 3318 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=3541639ms: Trying to set SNI with servername av-pt-ferrari.accela.com  	[MsgId: MMSG-26000]
+Action.c(6): t=3541639ms: Setting SNI was succesfull  	[MsgId: MMSG-26000]
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(6): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Action.c(6):     GET /portlets/spa/dashboard.do HTTP/1.1\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
+Action.c(6):     ome/37.0.2062.120 Safari/537.36\r\n
+Action.c(6):     Accept-Encoding: gzip,deflate\r\n
+Action.c(6):     Accept-Language: en-US,en;q=0.8\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: av-pt-ferrari.accela.com\r\n
+Action.c(6):     \r\n
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(6): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]read to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Action.c(6): t=3591795ms: Closed connection [0] to av-pt-ferrari.accela.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(6): t=3591796ms: Server av-pt-ferrari.accela.com has shut down the connection [0] prematurely (empty response, no HTTP headers received). No retry attempted  	[MsgId: MMSG-26000]
+Action.c(6): Error -27787: Server "av-pt-ferrari.accela.com" has shut down the connection prematurely  	[MsgId: MERR-27787]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(46):     \t\t\tif (document.forms[0].target=='_self') isSubmit=true;\r\n
+Action.c(46):     \t\t}\r\n
+Action.c(46):     \t\tif(flag==0)\r\n
+Action.c(46):     \t\t{\r\n
+Action.c(46):     \t\t\treturn true;\r\n
+Action.c(46):     \t\t}\t\t\r\n
+Action.c(46):     \t\tif(document.for
+Action.c(46): t=3578692ms: Inactive socket [7] was closed by av-pt-ferrari.accela.com:443, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+Action.c(46): t=3578692ms: Closed connection [7] to av-pt-ferrari.accela.com:443 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(46): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(46): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(46):     setTimeout("changeImage('topmarketingbanner','topFlyerLink',topFlyers,0)", 100);\r\n
+Action.c(46):     setTimeout("changeImage('botmarketingbanner','botFlyerLink',bottomFlyers,0)", 100);\r\n
+Action.c(46):     </script>\r\n
+Action.c(46): t=3634275ms: Request done "https://av-pt-ferrari.accela.com/security/hostSignon.do?successUrl=https://av-pt-ferrari.accela.com/portlets/spa/dashboard.do"  	[MsgId: MMSG-26000]
+Action.c(46): t=3634276ms: Closed connection [0] to av-pt-ferrari.accela.com:443 after completing 2 request(s)  	[MsgId: MMSG-26000]
+Action.c(46): t=3634276ms: Server av-pt-ferrari.accela.com has shut down connection [0] prematurely (after receiving complete response of previous request)  	[MsgId: MMSG-26000]
+Action.c(46): Notify: Saving Parameter "requestToken = ".	[MsgId: MMSG-13798]
+Action.c(46): Error -35049: No match found for the requested parameter "requestToken". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(46): Notify: Saving Parameter "requestLanguageToken = ".	[MsgId: MMSG-13798]
+Action.c(46): Error -35049: No match found for the requested parameter "requestLanguageToken". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(6):     Accept-Encoding: gzip,deflate\r\n
+Action.c(6):     Accept-Language: en-US,en;q=0.8\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: av-pt-ferrari.accela.com\r\n
+Action.c(6):     Cookie: LASTEST_REQUEST_TIME=1538626464578; LATEST_WEB_SERVER=10.106.21.34; LATEST_SESSION
+Action.c(6):     _ID=Ig6VAgc2G1t+lq0EKiMN7PIg; UUID=0226ecaa-af4a-4a05-a5ff-9594fdf64d37; LB_SESSION=!e2SZo
+Action.c(6):     d5y7F0xpn5tMa0UeW3ebJ0wgoPMFScbkarkBlfzFf2c41RYFHjcmAhGZsJ19ZgjtwW+hnLYfw==\r\n
+Action.c(6):     \r\n
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(6): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]read to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(6): t=3651013ms: Closed connection [1] to av-pt-ferrari.accela.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(6): t=3651013ms: Server av-pt-ferrari.accela.com has shut down the connection [1] prematurely (empty response, no HTTP headers received). No retry attempted  	[MsgId: MMSG-26000]
+Action.c(6): Error -27787: Server "av-pt-ferrari.accela.com" has shut down the connection prematurely  	[MsgId: MERR-27787]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Action.c(6):     Accept-Encoding: gzip,deflate\r\n
+Action.c(6):     Accept-Language: en-US,en;q=0.8\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: av-pt-ferrari.accela.com\r\n
+Action.c(6):     Cookie: LASTEST_REQUEST_TIME=1538626473971; LATEST_WEB_SERVER=10.106.21.33; LATEST_SESSION
+Action.c(6):     _ID=I7eavyaZM6pvODZEkrPCResr; UUID=008310f8-4142-4cba-a07d-0956abd6d2d7; LB_SESSION=!LUPoK
+Action.c(6):     dcnTjEVlkZtMa0UeW3ebJ0wgob+QCK0DLOSgIUzdSd+obBzs9xkLTjkptfl3rXnXq8ZtGdjjw==\r\n
+Action.c(6):     \r\n
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(6): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]read to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Action.c(6): t=3660264ms: Closed connection [1] to av-pt-ferrari.accela.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(6): t=3660265ms: Server av-pt-ferrari.accela.com has shut down the connection [1] prematurely (empty response, no HTTP headers received). No retry attempted  	[MsgId: MMSG-26000]
+Action.c(6): Error -27787: Server "av-pt-ferrari.accela.com" has shut down the connection prematurely  	[MsgId: MERR-27787]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Action.c(919): RETRY 0: WSA_IO_PENDING  	[MsgId: MMSG-26000]
+Action.c(919): t=3660075ms: Closed connection [1] to av-pt-ferrari.accela.com:443 after completing 35 request(s)  	[MsgId: MMSG-26000]
+Action.c(919): t=3660076ms: Connecting [1] to host 64.74.214.116:443  	[MsgId: MMSG-26000]
+Action.c(919): t=3660516ms: Connected socket [1] from 10.3.6.125:56460 to 64.74.214.116:443 in 440 ms  	[MsgId: MMSG-26000]
+Action.c(919): t=3660516ms: Trying to set SNI with servername av-pt-ferrari.accela.com  	[MsgId: MMSG-26000]
+Action.c(919): t=3660516ms: Setting SNI was succesfull  	[MsgId: MMSG-26000]
+Action.c(919): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(919): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Action.c(6):     Set-Cookie: LB_SESSION=!NuVvyZHlEUrtdq9tMa0UeW3ebJ0wgnyLSlCqlHwhoPSKGVwv738oHB8xVy+kOzFtK3
+Action.c(6):     NmnqzDjUwEbA==; path=/; Httponly; Secure\r\n
+Action.c(6):     \r\n
+Action.c(6): Redirecting "https://av-pt-ferrari.accela.com/portlets/spa/dashboard.do" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(6): To location "https://av-pt-ferrari.accela.com/ssoAdapter/loginAction.do?successURL=https%3A%2F%2Fav-pt-ferrari.accela.com%2Fportlets%2Fspa%2Fdashboard.do&SignOnModule="  	[MsgId: MMSG-26693]
+Action.c(6): t=3669577ms: Request done "https://av-pt-ferrari.accela.com/portlets/spa/dashboard.do"  	[MsgId: MMSG-26000]
+Action.c(6): t=3669578ms: Connecting [1] to host 64.74.214.116:443  	[MsgId: MMSG-26000]
+Action.c(6): Error -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): t=3682402ms: Connecting [0] to host 64.74.214.116:443  	[MsgId: MMSG-26000]
+Action.c(6): Error -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 11.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): t=3698923ms: Connecting [0] to host 64.74.214.116:443  	[MsgId: MMSG-26000]
+Action.c(6): Error -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

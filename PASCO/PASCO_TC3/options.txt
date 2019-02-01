@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\hboyina.ACCELAOPS\Desktop\PT-Ferrari\Scripts\PASCO\PASCO_TC3
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\hboyina.accelaops\desktop\pt-ferrari\scripts\pasco\pasco_tc3\\logfile.log
+c:\users\hboyina.accelaops\desktop\pt-ferrari\scripts\pasco\pasco_tc3\\combined_PASCO_TC3.c
+c:\users\hboyina.accelaops\desktop\pt-ferrari\scripts\pasco\pasco_tc3\\pre_cci.c

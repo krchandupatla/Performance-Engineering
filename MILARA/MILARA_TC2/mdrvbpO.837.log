@@ -1,0 +1,162 @@
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(6): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(1307): Resource "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/layoutPublic.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(1307): web_url("refContactList.do_2") was successful, 20785 body bytes, 1999 header bytes, 281 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(1317): web_submit_data("ajax.do_2") started  	[MsgId: MMSG-26355]
+Action.c(1317): web_submit_data("ajax.do_2") was successful, 10 body bytes, 660 header bytes  	[MsgId: MMSG-26386]
+Action.c(1328): web_submit_data("empty.jsp_11") started  	[MsgId: MMSG-26355]
+Action.c(1328): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(1328): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10054] Connection reset by peer
+This is probably because the SSL protocol version is not supported. Try switching the TLS/SSL version using "web_set_sockets_option" API.  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(740): web_url("session.do_23") started  	[MsgId: MMSG-26355]
+Action.c(740): web_url("session.do_23") was successful, 56 body bytes, 667 header bytes  	[MsgId: MMSG-26386]
+Action.c(750): web_url("session.do_24") started  	[MsgId: MMSG-26355]
+Action.c(750): web_url("session.do_24") was successful, 56 body bytes, 667 header bytes  	[MsgId: MMSG-26386]
+Action.c(760): Notify: Transaction "MILARA_TC2_05_Click_Owner" ended with a "Pass" status (Duration: 3.1357 Think Time: 1.0021).	[MsgId: MMSG-16872]
+Action.c(762): Think time - Waiting 1.00 seconds (according to limit).	[MsgId: MMSG-15946]
+Action.c(762): lr_think_time: 1.00 seconds (recorded think time was 4.00 seconds).	[MsgId: MMSG-15947]
+Action.c(764): Notify: Transaction "MILARA_TC2_06_Search_Owner" started.	[MsgId: MMSG-16999]
+Action.c(766): web_url("session.do_25") started  	[MsgId: MMSG-26355]
+Action.c(766): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(766): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(1582): Think time - Waiting 1.00 seconds (according to limit).	[MsgId: MMSG-15946]
+Action.c(1582): lr_think_time: 1.00 seconds (recorded think time was 11.00 seconds).	[MsgId: MMSG-15947]
+Action.c(1584): Notify: Transaction "MILARA_SignOut" started.	[MsgId: MMSG-16999]
+Action.c(1586): web_url("session.do_41") started  	[MsgId: MMSG-26355]
+Action.c(1586): web_url("session.do_41") was successful, 56 body bytes, 667 header bytes  	[MsgId: MMSG-26386]
+Action.c(1596): web_url("signoff.do") started  	[MsgId: MMSG-26355]
+Action.c(1596): Detected non-resource "https://av-pt-ferrari.accela.com/ssoAdapter/logoutAction.do?servProvCode=MILARA&successURL=%2Fsecurity%2FhostSignon.do%3FsignOff%3Dtrue" in "https://av-pt-ferrari.accela.com/security/signoff.do"  	[MsgId: MMSG-26574]
+Action.c(1596): Found resource "https://av-pt-ferrari.accela.com/portlets/security/signout.do" in HTML "https://av-pt-ferrari.accela.com/security/signoff.do"  	[MsgId: MMSG-26659]
+Action.c(1596): Error -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(966): Found resource "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/ext-2.0.2/source/util/Date.js" in HTML "https://av-pt-ferrari.accela.com/portlets/professional/ref/refProfessionalList.do?value(mode)=search&module=Licenses"  	[MsgId: MMSG-26659]
+Action.c(966): Resource "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/layoutPublic.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(966): web_url("refProfessionalList.do_2") was successful, 71078 body bytes, 12960 header bytes, 1097 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(976): web_submit_data("ajax.do") started  	[MsgId: MMSG-26355]
+Action.c(976): Error -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(6): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(6): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(6): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(6): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): Redirecting "https://av-pt-ferrari.accela.com/portlets/spa/dashboard.do" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(6): To location "https://av-pt-ferrari.accela.com/ssoAdapter/loginAction.do?successURL=https%3A%2F%2Fav-pt-ferrari.accela.com%2Fportlets%2Fspa%2Fdashboard.do&SignOnModule="  	[MsgId: MMSG-26693]
+Action.c(6): Error -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(6): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(46): Found resource "https://www.accela.com/ext/web/aa/assets/aalogin_header.gif" in HTML "https://www.accela.com/ext/web/aa/header.htm"  	[MsgId: MMSG-26659]
+Action.c(46): Found resource "https://www.accela.com/ext/web/aa/assets/spacer.gif" in HTML "https://www.accela.com/ext/web/aa/header.htm"  	[MsgId: MMSG-26659]
+Action.c(46): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(46): Warning -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MWAR-27792]
+Action.c(46): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(46): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(225): Detected non-resource "https://av-pt-ferrari.accela.com/portlets/framework/includes/error/blank.jsp?module=Licenses" in "https://av-pt-ferrari.accela.com/portlets/commons/address/refAddress.jsp"  	[MsgId: MMSG-26574]
+Action.c(225): Detected non-resource "https://av-pt-ferrari.accela.com/portlets/framework/includes/error/blank.jsp?module=Licenses" in "https://av-pt-ferrari.accela.com/portlets/commons/address/refAddress.jsp"  	[MsgId: MMSG-26574]
+Action.c(225): Detected non-resource "https://av-pt-ferrari.accela.com/portlets/framework/includes/error/blank.jsp?module=Licenses" in "https://av-pt-ferrari.accela.com/portlets/commons/address/refAddress.jsp"  	[MsgId: MMSG-26574]
+Action.c(225): Error -27792: Failed to connect to server "av-pt-ferrari.accela.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(225): Found resource "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/ac360base.js" in HTML "https://av-pt-ferrari.accela.com/portlets/framework/includes/error/blank.jsp?module=Licenses"  	[MsgId: MMSG-26659]
+Action.c(225): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(225): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(46): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(46): Error -35049: No match found for the requested parameter "requestToken". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+Action.c(46): Error -35049: No match found for the requested parameter "requestLanguageToken". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("dashboard.do") started  	[MsgId: MMSG-26355]
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(6): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "av-pt-ferrari.accela.com" failed: [10053] Software caused connection abort  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

@@ -1,0 +1,70 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=55
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.55.0.911
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.55.0.911
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="MILARA_Login__*delimiter*__MILARA_TC1_01_Click_Records__*delimiter*__MILARA_TC1_02_Click_Search__*delimiter*__MILARA_TC1_03_Search_Record__*delimiter*__MILARA_TC1_04_Record_Details__*delimiter*__MILARA_TC1_05_Click_Addtl_Info__*delimiter*__MILARA_TC1_06_Save_Addtl_Info__*delimiter*__MILARA_TC1_07_Click_RecordHistory__*delimiter*__MILARA_TC1_08_Click_WorkFlow__*delimiter*__MILARA_SignOut"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result4
+ActiveRunName=result4
+[Transactions]
+MILARA_Login=
+MILARA_TC1_01_Click_Records=
+MILARA_TC1_02_Click_Search=
+MILARA_TC1_03_Search_Record=
+MILARA_TC1_04_Record_Details=
+MILARA_TC1_05_Click_Addtl_Info=
+MILARA_TC1_06_Save_Addtl_Info=
+MILARA_TC1_07_Click_RecordHistory=
+MILARA_TC1_08_Click_WorkFlow=
+MILARA_SignOut=

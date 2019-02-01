@@ -1,0 +1,882 @@
+
+
+Start auto log messages stack - Iteration 13775.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559493ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13776)
+Start auto log messages stack - Iteration 12791.	[MsgId: MMSG-10545]
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37):     false }
+Action.c(37): t=225559493ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=12792)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37):     Content-Length: 0\r\n
+
+
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Start auto log messages stack - Iteration 13775.	[MsgId: MMSG-10545]
+Action.c(37): t=225559493ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+
+
+Action.c(37): t=225559493ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559494ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Start auto log messages stack - Iteration 12791.	[MsgId: MMSG-10545]
+
+
+Action.c(37): t=225559494ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559494ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559494ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13592.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559495ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13593)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13592.	[MsgId: MMSG-10545]
+Action.c(37): t=225559495ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559495ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559495ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13776.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559498ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13777)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13776.	[MsgId: MMSG-10545]
+Action.c(37): t=225559498ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559498ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559499ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12792.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Start auto log messages stack - Iteration 13593.	[MsgId: MMSG-10545]
+Action.c(37):     false }
+Action.c(37): t=225559500ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=12793)
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     false }
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37): t=225559500ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13594)
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     \r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12792.	[MsgId: MMSG-10545]
+Action.c(37): t=225559500ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559500ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Start auto log messages stack - Iteration 13593.	[MsgId: MMSG-10545]
+Action.c(37): t=225559500ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): t=225559500ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): t=225559500ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559500ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 13777.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559503ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13778)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13777.	[MsgId: MMSG-10545]
+Action.c(37): t=225559504ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559504ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559504ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13594.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559505ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13595)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13594.	[MsgId: MMSG-10545]
+Action.c(37): t=225559505ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559506ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559506ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13778.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559509ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13779)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13778.	[MsgId: MMSG-10545]
+Action.c(37): t=225559509ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559509ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559509ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13779.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 12793.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Start auto log messages stack - Iteration 13595.	[MsgId: MMSG-10545]
+Action.c(37): t=225559514ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13780)
+Action.c(37):     false }
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37): t=225559514ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=12794)
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     false }
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37): t=225559514ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13596)
+Action.c(37):     \r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37):     \r\n
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37):     \r\n
+
+
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13779.	[MsgId: MMSG-10545]
+Action.c(37): t=225559514ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559515ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559515ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Start auto log messages stack - Iteration 13595.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 12793.	[MsgId: MMSG-10545]
+Action.c(37): t=225559515ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559515ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559515ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37): t=225559515ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): t=225559515ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+
+
+Action.c(37): t=225559515ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13780.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559519ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13781)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Start auto log messages stack - Iteration 13596.	[MsgId: MMSG-10545]
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     \r\n
+Action.c(37):     false }
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37): t=225559519ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13597)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13780.	[MsgId: MMSG-10545]
+Action.c(37): t=225559520ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559520ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559520ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Start auto log messages stack - Iteration 13596.	[MsgId: MMSG-10545]
+Action.c(37): t=225559520ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559520ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(37): t=225559520ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12794.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559521ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=12795)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12794.	[MsgId: MMSG-10545]
+Action.c(37): t=225559522ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559522ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559522ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13597.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 13781.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37):     false }
+Action.c(37): t=225559524ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13598)
+Action.c(37): t=225559524ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13782)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13781.	[MsgId: MMSG-10545]
+Action.c(37): t=225559525ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559525ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Start auto log messages stack - Iteration 13597.	[MsgId: MMSG-10545]
+Action.c(37): t=225559525ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): t=225559525ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): t=225559525ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559525ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12795.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559527ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=12796)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12795.	[MsgId: MMSG-10545]
+Action.c(37): t=225559527ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559527ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559527ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13598.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559529ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13599)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Start auto log messages stack - Iteration 13782.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37): t=225559530ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13783)
+
+
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Start auto log messages stack - Iteration 13598.	[MsgId: MMSG-10545]
+Action.c(37): t=225559530ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559530ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37): t=225559530ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+
+
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Start auto log messages stack - Iteration 13782.	[MsgId: MMSG-10545]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37): t=225559530ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+
+
+Action.c(37): t=225559530ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559530ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12796.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559533ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=12797)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12796.	[MsgId: MMSG-10545]
+Action.c(37): t=225559533ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559533ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559533ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13599.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559535ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13600)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13599.	[MsgId: MMSG-10545]
+Action.c(37): t=225559535ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559535ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559535ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12797.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 13600.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37):     false }
+Action.c(37): t=225559540ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=12798)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37): t=225559540ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13601)
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     \r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 13600.	[MsgId: MMSG-10545]
+Action.c(37): t=225559540ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559540ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Start auto log messages stack - Iteration 12797.	[MsgId: MMSG-10545]
+Action.c(37): t=225559540ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): t=225559540ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559540ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559540ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 12798.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 13783.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 13601.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37):     false }
+Action.c(37):     false }
+Action.c(37): t=225559545ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=12799)
+Action.c(37): t=225559545ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13602)
+Action.c(37): t=225559545ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13784)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     \r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 13601.	[MsgId: MMSG-10545]
+Action.c(37): t=225559546ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559546ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Start auto log messages stack - Iteration 12798.	[MsgId: MMSG-10545]
+Action.c(37): t=225559546ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Start auto log messages stack - Iteration 13783.	[MsgId: MMSG-10545]
+Action.c(37): t=225559546ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559546ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559546ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): t=225559546ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): t=225559546ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): t=225559546ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13602.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559550ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13603)
+Start auto log messages stack - Iteration 12799.	[MsgId: MMSG-10545]
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37):     false }
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37): t=225559550ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=12800)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Start auto log messages stack - Iteration 13784.	[MsgId: MMSG-10545]
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37):     \r\n
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+
+
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37):     false }
+Action.c(37): t=225559551ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13785)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+Start auto log messages stack - Iteration 13602.	[MsgId: MMSG-10545]
+
+
+Action.c(37): t=225559551ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559551ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559551ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Start auto log messages stack - Iteration 12799.	[MsgId: MMSG-10545]
+Action.c(37): t=225559551ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559551ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559551ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Start auto log messages stack - Iteration 13784.	[MsgId: MMSG-10545]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37): t=225559551ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+
+
+Action.c(37): t=225559551ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37): t=225559551ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+
+
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13603.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559556ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13604)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13603.	[MsgId: MMSG-10545]
+Action.c(37): t=225559556ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559556ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559556ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12800.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559565ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=12801)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Start auto log messages stack - Iteration 13785.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 13604.	[MsgId: MMSG-10545]
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     false }
+Action.c(37):     \r\n
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37): t=225559565ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13786)
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     false }
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37): t=225559565ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13605)
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+
+
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12800.	[MsgId: MMSG-10545]
+Action.c(37): t=225559566ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559566ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559566ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Start auto log messages stack - Iteration 13785.	[MsgId: MMSG-10545]
+Action.c(37): t=225559566ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(37): t=225559566ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Start auto log messages stack - Iteration 13604.	[MsgId: MMSG-10545]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37): t=225559566ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+
+
+Action.c(37): t=225559566ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559566ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): t=225559566ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 13786.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559571ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13787)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13786.	[MsgId: MMSG-10545]
+Action.c(37): t=225559572ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559572ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559573ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12801.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Start auto log messages stack - Iteration 13787.	[MsgId: MMSG-10545]
+Action.c(37):     false }
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37): t=225559580ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=12802)
+Action.c(37):     false }
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37): t=225559580ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13788)
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Start auto log messages stack - Iteration 13605.	[MsgId: MMSG-10545]
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     false }
+Action.c(37):     \r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37): t=225559580ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13606)
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37):     \r\n
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+
+
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13787.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 12801.	[MsgId: MMSG-10545]
+Action.c(37): t=225559581ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559581ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559581ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559581ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559581ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): t=225559581ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=00490879026090023008873108184098156743274223424538627998497023861374598511920108776631917705646379491846126177827774479542944977&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Start auto log messages stack - Iteration 13605.	[MsgId: MMSG-10545]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(37): t=225559581ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+
+
+
+
+Action.c(37): t=225559581ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559581ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12802.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559585ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=12803)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12802.	[MsgId: MMSG-10545]
+Action.c(37): t=225559586ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559586ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559586ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=56933217005489060324181752045862596657849759294961589917403571289830734710015893834479823918094764153041920560274766783541520823&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13606.	[MsgId: MMSG-10545]
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=225559587ms: 109-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=13607)
+Action.c(37):     HTTP/1.1 404 Not Found\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Content-Length: 0\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 09:12:34 GMT\r\n
+Action.c(37):     \r\n
+Action.c(37): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13606.	[MsgId: MMSG-10545]
+Action.c(37): t=225559587ms: Closing connection [0] to 10.106.21.53 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(37): t=225559587ms: Closed connection [0] to 10.106.21.53:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(37): t=225559587ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=87211465720177742847074938096922352771337116872021946158158387352485372512595928754658760800705489406222040084738547652597811923&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(37): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

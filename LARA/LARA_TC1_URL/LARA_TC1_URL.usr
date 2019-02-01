@@ -1,0 +1,72 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=LARA_TC1_URL.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=55
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.55.0.911
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.55.0.911
+DisableRegenerate=0
+Encoding=UTF8
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+custom_body_variables.txt=
+globals.h=
+lrw_custom_body.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="LARA_Login__*delimiter*__LARA_TC1_01_Click_Records__*delimiter*__LARA_TC1_02_Click_Search__*delimiter*__LARA_TC1_03_Search_Record__*delimiter*__LARA_TC1_04_Record_Details__*delimiter*__LARA_TC1_05_Record_Click_Record__*delimiter*__LARA_TC1_06_Record_SaveRecord__*delimiter*__LARA_TC1_07_Click_AppHistory__*delimiter*__LARA_TC1_08_Click_WorkFlow__*delimiter*__LARA_SignOut"
+[StateManagement]
+LastReplayStatus=0
+[ActiveReplay]
+LastReplayedRunName=
+ActiveRunName=
+[Transactions]
+LARA_Login=
+LARA_TC1_01_Click_Records=
+LARA_TC1_02_Click_Search=
+LARA_TC1_03_Search_Record=
+LARA_TC1_04_Record_Details=
+LARA_TC1_05_Record_Click_Record=
+LARA_TC1_06_Record_SaveRecord=
+LARA_TC1_07_Click_AppHistory=
+LARA_TC1_08_Click_WorkFlow=
+LARA_SignOut=

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\hboyina.ACCELAOPS\Desktop\PT-Ferrari\Scripts\Construct_CreateRecord\API_CreateRecord_LARA
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\hboyina.accelaops\desktop\pt-ferrari\scripts\construct_createrecord\api_createrecord_lara\\logfile.log
+c:\users\hboyina.accelaops\desktop\pt-ferrari\scripts\construct_createrecord\api_createrecord_lara\\combined_API_CreateRecord_LARA.c
+c:\users\hboyina.accelaops\desktop\pt-ferrari\scripts\construct_createrecord\api_createrecord_lara\\pre_cci.c

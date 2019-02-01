@@ -1,0 +1,16 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(508): web_custom_request("tabRecordCount.do_4") was successful, 1485 body bytes, 569 header bytes  	[MsgId: MMSG-26386]
+Action.c(519): Notify: Transaction "PASCO_TC1_05_Click_Addtl_Info" ended with a "Pass" status (Duration: 0.2602).	[MsgId: MMSG-16873]
+Action.c(521): Think time - Waiting 1.00 seconds (according to limit).	[MsgId: MMSG-15946]
+Action.c(521): lr_think_time: 1.00 seconds (recorded think time was 7.00 seconds).	[MsgId: MMSG-15947]
+Action.c(523): Notify: Transaction "PASCO_TC1_06_Save_Addtl_Info" started.	[MsgId: MMSG-16999]
+Action.c(525): web_url("session.do_12") started  	[MsgId: MMSG-26355]
+Action.c(525): web_url("session.do_12") was successful, 56 body bytes, 535 header bytes  	[MsgId: MMSG-26386]
+Action.c(534): web_submit_data("addtInfoForm.do_2") started  	[MsgId: MMSG-26355]
+Action.c(534): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(534): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]read to host "av-pt-ferrari.accela.com" failed: [10054] Connection reset by peer
+This is probably because the SSL protocol version is not supported. Try switching the TLS/SSL version using "web_set_sockets_option" API.  	[MsgId: MERR-27776]
+Action.c(534): Error -27787: Server "av-pt-ferrari.accela.com" has shut down the connection prematurely  	[MsgId: MERR-27787]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

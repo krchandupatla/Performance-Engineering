@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Desktop_12182018\PT-Ferrari\Scripts\MILARA\MILARA_TC1
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ed:\desktop_12182018\pt-ferrari\scripts\milara\milara_tc1\\logfile.log
+d:\desktop_12182018\pt-ferrari\scripts\milara\milara_tc1\\combined_MILARA_TC1.c
+d:\desktop_12182018\pt-ferrari\scripts\milara\milara_tc1\\pre_cci.c

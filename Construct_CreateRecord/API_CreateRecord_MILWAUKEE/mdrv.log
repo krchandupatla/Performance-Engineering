@@ -1,0 +1,293 @@
+Virtual User Script started at: 8/27/2018 12:43:43 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 2008 R2; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\hboyina.ACCELAOPS\Desktop\PT-Ferrari\Construct\API_CreateRecord_MILWAUKEE\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\hboyina.ACCELAOPS\Desktop\PT-Ferrari\Construct\API_CreateRecord_MILWAUKEE"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\hboyina.ACCELAOPS\Desktop\PT-Ferrari\Construct\API_CreateRecord_MILWAUKEE"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "c:\users\hboyina.accelaops\desktop\pt-ferrari\construct\api_createrecord_milwaukee"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2018-08-27 18:43:43  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2018-08-27 12:43:43  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : Yes  	[MsgId: MMSG-26990]
+Some of the Run-Time Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    Obtaining the proxy settings from the default browser: No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-26845]
+    DNS caching: No  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: None  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 999  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "C:\Users\hboyina.ACCELAOPS\Desktop\PT-Ferrari\Construct\API_CreateRecord_MILWAUKEE\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: No  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 8  	[MsgId: MMSG-26995]
+vuser_init.c(7): Notify: Transaction "Authentication_MILWAUKEE" started.
+vuser_init.c(9): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+vuser_init.c(9): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+vuser_init.c(11): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(11): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(13): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(13): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(15): web_reg_save_param started  	[MsgId: MMSG-26355]
+vuser_init.c(15): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+vuser_init.c(27): web_add_header("Accept-Encoding") started  	[MsgId: MMSG-26355]
+vuser_init.c(27): "Accept-Encoding: gzip,deflate" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+vuser_init.c(27): web_add_header("Accept-Encoding") was successful  	[MsgId: MMSG-26392]
+vuser_init.c(31): web_add_header("Connection") started  	[MsgId: MMSG-26355]
+vuser_init.c(31): "Connection: Keep-Alive" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+vuser_init.c(31): web_add_header("Connection") was successful  	[MsgId: MMSG-26392]
+vuser_init.c(35): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+vuser_init.c(35): "User-Agent: Apache-HttpClient/4.1.1 (java 1.5)" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+vuser_init.c(35): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+vuser_init.c(39): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(39): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(43): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+vuser_init.c(43): Warning: The string '"agency": "MILWAUKEE","userId": "admin","password": "admin"' with parameter delimiters is not a parameter.
+vuser_init.c(43): t=274ms: Connecting [0] to host 10.106.21.53:3080  	[MsgId: MMSG-26000]
+vuser_init.c(43): t=276ms: Connected socket [0] from 10.3.6.125:49077 to 10.106.21.53:3080 in 2 ms  	[MsgId: MMSG-26000]
+vuser_init.c(43): t=276ms: 273-byte request headers for "http://10.106.21.53:3080/apis/v4/auth/agency" (RelFrameId=1, Internal ID=1)
+vuser_init.c(43):     POST /apis/v4/auth/agency HTTP/1.1\r\n
+vuser_init.c(43):     Content-Type: application/x-www-form-urlencoded\r\n
+vuser_init.c(43):     Cache-Control: no-cache\r\n
+vuser_init.c(43):     Accept-Encoding: gzip,deflate\r\n
+vuser_init.c(43):     Connection: Keep-Alive\r\n
+vuser_init.c(43):     User-Agent: Apache-HttpClient/4.1.1 (java 1.5)\r\n
+vuser_init.c(43):     Accept: */*\r\n
+vuser_init.c(43):     Host: 10.106.21.53:3080\r\n
+vuser_init.c(43):     Content-Length: 61\r\n
+vuser_init.c(43):     \r\n
+vuser_init.c(43): t=284ms: 61-byte request body for "http://10.106.21.53:3080/apis/v4/auth/agency" (RelFrameId=1, Internal ID=1)
+vuser_init.c(43):     {"agency": "MILWAUKEE","userId": "admin","password": "admin"}
+vuser_init.c(43): t=399ms: 136-byte response headers for "http://10.106.21.53:3080/apis/v4/auth/agency" (RelFrameId=1, Internal ID=1)
+vuser_init.c(43):     HTTP/1.1 200 OK\r\n
+vuser_init.c(43):     Server: Apache-Coyote/1.1\r\n
+vuser_init.c(43):     Date: Mon, 27 Aug 2018 18:43:45 GMT\r\n
+vuser_init.c(43):     Content-Type: application/json\r\n
+vuser_init.c(43):     Content-Length: 154\r\n
+vuser_init.c(43):     \r\n
+vuser_init.c(43): t=415ms: 154-byte response body for "http://10.106.21.53:3080/apis/v4/auth/agency" (RelFrameId=1, Internal ID=1)
+vuser_init.c(43):     {"status":200,"result":"423802406644068737368549686807291534876310509623254297434175417819
+vuser_init.c(43):     36672660394090332877853235789066856782741464381126005653267659"}
+vuser_init.c(43): Notify: Saving Parameter "Token = 42380240664406873736854968680729153487631050962325429743417541781936672660394090332877853235789066856782741464381126005653267659".
+vuser_init.c(43): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://10.106.21.53:3080/apis/v4/auth/agency"  	[MsgId: MMSG-26548]
+vuser_init.c(43): t=420ms: Request done "http://10.106.21.53:3080/apis/v4/auth/agency"  	[MsgId: MMSG-26000]
+vuser_init.c(43): Registered web_reg_find successful for "Text=200" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(43): web_custom_request("web_custom_request") was successful, 154 body bytes, 136 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(53): Message: Get token successful!
+vuser_init.c(65): Notify: Transaction "Authentication_MILWAUKEE" ended with a "Pass" status (Duration: 0.3460 Wasted Time: 0.1879).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(8): Notify: Transaction "CreateRecord_MILWAUKEE" started.
+Action.c(11): web_add_header("Accept-Encoding") started  	[MsgId: MMSG-26355]
+Action.c(11): "Accept-Encoding: gzip,deflate" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(11): web_add_header("Accept-Encoding") was successful  	[MsgId: MMSG-26392]
+Action.c(13): web_add_header("Connection") started  	[MsgId: MMSG-26355]
+Action.c(13): "Connection: Keep-Alive" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(13): web_add_header("Connection") was successful  	[MsgId: MMSG-26392]
+Action.c(15): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(15): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(15): "Content-Type: application/json" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(15): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(17): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+Action.c(17): "User-Agent: Apache-HttpClient/4.1.1 (java 1.5)" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(17): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+Action.c(29): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(29): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(37): Notify: Parameter Substitution: parameter "Token" =  "42380240664406873736854968680729153487631050962325429743417541781936672660394090332877853235789066856782741464381126005653267659"
+Action.c(37): Warning: The string '"module": "Building","value": "Building/Sign/Periodic/NA","type": "Sign","text": "Sign Periodic","group": "Building","alias": "Sign Periodic","subType": "Periodic","category": "NA","id": "Building-Sign-Periodic-NA"' with parameter delimiters is not a parameter.
+Action.c(37): Warning: The string ' "value": "Call Center", "text": "Call Center" ' with parameter delimiters is not a parameter.
+Action.c(37): Warning: The string ' "value": "101", "text": "Single Family Houses Detached" ' with parameter delimiters is not a parameter.
+Action.c(37): t=570ms: Already connected [0] to 10.106.21.53:3080  	[MsgId: MMSG-26000]
+Action.c(37): t=571ms: 418-byte request headers for "http://10.106.21.53:3080/apis/v4/records?token=42380240664406873736854968680729153487631050962325429743417541781936672660394090332877853235789066856782741464381126005653267659&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=2)
+Action.c(37):     POST /apis/v4/records?token=42380240664406873736854968680729153487631050962325429743417541
+Action.c(37):     781936672660394090332877853235789066856782741464381126005653267659&serviceProviderCode=MIL
+Action.c(37):     WAUKEE HTTP/1.1\r\n
+Action.c(37):     Content-Type: application/json\r\n
+Action.c(37):     Cache-Control: no-cache\r\n
+Action.c(37):     Accept-Encoding: gzip,deflate\r\n
+Action.c(37):     Connection: Keep-Alive\r\n
+Action.c(37):     User-Agent: Apache-HttpClient/4.1.1 (java 1.5)\r\n
+Action.c(37):     Accept: */*\r\n
+Action.c(37):     Host: 10.106.21.53:3080\r\n
+Action.c(37):     Content-Length: 907\r\n
+Action.c(37):     \r\n
+Action.c(37): t=572ms: 907-byte request body for "http://10.106.21.53:3080/apis/v4/records?token=42380240664406873736854968680729153487631050962325429743417541781936672660394090332877853235789066856782741464381126005653267659&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=2)
+Action.c(37):     { "name": "PT Data Seeding", "type": {"module": "Building","value": "Building/Sign/Periodi
+Action.c(37):     c/NA","type": "Sign","text": "Sign Periodic","group": "Building","alias": "Sign Periodic",
+Action.c(37):     "subType": "Periodic","category": "NA","id": "Building-Sign-Periodic-NA"},"description": "
+Action.c(37):     PT Data Seeding", "module": "Building",  "initiatedProduct": "RESTAPI", "housingUnits": 1,
+Action.c(37):     "totalJobCost": 9992, "reportedChannel": { "value": "Call Center", "text": "Call Center" }
+Action.c(37):     , "numberOfBuildings": 1, "estimatedProductionUnit": 1, "actualProductionUnit": 1, "servic
+Action.c(37):     eProviderCode": "MILWAUKEE", "undistributedCost": 88, "jobValue": 450000, "assignedUser": 
+Action.c(37):     "ADMIN", "constructionType": { "value": "101", "text": "Single Family Houses Detached" }, 
+Action.c(37):     "totalFee": 200, "totalPay": 200, "balance": 0, "booking": false, "infraction": false, "mi
+Action.c(37):     sdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned": 
+Action.c(37):     false }
+Action.c(37): t=27740ms: 143-byte response headers for "http://10.106.21.53:3080/apis/v4/records?token=42380240664406873736854968680729153487631050962325429743417541781936672660394090332877853235789066856782741464381126005653267659&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=2)
+Action.c(37):     HTTP/1.1 200 OK\r\n
+Action.c(37):     Server: Apache-Coyote/1.1\r\n
+Action.c(37):     Date: Mon, 27 Aug 2018 18:44:12 GMT\r\n
+Action.c(37):     Content-Type: application/json\r\n
+Action.c(37):     Transfer-Encoding: chunked\r\n
+Action.c(37):     \r\n
+Action.c(37): t=27744ms: 6-byte chunked response overhead for "http://10.106.21.53:3080/apis/v4/records?token=42380240664406873736854968680729153487631050962325429743417541781936672660394090332877853235789066856782741464381126005653267659&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=2)
+Action.c(37):     2000\r\n
+Action.c(37): t=27745ms: 3323-byte chunked response body for "http://10.106.21.53:3080/apis/v4/records?token=42380240664406873736854968680729153487631050962325429743417541781936672660394090332877853235789066856782741464381126005653267659&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=2)
+Action.c(37):     {"message":"EMSE Script Framework Versions<BR>EVENT TRIGGERED: ApplicationSubmitAfter<BR>S
+Action.c(37):     CRIPT EXECUTED: ApplicationSubmitAfter<BR>INCLUDE VERSION: 3.1.28<BR>SCRIPT VERSION : 9<BR
+Action.c(37):     >GLOBAL VERSION : 3<BR>ASI Table Array : SIGNDETAIL (0 Rows)<BR>ASI Table Array : ZONINGUS
+Action.c(37):     E (0 Rows)<BR>ASI Table Array : DIMENSIONALZONINGCALCULATION (0 Rows)<BR>**WARNING: gettin
+Action.c(37):     g project parents:  Project Parents Not Found: record ID: MILWAUKEE-18CAP-00000<BR>**WARNI
+Action.c(37):     NG: Could not find parent license Cap for child CAP(18CAP-00000-07RRG): <BR><B>EMSE Script
+Action.c(37):      Results for SIGN-PER-18-140167</B><BR>capId = class com.accela.aa.aamain.cap.CapIDModel<B
+Action.c(37):     R>cap = class com.accela.aa.emse.dom.CapScriptModel<BR>currentUserID = ADMIN<BR>currentUse
+Action.c(37):     rGroup = BuildingAdmin<BR>systemUserObj = class com.accela.aa.aamain.people.SysUserModel<B
+Action.c(37):     R>appTypeString = Building/Sign/Periodic/NA<BR>capName = PT Data Seeding<BR>capStatus = Op
+Action.c(37):     en<BR>fileDate = 8/27/2018<BR>fileDateYYYYMMDD = 2018-08-27<BR>sysDate = class com.accela.
+Action.c(37):     aa.emse.util.ScriptDateTime<BR>parcelArea = 0<BR>estValue = 450000<BR>calcValue = 0<BR>fee
+Action.c(37):     Factor = CONT<BR>houseCount = 1<BR>feesInvoicedTotal = 0<BR>balanceDue = 0<BR>lookup(EMSE_
+Action.c(37):     VARIABLE_BRANCH_PREFIX,ApplicationSubmitAfter) = ASA<BR>Executing : PreExecuteForAfterEven
+Action.c(37):     ts, Elapsed Time: 0.032 Seconds<BR>Finished: PreExecuteForAfterEvents, Elapsed Time: 0.032
+Action.c(37):      Seconds<BR>{Type of Sign} = null<BR>{Projecting Billboard} = null<BR>{Inspection Due Date
+Action.c(37):     } = null<BR>{Next Inspection Due Date} = null<BR>{Inspection District} = null<BR>Executing
+Action.c(37):      : ApplicationSubmitAfter, Elapsed Time: 0.032 Seconds<BR>Executing : EMSE:GlobalFlags, El
+Action.c(37):     apsed Time: 0.032 Seconds<BR>Finished: EMSE:GlobalFlags, Elapsed Time: 0.032 Seconds<BR>No
+Action.c(37):      parcels available for this record<BR>Executing : ASA:Building/*/*/*, Elapsed Time: 0.032 
+Action.c(37):     Seconds<BR>WARNING: ACA Temp Record # was not updated.<BR>Executing : EMSE:SetContactRelat
+Action.c(37):     ionshipToContactType, Elapsed Time: 0.032 Seconds<BR>Finished: EMSE:SetContactRelationship
+Action.c(37):     ToContactType, Elapsed Time: 0.047 Seconds<BR>WARNING: Work Requires Historic Preservation
+Action.c(37):      Commission approval \xE2\x80\x93 COA was not updated.<BR>Executing : CMN:Building/*/*/*:S
+Action.c(37):     etConditions, Elapsed Time: 0.047 Seconds<BR>**ERROR An error occured in the following sta
+Action.c(37):     ndard choice CMN:Building/*/*/*:SetConditions#07  Error:  java.util.NoSuchElementException
+Action.c(37):     : null<BR>ADMIN : CMN:Building/*/*/*:SetConditions : #08 : Criteria : true <BR>ADMIN : CMN
+Action.c(37):     :Building/*/*/*:SetConditions : #08 : Action :  gisObjs = aa.gis.getParcelGISObjects(pn.ge
+Action.c(37):     tParcelNumber()).getOutput();<BR>**ERROR An error occured in the following standard choice
+Action.c(37):      CMN:Building/*/*/*:SetConditions#08  Error:  \\"pn\\" is not defined.<BR>ADMIN : CMN:Buil
+Action.c(37):     ding/*/*/*:SetConditions : #09 : Criteria : true <BR>ADMIN : CMN:Building/*/*/*:SetConditi
+Action.c(37):     ons : #09 : Action :  gisObjArray = aa.gis.getGISObjectAttributes(gisObjs[0]).getOutput();
+Action.c(37):     <BR>**ERROR An error occured in the following standard choice CMN:Building/*/*/*:SetCondit
+Action.c(37):     ions#09  Error:  \\"gisObjs\\" is not defined.<BR>ADMIN : CMN:Building/*/*/*:SetConditions
+Action.c(37):      : #10 : Criteria : true <BR>ADMIN : CMN:Building/*/*/*:SetConditions : #10 : Action :  gi
+Action.c(37):     sAttValueArray = gisObjArray.getAttributeValues();<BR>**ERROR An error occured in the foll
+Action.c(37):     owing standard choice CMN:Building/*/*/*:SetConditions#10  Error:  \\"gisObjArray\\" is no
+Action.c(37):     t define
+Action.c(37): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://10.106.21.53:3080/apis/v4/records?token=42380240664406873736854968680729153487631050962325429743417541781936672660394090332877853235789066856782741464381126005653267659&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26548]
+Action.c(37): t=27751ms: 7-byte chunked response overhead for "http://10.106.21.53:3080/apis/v4/records?token=42380240664406873736854968680729153487631050962325429743417541781936672660394090332877853235789066856782741464381126005653267659&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=2)
+Action.c(37):     \r\n
+Action.c(37):     56c\r\n
+Action.c(37): t=27751ms: 7-byte chunked response overhead for "http://10.106.21.53:3080/apis/v4/records?token=42380240664406873736854968680729153487631050962325429743417541781936672660394090332877853235789066856782741464381126005653267659&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=2)
+Action.c(37):     \r\n
+Action.c(37):     0\r\n
+Action.c(37):     \r\n
+Action.c(37): t=27752ms: 6257-byte chunked response body for "http://10.106.21.53:3080/apis/v4/records?token=42380240664406873736854968680729153487631050962325429743417541781936672660394090332877853235789066856782741464381126005653267659&serviceProviderCode=MILWAUKEE" (RelFrameId=1, Internal ID=2)
+Action.c(37):     d.<BR>ADMIN : CMN:Building/*/*/*:SetConditions : #11 : Criteria : true <BR>ADMIN : CMN:Bui
+Action.c(37):     lding/*/*/*:SetConditions : #11 : Action :  gisAttNameArray = gisObjArray.attributeNames; 
+Action.c(37):     for (a in gisAttNameArray) if (gisAttNameArray[a] == \\"HIST_CODE\\") histCode = gisAttVal
+Action.c(37):     ueArray[a];<BR>**ERROR An error occured in the following standard choice CMN:Building/*/*/
+Action.c(37):     *:SetConditions#11  Error:  \\"gisObjArray\\" is not defined.<BR>ADMIN : CMN:Building/*/*/
+Action.c(37):     *:SetConditions : #12 : Criteria : (parseInt(histCode) == 1 || parseInt(histCode) == 3 || 
+Action.c(37):     parseInt(histCode) == 5) <BR>ADMIN : CMN:Building/*/*/*:SetConditions : #13 : Criteria : h
+Action.c(37):     istorical <BR>ADMIN : CMN:Building/*/*/*:SetConditions : #14 : Criteria : historical <BR>A
+Action.c(37):     DMIN : CMN:Building/*/*/*:SetConditions : #15 : Criteria : bidNumber != undefined <BR>ADMI
+Action.c(37):     N : CMN:Building/*/*/*:SetConditions : #16 : Criteria : bidNumber != undefined <BR>ADMIN :
+Action.c(37):      CMN:Building/*/*/*:SetConditions : #17 : Criteria : floodPlain != undefined <BR>ADMIN : C
+Action.c(37):     MN:Building/*/*/*:SetConditions : #18 : Criteria : floodPlain != undefined <BR>ADMIN : CMN
+Action.c(37):     :Building/*/*/*:SetConditions : #19 : Criteria : ncName != undefined <BR>ADMIN : CMN:Build
+Action.c(37):     ing/*/*/*:SetConditions : #20 : Criteria : ncName != undefined <BR>ADMIN : CMN:Building/*/
+Action.c(37):     */*:SetConditions : #21 : Criteria : wetCode != undefined <BR>ADMIN : CMN:Building/*/*/*:S
+Action.c(37):     etConditions : #22 : Criteria : wetCode  != undefined <BR>Finished: CMN:Building/*/*/*:Set
+Action.c(37):     Conditions, Elapsed Time: 0.047 Seconds<BR>ADMIN : ASA:Building/*/*/* : #08 : Criteria : t
+Action.c(37):     rue <BR>ADMIN : ASA:Building/*/*/* : #08 : Action :  getPrimaryAddressParcelOwnerForApp(ca
+Action.c(37):     pId);<BR>**ERROR An error occured in the following standard choice ASA:Building/*/*/*#08  
+Action.c(37):     Error:  Cannot call method \\"getStreetSuffix\\" of undefined<BR>ADMIN : ASA:Building/*/*/
+Action.c(37):     * : #09 : Criteria : {Fee Exemption} == \\"Yes\\" <BR>ADMIN : ASA:Building/*/*/* : #15 : C
+Action.c(37):     riteria : appMatch(\\"Building/Vacant Building/NA/NA\\") <BR>ADMIN : ASA:Building/*/*/* : 
+Action.c(37):     #16 : Criteria : appMatch(\\"Building/Vacant Building/NA/NA\\") <BR>ADMIN : ASA:Building/*
+Action.c(37):     /*/* : #17 : Criteria : appMatch(\\"Building/Vacant Building/NA/NA\\") <BR>Finished: ASA:B
+Action.c(37):     uilding/*/*/*, Elapsed Time: 0.047 Seconds<BR>ADMIN : ApplicationSubmitAfter : #30 : Crite
+Action.c(37):     ria : true <BR>ADMIN : ApplicationSubmitAfter : #30 : Action :  branch(\\"ASA:\\" + appTyp
+Action.c(37):     eArray[0] + \\"/\\" + appTypeArray[1] + \\"/*/*\\");<BR>Executing : ASA:Building/Sign/*/*,
+Action.c(37):      Elapsed Time: 0.047 Seconds<BR>ADMIN : ASA:Building/Sign/*/* : #010 : Criteria : true <BR
+Action.c(37):     >ADMIN : ASA:Building/Sign/*/* : #010 : Action :  showDebug = false; var conditionMessage 
+Action.c(37):     = \\"\\";<BR>Finished: ASA:Building/Sign/*/*, Elapsed Time: 0.047 Seconds<BR>Executing : A
+Action.c(37):     SA:Building/Sign/Periodic/*, Elapsed Time: 0.047 Seconds<BR>Finished: ASA:Building/Sign/Pe
+Action.c(37):     riodic/*, Elapsed Time: 0.047 Seconds<BR>Executing : ASA:Building/*/*/NA, Elapsed Time: 0.
+Action.c(37):     047 Seconds<BR>Finished: ASA:Building/*/*/NA, Elapsed Time: 0.047 Seconds<BR>Executing : A
+Action.c(37):     SA:Building/Sign/*/NA, Elapsed Time: 0.047 Seconds<BR>Finished: ASA:Building/Sign/*/NA, El
+Action.c(37):     apsed Time: 0.047 Seconds<BR>Executing : ASA:Building/Sign/Periodic/NA, Elapsed Time: 0.04
+Action.c(37):     7 Seconds<BR>**ERROR An error occured in the following standard choice ASA:Building/Sign/P
+Action.c(37):     eriodic/NA#10  Error:  java.util.NoSuchElementException: null<BR>ADMIN : ASA:Building/Sign
+Action.c(37):     /Periodic/NA : #20 : Criteria : true <BR>ADMIN : ASA:Building/Sign/Periodic/NA : #20 : Act
+Action.c(37):     ion :  gisObjs = aa.gis.getParcelGISObjects(pn.getParcelNumber()).getOutput(); debugObject
+Action.c(37):     (gisObjs);<BR>**ERROR An error occured in the following standard choice ASA:Building/Sign/
+Action.c(37):     Periodic/NA#20  Error:  \\"pn\\" is not defined.<BR>ADMIN : ASA:Building/Sign/Periodic/NA 
+Action.c(37):     : #30 : Criteria : true <BR>ADMIN : ASA:Building/Sign/Periodic/NA : #30 : Action :  gisObj
+Action.c(37):     Array = aa.gis.getGISObjectAttributes(gisObjs[0]).getOutput();<BR>**ERROR An error occured
+Action.c(37):      in the following standard choice ASA:Building/Sign/Periodic/NA#30  Error:  \\"gisObjs\\" 
+Action.c(37):     is not defined.<BR>ADMIN : ASA:Building/Sign/Periodic/NA : #40 : Criteria : true <BR>ADMIN
+Action.c(37):      : ASA:Building/Sign/Periodic/NA : #40 : Action :  gisAttValueArray = gisObjArray.getAttri
+Action.c(37):     buteValues();<BR>**ERROR An error occured in the following standard choice ASA:Building/Si
+Action.c(37):     gn/Periodic/NA#40  Error:  \\"gisObjArray\\" is not defined.<BR>ADMIN : ASA:Building/Sign/
+Action.c(37):     Periodic/NA : #50 : Criteria : true <BR>ADMIN : ASA:Building/Sign/Periodic/NA : #50 : Acti
+Action.c(37):     on :  gisAttNameArray = gisObjArray.attributeNames; for (a in gisAttNameArray) if(gisAttNa
+Action.c(37):     meArray[a] == \\"LAND_USE\\") landUse = gisAttValueArray[a]; logDebug(\\"Land Use \\" + la
+Action.c(37):     ndUse);<BR>**ERROR An error occured in the following standard choice ASA:Building/Sign/Per
+Action.c(37):     iodic/NA#50  Error:  \\"gisObjArray\\" is not defined.<BR>ADMIN : ASA:Building/Sign/Period
+Action.c(37):     ic/NA : #60 : Criteria : (landUse == \\"8810\\" || landUse == \\"8811\\" || landUse == \\"
+Action.c(37):     8820\\" || landUse == \\"8830\\") <BR>**ERROR An error occured in the following standard c
+Action.c(37):     hoice ASA:Building/Sign/Periodic/NA#60  Error:  \\"landUse\\" is not defined.<BR>Finished:
+Action.c(37):      ASA:Building/Sign/Periodic/NA, Elapsed Time: 0.047 Seconds<BR>Finished: ApplicationSubmit
+Action.c(37):     After, Elapsed Time: 0.047 Seconds<BR>","result":{"name":"PT Data Seeding","id":"MILWAUKEE
+Action.c(37):     -18CAP-00000-07RRG","type":{"module":"Building","value":"Building/Sign/Periodic/NA","type"
+Action.c(37):     :"Sign","text":"Sign Periodic","alias":"Sign Periodic","group":"Building","category":"NA",
+Action.c(37):     "subType":"Periodic","id":"Building-Sign-Periodic-NA"},"module":"Building","description":"
+Action.c(37):     PT Data Seeding","status":{"value":"Open","text":"Open"},"createdBy":"ADMIN","statusDate":
+Action.c(37):     "2018-08-27 13:43:45","serviceProviderCode":"MILWAUKEE","recordClass":"COMPLETE","totalJob
+Action.c(37):     Cost":9992.0,"reportedChannel":{"value":"Call Center","text":"Call Center"},"actualProduct
+Action.c(37):     ionUnit":1.0,"constructionType":{"value":"101","text":"Single Family Houses Detached"},"as
+Action.c(37):     signedUser":"ADMIN","housingUnits":1,"estimatedProductionUnit":1.0,"numberOfBuildings":1,"
+Action.c(37):     undistributedCost":88.0,"initiatedProduct":"RESTAPI","trackingId":217528212,"customId":"SI
+Action.c(37):     GN-PER-18-140167","jobValue":450000.0,"value":"18CAP-00000-07RRG","totalFee":0.0,"totalPay
+Action.c(37):     ":0.0,"balance":0.0,"booking":false,"infraction":false,"misdemeanor":false,"offenseWitness
+Action.c(37):     ed":false,"defendantSignature":false,"publicOwned":false},"status":200,"code":"emse_error"
+Action.c(37):     }
+Action.c(37): t=27761ms: Request done "http://10.106.21.53:3080/apis/v4/records?token=42380240664406873736854968680729153487631050962325429743417541781936672660394090332877853235789066856782741464381126005653267659&serviceProviderCode=MILWAUKEE"  	[MsgId: MMSG-26000]
+Action.c(37): Registered web_reg_find successful for "Text=200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(37): web_custom_request("web_custom_request") was successful, 9580 body bytes, 143 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(81): Notify: Transaction "CreateRecord_MILWAUKEE" ended with a "Pass" status (Duration: 27.2397 Wasted Time: 0.0282).
+Action.c(82): Message: CreateRecord successful!
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=27813ms: Closed connection [0] to 10.106.21.53:3080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=0, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 15784), ended OK."

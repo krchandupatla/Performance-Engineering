@@ -1,0 +1,35 @@
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(478): web_url("addtInfoForm.do") was successful, 13991 body bytes, 1603 header bytes  	[MsgId: MMSG-26386]
+Action.c(487): web_submit_data("empty.jsp_5") started  	[MsgId: MMSG-26355]
+Action.c(487): web_submit_data("empty.jsp_5") was successful, 79 body bytes, 551 header bytes  	[MsgId: MMSG-26386]
+Action.c(497): web_custom_request("tabRecordCount.do_3") started  	[MsgId: MMSG-26355]
+Action.c(497): web_custom_request("tabRecordCount.do_3") was successful, 77 body bytes, 567 header bytes  	[MsgId: MMSG-26386]
+Action.c(508): web_custom_request("tabRecordCount.do_4") started  	[MsgId: MMSG-26355]
+Action.c(508): Error -27492: "HttpSendRequest" failed, Windows error code=12002 and retry limit (0) exceeded for URL="https://av-pt-ferrari.accela.com/portlets/cap/tabRecordCount.do?module=Permits&ID1=DUB18&ID2=00000&ID3=00P2D&xmlin=%3Croot%3E%3CcountID%3E5%3C/countID%3E%3CcountID%3E6%3C/countID%3E%3CcountID%3E2%3C/countID%3E%3CcountID%3E134%3C/countID%3E%3CcountID%3E23%3C/countID%3E%3CcountID%3E17%3C/countID%3E%3CcountID%3E397%3C/countID%3E%3CcountID%3E456%3C/countID%3E%3CcountID%3E1%3C/countID%3E%3CcountID%3E21%3C/countID%3E%3CcountID%3E10%3C/countID%3E%3CcountID%3E133%3C/countID%3E%3CcountID%3E8%3C/countID%3E%3CcountID%3E19%3C/countID%3E%3CcountID%3E373%3C/countID%3E%3CcountID%3E14%3C/countID%3E%3CcountID%3E12%3C/countID%3E%3CcountID%3E13%3C/countID%3E%3CcountID%3E371%3C/countID%3E%3CcountID%3E27%3C/countID%3E%3CcountID%3E3%3C/countID%3E%3CcountID%3E152%3C/countID%3E%3CcountID%3E4%3C/countID%3E%3C/root%3E"  	[MsgId: MERR-27492]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(425): Resource "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/ac360base.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(425): web_url("blank.jsp_2") was successful, 259 body bytes, 616 header bytes  	[MsgId: MMSG-26386]
+Action.c(434): web_url("session.do_10") started  	[MsgId: MMSG-26355]
+Action.c(434): web_url("session.do_10") was successful, 56 body bytes, 535 header bytes  	[MsgId: MMSG-26386]
+Action.c(443): web_custom_request("tabRecordCount.do") started  	[MsgId: MMSG-26355]
+Action.c(443): web_custom_request("tabRecordCount.do") was successful, 77 body bytes, 567 header bytes  	[MsgId: MMSG-26386]
+Action.c(454): web_custom_request("tabRecordCount.do_2") started  	[MsgId: MMSG-26355]
+Action.c(454): Error -27492: "HttpSendRequest" failed, Windows error code=12002 and retry limit (0) exceeded for URL="https://av-pt-ferrari.accela.com/portlets/cap/tabRecordCount.do?module=Permits&ID1=DUB18&ID2=00000&ID3=00P2D&xmlin=%3Croot%3E%3CcountID%3E5%3C/countID%3E%3CcountID%3E6%3C/countID%3E%3CcountID%3E2%3C/countID%3E%3CcountID%3E134%3C/countID%3E%3CcountID%3E23%3C/countID%3E%3CcountID%3E17%3C/countID%3E%3CcountID%3E397%3C/countID%3E%3CcountID%3E456%3C/countID%3E%3CcountID%3E1%3C/countID%3E%3CcountID%3E21%3C/countID%3E%3CcountID%3E10%3C/countID%3E%3CcountID%3E133%3C/countID%3E%3CcountID%3E8%3C/countID%3E%3CcountID%3E19%3C/countID%3E%3CcountID%3E373%3C/countID%3E%3CcountID%3E14%3C/countID%3E%3CcountID%3E12%3C/countID%3E%3CcountID%3E13%3C/countID%3E%3CcountID%3E371%3C/countID%3E%3CcountID%3E27%3C/countID%3E%3CcountID%3E3%3C/countID%3E%3CcountID%3E152%3C/countID%3E%3CcountID%3E4%3C/countID%3E%3C/root%3E"  	[MsgId: MERR-27492]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(425): Resource "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/ac360base.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(425): web_url("blank.jsp_2") was successful, 259 body bytes, 616 header bytes  	[MsgId: MMSG-26386]
+Action.c(434): web_url("session.do_10") started  	[MsgId: MMSG-26355]
+Action.c(434): web_url("session.do_10") was successful, 56 body bytes, 535 header bytes  	[MsgId: MMSG-26386]
+Action.c(443): web_custom_request("tabRecordCount.do") started  	[MsgId: MMSG-26355]
+Action.c(443): web_custom_request("tabRecordCount.do") was successful, 77 body bytes, 567 header bytes  	[MsgId: MMSG-26386]
+Action.c(454): web_custom_request("tabRecordCount.do_2") started  	[MsgId: MMSG-26355]
+Action.c(454): Error -27492: "HttpSendRequest" failed, Windows error code=12002 and retry limit (0) exceeded for URL="https://av-pt-ferrari.accela.com/portlets/cap/tabRecordCount.do?module=Permits&ID1=DUB18&ID2=00000&ID3=00P2D&xmlin=%3Croot%3E%3CcountID%3E5%3C/countID%3E%3CcountID%3E6%3C/countID%3E%3CcountID%3E2%3C/countID%3E%3CcountID%3E134%3C/countID%3E%3CcountID%3E23%3C/countID%3E%3CcountID%3E17%3C/countID%3E%3CcountID%3E397%3C/countID%3E%3CcountID%3E456%3C/countID%3E%3CcountID%3E1%3C/countID%3E%3CcountID%3E21%3C/countID%3E%3CcountID%3E10%3C/countID%3E%3CcountID%3E133%3C/countID%3E%3CcountID%3E8%3C/countID%3E%3CcountID%3E19%3C/countID%3E%3CcountID%3E373%3C/countID%3E%3CcountID%3E14%3C/countID%3E%3CcountID%3E12%3C/countID%3E%3CcountID%3E13%3C/countID%3E%3CcountID%3E371%3C/countID%3E%3CcountID%3E27%3C/countID%3E%3CcountID%3E3%3C/countID%3E%3CcountID%3E152%3C/countID%3E%3CcountID%3E4%3C/countID%3E%3C/root%3E"  	[MsgId: MERR-27492]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

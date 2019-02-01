@@ -1,0 +1,226 @@
+Virtual User Script started at: 9/30/2018 11:34:13 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 2008 R2; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\hboyina.ACCELAOPS\Desktop\PT-Ferrari\Scripts\Construct_CreateRecord\API_CreateRecord_LARA\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\hboyina.ACCELAOPS\Desktop\PT-Ferrari\Scripts\Construct_CreateRecord\API_CreateRecord_LARA"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\hboyina.ACCELAOPS\Desktop\PT-Ferrari\Scripts\Construct_CreateRecord\API_CreateRecord_LARA"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "c:\users\hboyina.accelaops\desktop\pt-ferrari\scripts\construct_createrecord\api_createrecord_lara"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2018-09-30 17:34:13  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2018-09-30 11:34:13  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : Yes  	[MsgId: MMSG-26990]
+Some of the Run-Time Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    Obtaining the proxy settings from the default browser: No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-26845]
+    DNS caching: No  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: None  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 999  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "C:\Users\hboyina.ACCELAOPS\Desktop\PT-Ferrari\Scripts\Construct_CreateRecord\API_CreateRecord_LARA\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: No  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 8  	[MsgId: MMSG-26995]
+vuser_init.c(7): Notify: Transaction "Authentication_LARA" started.
+vuser_init.c(9): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+vuser_init.c(9): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+vuser_init.c(11): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(11): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(13): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(13): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(15): web_reg_save_param started  	[MsgId: MMSG-26355]
+vuser_init.c(15): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+vuser_init.c(27): web_add_header("Accept-Encoding") started  	[MsgId: MMSG-26355]
+vuser_init.c(27): "Accept-Encoding: gzip,deflate" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+vuser_init.c(27): web_add_header("Accept-Encoding") was successful  	[MsgId: MMSG-26392]
+vuser_init.c(31): web_add_header("Connection") started  	[MsgId: MMSG-26355]
+vuser_init.c(31): "Connection: Keep-Alive" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+vuser_init.c(31): web_add_header("Connection") was successful  	[MsgId: MMSG-26392]
+vuser_init.c(35): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+vuser_init.c(35): "User-Agent: Apache-HttpClient/4.1.1 (java 1.5)" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+vuser_init.c(35): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+vuser_init.c(39): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(39): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(43): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+vuser_init.c(43): Warning: The string '"agency": "LARA","userId": "admin","password": "admin"' with parameter delimiters is not a parameter.
+vuser_init.c(43): t=298ms: Connecting [0] to host 10.106.21.50:3080  	[MsgId: MMSG-26000]
+vuser_init.c(43): t=300ms: Connected socket [0] from 10.3.6.125:14379 to 10.106.21.50:3080 in 2 ms  	[MsgId: MMSG-26000]
+vuser_init.c(43): t=300ms: 273-byte request headers for "http://10.106.21.50:3080/apis/v4/auth/agency" (RelFrameId=1, Internal ID=1)
+vuser_init.c(43):     POST /apis/v4/auth/agency HTTP/1.1\r\n
+vuser_init.c(43):     Content-Type: application/x-www-form-urlencoded\r\n
+vuser_init.c(43):     Cache-Control: no-cache\r\n
+vuser_init.c(43):     Accept-Encoding: gzip,deflate\r\n
+vuser_init.c(43):     Connection: Keep-Alive\r\n
+vuser_init.c(43):     User-Agent: Apache-HttpClient/4.1.1 (java 1.5)\r\n
+vuser_init.c(43):     Accept: */*\r\n
+vuser_init.c(43):     Host: 10.106.21.50:3080\r\n
+vuser_init.c(43):     Content-Length: 56\r\n
+vuser_init.c(43):     \r\n
+vuser_init.c(43): t=308ms: 56-byte request body for "http://10.106.21.50:3080/apis/v4/auth/agency" (RelFrameId=1, Internal ID=1)
+vuser_init.c(43):     {"agency": "LARA","userId": "admin","password": "admin"}
+vuser_init.c(43): t=578ms: 136-byte response headers for "http://10.106.21.50:3080/apis/v4/auth/agency" (RelFrameId=1, Internal ID=1)
+vuser_init.c(43):     HTTP/1.1 200 OK\r\n
+vuser_init.c(43):     Server: Apache-Coyote/1.1\r\n
+vuser_init.c(43):     Date: Sun, 30 Sep 2018 17:34:14 GMT\r\n
+vuser_init.c(43):     Content-Type: application/json\r\n
+vuser_init.c(43):     Content-Length: 154\r\n
+vuser_init.c(43):     \r\n
+vuser_init.c(43): t=595ms: 154-byte response body for "http://10.106.21.50:3080/apis/v4/auth/agency" (RelFrameId=1, Internal ID=1)
+vuser_init.c(43):     {"status":200,"result":"674651929041964364130355617775593439747166572977661756117755084616
+vuser_init.c(43):     37729121148838156832115614650444473419333655624267482793747215"}
+vuser_init.c(43): Notify: Saving Parameter "Token = 67465192904196436413035561777559343974716657297766175611775508461637729121148838156832115614650444473419333655624267482793747215".
+vuser_init.c(43): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://10.106.21.50:3080/apis/v4/auth/agency"  	[MsgId: MMSG-26548]
+vuser_init.c(43): t=600ms: Request done "http://10.106.21.50:3080/apis/v4/auth/agency"  	[MsgId: MMSG-26000]
+vuser_init.c(43): Registered web_reg_find successful for "Text=200" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(43): web_custom_request("web_custom_request") was successful, 154 body bytes, 136 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(53): Message: Get token successful!
+vuser_init.c(65): Notify: Transaction "Authentication_LARA" ended with a "Pass" status (Duration: 1.2852 Wasted Time: 0.1850).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(8): Notify: Transaction "CreateRecord_Lara" started.
+Action.c(11): web_add_header("Accept-Encoding") started  	[MsgId: MMSG-26355]
+Action.c(11): "Accept-Encoding: gzip,deflate" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(11): web_add_header("Accept-Encoding") was successful  	[MsgId: MMSG-26392]
+Action.c(13): web_add_header("Connection") started  	[MsgId: MMSG-26355]
+Action.c(13): "Connection: Keep-Alive" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(13): web_add_header("Connection") was successful  	[MsgId: MMSG-26392]
+Action.c(15): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(15): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(15): "Content-Type: application/json" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(15): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(17): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+Action.c(17): "User-Agent: Apache-HttpClient/4.1.1 (java 1.5)" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(17): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+Action.c(29): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(29): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(31): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(31): Notify: Parameter Substitution: parameter "Token" =  "67465192904196436413035561777559343974716657297766175611775508461637729121148838156832115614650444473419333655624267482793747215"
+Action.c(31): Warning: The string '"module": "Building","value": "Building/Elevator/Installation/Manwalk or Escelator","type": "Elevator","text": "Elevator Installation","group": "Building","alias": "Elevator Installation","subType": "Periodic","category": "Manwalk or Escelator","id": "Building-Elevator-Installation-Manwalk or Escelator"' with parameter delimiters is not a parameter.
+Action.c(31): Warning: The string ' "value": "Call Center", "text": "Call Center" ' with parameter delimiters is not a parameter.
+Action.c(31): Warning: The string ' "value": "101", "text": "Single Family Houses Detached" ' with parameter delimiters is not a parameter.
+Action.c(31): t=1546ms: Already connected [0] to 10.106.21.50:3080  	[MsgId: MMSG-26000]
+Action.c(31): t=1547ms: 413-byte request headers for "http://10.106.21.50:3080/apis/v4/records?token=67465192904196436413035561777559343974716657297766175611775508461637729121148838156832115614650444473419333655624267482793747215&serviceProviderCode=LARA" (RelFrameId=1, Internal ID=2)
+Action.c(31):     POST /apis/v4/records?token=67465192904196436413035561777559343974716657297766175611775508
+Action.c(31):     461637729121148838156832115614650444473419333655624267482793747215&serviceProviderCode=LAR
+Action.c(31):     A HTTP/1.1\r\n
+Action.c(31):     Content-Type: application/json\r\n
+Action.c(31):     Cache-Control: no-cache\r\n
+Action.c(31):     Accept-Encoding: gzip,deflate\r\n
+Action.c(31):     Connection: Keep-Alive\r\n
+Action.c(31):     User-Agent: Apache-HttpClient/4.1.1 (java 1.5)\r\n
+Action.c(31):     Accept: */*\r\n
+Action.c(31):     Host: 10.106.21.50:3080\r\n
+Action.c(31):     Content-Length: 998\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1548ms: 998-byte request body for "http://10.106.21.50:3080/apis/v4/records?token=67465192904196436413035561777559343974716657297766175611775508461637729121148838156832115614650444473419333655624267482793747215&serviceProviderCode=LARA" (RelFrameId=1, Internal ID=2)
+Action.c(31):     { "name": "PerformanceTesting", "type": {"module": "Building","value": "Building/Elevator/
+Action.c(31):     Installation/Manwalk or Escelator","type": "Elevator","text": "Elevator Installation","gro
+Action.c(31):     up": "Building","alias": "Elevator Installation","subType": "Periodic","category": "Manwal
+Action.c(31):     k or Escelator","id": "Building-Elevator-Installation-Manwalk or Escelator"},"description"
+Action.c(31):     : "PerformanceTesting", "module": "Building",  "initiatedProduct": "RESTAPI", "housingUnit
+Action.c(31):     s": 1,"totalJobCost": 9992, "reportedChannel": { "value": "Call Center", "text": "Call Cen
+Action.c(31):     ter" }, "numberOfBuildings": 1, "estimatedProductionUnit": 1, "actualProductionUnit": 1, "
+Action.c(31):     serviceProviderCode": "LARA", "undistributedCost": 88, "jobValue": 450000, "assignedUser":
+Action.c(31):      "ADMIN", "constructionType": { "value": "101", "text": "Single Family Houses Detached" },
+Action.c(31):      "totalFee": 200, "totalPay": 200, "balance": 0, "booking": false, "infraction": false, "m
+Action.c(31):     isdemeanor": false, "offenseWitnessed": false, "defendantSignature": false, "publicOwned":
+Action.c(31):      false }
+Action.c(31): t=136369ms: 137-byte response headers for "http://10.106.21.50:3080/apis/v4/records?token=67465192904196436413035561777559343974716657297766175611775508461637729121148838156832115614650444473419333655624267482793747215&serviceProviderCode=LARA" (RelFrameId=1, Internal ID=2)
+Action.c(31):     HTTP/1.1 200 OK\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Sun, 30 Sep 2018 17:36:30 GMT\r\n
+Action.c(31):     Content-Type: application/json\r\n
+Action.c(31):     Content-Length: 4747\r\n
+Action.c(31):     \r\n
+Action.c(31): t=136373ms: 4747-byte response body for "http://10.106.21.50:3080/apis/v4/records?token=67465192904196436413035561777559343974716657297766175611775508461637729121148838156832115614650444473419333655624267482793747215&serviceProviderCode=LARA" (RelFrameId=1, Internal ID=2)
+Action.c(31):     {"message":"EMSE Script Framework Versions<BR>EVENT TRIGGERED: ApplicationSubmitAfter<BR>S
+Action.c(31):     CRIPT EXECUTED: ApplicationSubmitAfter<BR>INCLUDE VERSION: 3.1.68<BR>SCRIPT VERSION : 3<BR
+Action.c(31):     >GLOBAL VERSION : 3<BR>ASI Table Array : VIOLATIONS (0 Rows)<BR>**WARNING: getting project
+Action.c(31):      parents:  Project Parents Not Found: record ID: LARA-DUB18-00000<BR>**WARNING: Could not 
+Action.c(31):     find parent license Cap for child CAP(DUB18-00000-01E2L): <BR><B>EMSE Script Results for E
+Action.c(31):     LEV18-00051-ESC</B><BR>capId = class com.accela.aa.aamain.cap.CapIDModel<BR>cap = class co
+Action.c(31):     m.accela.aa.emse.dom.CapScriptModel<BR>currentUserID = ADMIN<BR>currentUserGroup = Buildin
+Action.c(31):     gAdmin<BR>systemUserObj = class com.accela.aa.aamain.people.SysUserModel<BR>appTypeString 
+Action.c(31):     = Building/Elevator/Installation/Manwalk or Escelator<BR>capName = PerformanceTesting<BR>c
+Action.c(31):     apStatus = null<BR>fileDate = 9/30/2018<BR>fileDateYYYYMMDD = 2018-09-30<BR>sysDate = clas
+Action.c(31):     s com.accela.aa.emse.util.ScriptDateTime<BR>parcelArea = 0<BR>estValue = 450000<BR>calcVal
+Action.c(31):     ue = 0<BR>feeFactor = CONT<BR>houseCount = 1<BR>feesInvoicedTotal = 0<BR>balanceDue = 0<BR
+Action.c(31):     >lookup(EMSE_VARIABLE_BRANCH_PREFIX,ApplicationSubmitAfter) = ASA<BR>Executing : PreExecut
+Action.c(31):     eForAfterEvents, Elapsed Time: 0.25 Seconds<BR>Finished: PreExecuteForAfterEvents, Elapsed
+Action.c(31):      Time: 0.25 Seconds<BR>{Contractor License Number} = null<BR>{Type of Device} = null<BR>{M
+Action.c(31):     anufactured By} = null<BR>{Manufacturer's Number} = null<BR>{Travel between floors} = null
+Action.c(31):     <BR>{Travel Direction} = null<BR>{Rated Structural Load} = null<BR>{Rated Machinery Load} 
+Action.c(31):     = null<BR>{Rated Brake} = null<BR>{Number of Steps Exposed} = null<BR>{Operating Speed} = 
+Action.c(31):     null<BR>{Vertical Rise} = null<BR>{Horizontal Distance Between Comb Plates} = null<BR>{Wid
+Action.c(31):     th of Device Between Balustrades 27\\" Above Tread} = null<BR>{Width of Steps or Pallets} 
+Action.c(31):     = null<BR>{Balustrade Material} = null<BR>{Step or Pallet Tread Material} = null<BR>{Handr
+Action.c(31):     ail Material} = null<BR>{Comb Plate Material} = null<BR>{Type of Handrail Entry Device} = 
+Action.c(31):     null<BR>{Clearance Between Riser and Back of Tread} = null<BR>{Landings and Tread Illumina
+Action.c(31):     tion Adequate} = null<BR>{Skirt Deflector Device} = null<BR>{Step/Skirt Performance Index}
+Action.c(31):      = null<BR>{Maximum Loaded Gap} = null<BR>{Comb-Step or Pallet Impact Device} = null<BR>{D
+Action.c(31):     eck Barricades} = null<BR>{Handrail Speed Monitoring Device} = null<BR>{Safety Zone} = nul
+Action.c(31):     l<BR>{Smoke Detectors} = null<BR>{Step or Pallet Level Device} = null<BR>{Missing Step or 
+Action.c(31):     Pallet Device} = null<BR>{Stop Button Location} = null<BR>{Adequately Marked} = null<BR>{A
+Action.c(31):     nti-Slide Device} = null<BR>{Skirt Obstruction Device Top} = null<BR>{Skirt Obstruction De
+Action.c(31):     vice Bottom} = null<BR>{Type of Drive} = null<BR>{Reverse Phase Relay Provided} = null<BR>
+Action.c(31):     {Voltage} = null<BR>{AC} = null<BR>{DC} = null<BR>{Operating Voltage} = null<BR>{A.C.} = n
+Action.c(31):     ull<BR>{D.C.} = null<BR>{Governor Type} = null<BR>{Tripping Speed} = null<BR>{Escalator Dr
+Action.c(31):     iving-Machine Brake Torque Method} = null<BR>{Location} = null<BR>{Measurement} = null<BR>
+Action.c(31):     {Governor Sealed} = null<BR>{Test Tag Attached} = null<BR>{Reversal Stop Device Type} = nu
+Action.c(31):     ll<BR>{Broken Drive Chain Device Type} = null<BR>{Chains Guarded} = null<BR>{Step or Palle
+Action.c(31):     t Wheel Diameter} = null<BR>{Trailer Wheel Diameter} = null<BR>{Wheel Tread Material} = nu
+Action.c(31):     ll<BR>{Permit Expiration Date} = null<BR>{In Compliance} = null<BR>Executing script : ASA:
+Action.c(31):     Building/*/*/*, Elapsed Time: 0.265 Seconds<BR>add Array is:undefined<BR>The current CAP h
+Action.c(31):     as no address.<BR>Executing script : ASA:Building/Elevator/Installation/Manwalk or Escelat
+Action.c(31):     or, Elapsed Time: 0.281 Seconds<BR>","status":200,"result":{"name":"PerformanceTesting","i
+Action.c(31):     d":"LARA-DUB18-00000-01E2L","type":{"module":"Building","value":"Building/Elevator/Install
+Action.c(31):     ation/Manwalk or Escelator","type":"Elevator","text":"Escalator/Moving Walk Installation P
+Action.c(31):     ermit","alias":"Escalator/Moving Walk Installation Permit","group":"Building","subType":"I
+Action.c(31):     nstallation","category":"Manwalk or Escelator","id":"Building-Elevator-Installation-Manwal
+Action.c(31):     k.cor.cEscelator"},"description":"PerformanceTesting","module":"Building","createdBy":"ADM
+Action.c(31):     IN","recordClass":"COMPLETE","serviceProviderCode":"LARA","totalJobCost":9992.0,"reportedC
+Action.c(31):     hannel":{"value":"Call Center","text":"Call Center"},"initiatedProduct":"RESTAPI","statusD
+Action.c(31):     ate":"2018-09-30 13:34:18","undistributedCost":88.0,"constructionType":{"value":"101","tex
+Action.c(31):     t":"Single Family Houses Detached"},"assignedUser":"ADMIN","actualProductionUnit":1.0,"est
+Action.c(31):     imatedProductionUnit":1.0,"housingUnits":1,"numberOfBuildings":1,"trackingId":242653798,"c
+Action.c(31):     ustomId":"ELEV18-00051-ESC","jobValue":450000.0,"value":"DUB18-00000-01E2L","totalFee":0.0
+Action.c(31):     ,"totalPay":0.0,"balance":0.0,"booking":false,"infraction":false,"misdemeanor":false,"offe
+Action.c(31):     nseWitnessed":false,"defendantSignature":false,"publicOwned":false}}
+Action.c(31): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://10.106.21.50:3080/apis/v4/records?token=67465192904196436413035561777559343974716657297766175611775508461637729121148838156832115614650444473419333655624267482793747215&serviceProviderCode=LARA"  	[MsgId: MMSG-26548]
+Action.c(31): t=136380ms: Request done "http://10.106.21.50:3080/apis/v4/records?token=67465192904196436413035561777559343974716657297766175611775508461637729121148838156832115614650444473419333655624267482793747215&serviceProviderCode=LARA"  	[MsgId: MMSG-26000]
+Action.c(31): Registered web_reg_find successful for "Text=200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(31): web_custom_request("web_custom_request") was successful, 4747 body bytes, 137 header bytes  	[MsgId: MMSG-26386]
+Action.c(75): Notify: Transaction "CreateRecord_Lara" ended with a "Pass" status (Duration: 134.8816 Wasted Time: 0.0195).
+Action.c(76): Message: CreateRecord successful!
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=136426ms: Closed connection [0] to 10.106.21.50:3080 after completing 2 request(s)  	[MsgId: MMSG-26000]

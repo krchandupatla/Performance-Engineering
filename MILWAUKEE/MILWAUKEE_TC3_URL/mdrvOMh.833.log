@@ -1,0 +1,616 @@
+Action.c(45):     if(_514 instanceof Array||typeof _514=="array"){\r\n
+Action.c(45):     dojo.deprecated("dojo.html.toCoordinateArray","use dojo.html.toCoordinateObject({left: , t
+Action.c(45):     op: , width: , height: }) instead","0.5");\r\n
+Action.c(45):     while(_514.length<4){\r\n
+Action.c(45):     _514.push(0);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     while(_514.length>4){\r\n
+Action.c(45):     _514.pop();\r\n
+Action.c(45):     }\r\n
+Action.c(45):     var ret={left:_514[0],top:_514[1],width:_514[2],height:_514[3]};\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     if(!_514.nodeType&&!(_514 insta
+Action.c(45): t=1870ms: 1380-byte response body for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/dojo.js" (RelFrameId=, Internal ID=12)
+Action.c(45):     nceof String||typeof _514=="string")&&("width" in _514||"height" in _514||"left" in _514||
+Action.c(45):     "x" in _514||"top" in _514||"y" in _514)){\r\n
+Action.c(45):     var ret={left:_514.left||_514.x||0,top:_514.top||_514.y||0,width:_514.width||0,height:_514
+Action.c(45):     .height||0};\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     var node=dojo.byId(_514);\r\n
+Action.c(45):     var pos=dojo.html.abs(node,_515,_516);\r\n
+Action.c(45):     var _51a=dojo.html.getMarginBox(node);\r\n
+Action.c(45):     var ret={left:pos.left,top:pos.top,width:_51a.width,height:_51a.height};\r\n
+Action.c(45):     }\r\n
+Action.c(45):     }\r\n
+Action.c(45):     ret.x=ret.left;\r\n
+Action.c(45):     ret.y=ret.top;\r\n
+Action.c(45):     return ret;\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.setMarginBoxWidth=dojo.html.setOuterWidth=function(node,_51c){\r\n
+Action.c(45):     return dojo.html._callDeprecated("setMarginBoxWidth","setMarginBox",arguments,"width");\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.setMarginBoxHeight=dojo.html.setOuterHeight=function(){\r\n
+Action.c(45):     return dojo.html._callDeprecated("setMarginBoxHeight","setMarginBox",arguments,"height");\r
+Action.c(45):     \n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getMarginBoxWidth=dojo.html.getOuterWidth=function(){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getMarginBoxWidth","getMarginBox",arguments,null,"width"
+Action.c(45):     );\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getMarginBoxHeight=dojo.html.getOuterHeight=function(){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getMarginBoxHeight","getMarginBox",arguments,null,"heigh
+Action.c(45):     t");\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getTotalOffset=function(node,type,_51f){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getTotalOffset","getAbsolutePosition",arguments,null,typ
+Action.c(45):     e);\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getAbsoluteX=function(node,_521){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getAbsol
+Action.c(45): t=1871ms: 12287-byte response body for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/dojo.js" (RelFrameId=, Internal ID=12)
+Action.c(45):     uteX","getAbsolutePosition",arguments,null,"x");\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getAbsoluteY=function(node,_523){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getAbsoluteY","getAbsolutePosition",arguments,null,"y");
+Action.c(45):     \r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.totalOffsetLeft=function(node,_525){\r\n
+Action.c(45):     return dojo.html._callDeprecated("totalOffsetLeft","getAbsolutePosition",arguments,null,"l
+Action.c(45):     eft");\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.totalOffsetTop=function(node,_527){\r\n
+Action.c(45):     return dojo.html._callDeprecated("totalOffsetTop","getAbsolutePosition",arguments,null,"to
+Action.c(45):     p");\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getMarginWidth=function(node){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getMarginWidth","getMargin",arguments,null,"width");\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getMarginHeight=function(node){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getMarginHeight","getMargin",arguments,null,"height");\r
+Action.c(45):     \n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getBorderWidth=function(node){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getBorderWidth","getBorder",arguments,null,"width");\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getBorderHeight=function(node){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getBorderHeight","getBorder",arguments,null,"height");\r
+Action.c(45):     \n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getPaddingWidth=function(node){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getPaddingWidth","getPadding",arguments,null,"width");\r
+Action.c(45):     \n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getPaddingHeight=function(node){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getPaddingHeight","getPadding",arguments,null,"height");
+Action.c(45):     \r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getPadBorderWidth=function(node){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getPadBorderWidth","getPadBorder",arguments,null,"width"
+Action.c(45):     );\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getPadBorderHeight=function(node){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getPadBorderHeight","getPadBorder",arguments,null,"heigh
+Action.c(45):     t");\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getBorderBoxWidth=dojo.html.getInnerWidth=function(){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getBorderBoxWidth","getBorderBox",arguments,null,"width"
+Action.c(45):     );\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getBorderBoxHeight=dojo.html.getInnerHeight=function(){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getBorderBoxHeight","getBorderBox",arguments,null,"heigh
+Action.c(45):     t");\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getContentBoxWidth=dojo.html.getContentWidth=function(){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getContentBoxWidth","getContentBox",arguments,null,"widt
+Action.c(45):     h");\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.getContentBoxHeight=dojo.html.getContentHeight=function(){\r\n
+Action.c(45):     return dojo.html._callDeprecated("getContentBoxHeight","getContentBox",arguments,null,"hei
+Action.c(45):     ght");\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.setContentBoxWidth=dojo.html.setContentWidth=function(node,_531){\r\n
+Action.c(45):     return dojo.html._callDeprecated("setContentBoxWidth","setContentBox",arguments,"width");\r
+Action.c(45):     \n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.html.setContentBoxHeight=dojo.html.setContentHeight=function(node,_533){\r\n
+Action.c(45):     return dojo.html._callDeprecated("setContentBoxHeight","setContentBox",arguments,"height")
+Action.c(45):     ;\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.provide("dojo.lfx.html");\r\n
+Action.c(45):     dojo.lfx.html._byId=function(_534){\r\n
+Action.c(45):     if(!_534){\r\n
+Action.c(45):     return [];\r\n
+Action.c(45):     }\r\n
+Action.c(45):     if(dojo.lang.isArrayLike(_534)){\r\n
+Action.c(45):     if(!_534.alreadyChecked){\r\n
+Action.c(45):     var n=[];\r\n
+Action.c(45):     dojo.lang.forEach(_534,function(node){\r\n
+Action.c(45):     n.push(dojo.byId(node));\r\n
+Action.c(45):     });\r\n
+Action.c(45):     n.alreadyChecked=true;\r\n
+Action.c(45):     return n;\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     return _534;\r\n
+Action.c(45):     }\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     var n=[];\r\n
+Action.c(45):     n.push(dojo.byId(_534));\r\n
+Action.c(45):     n.alreadyChecked=true;\r\n
+Action.c(45):     return n;\r\n
+Action.c(45):     }\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.propertyAnimation=function(_537,_538,_539,_53a,_53b){\r\n
+Action.c(45):     _537=dojo.lfx.html._byId(_537);\r\n
+Action.c(45):     var _53c={"propertyMap":_538,"nodes":_537,"duration":_539,"easing":_53a||dojo.lfx.easeDefa
+Action.c(45):     ult};\r\n
+Action.c(45):     var _53d=function(args){\r\n
+Action.c(45):     if(args.nodes.length==1){\r\n
+Action.c(45):     var pm=args.propertyMap;\r\n
+Action.c(45):     if(!dojo.lang.isArray(args.propertyMap)){\r\n
+Action.c(45):     var parr=[];\r\n
+Action.c(45):     for(var _541 in pm){\r\n
+Action.c(45):     pm[_541].property=_541;\r\n
+Action.c(45):     parr.push(pm[_541]);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     pm=args.propertyMap=parr;\r\n
+Action.c(45):     }\r\n
+Action.c(45):     dojo.lang.forEach(pm,function(prop){\r\n
+Action.c(45):     if(dj_undef("start",prop)){\r\n
+Action.c(45):     if(prop.property!="opacity"){\r\n
+Action.c(45):     prop.start=parseInt(dojo.html.getComputedStyle(args.nodes[0],prop.property));\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     prop.start=dojo.html.getOpacity(args.nodes[0]);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     }\r\n
+Action.c(45):     });\r\n
+Action.c(45):     }\r\n
+Action.c(45):     };\r\n
+Action.c(45):     var _543=function(_544){\r\n
+Action.c(45):     var _545=[];\r\n
+Action.c(45):     dojo.lang.forEach(_544,function(c){\r\n
+Action.c(45):     _545.push(Math.round(c));\r\n
+Action.c(45):     });\r\n
+Action.c(45):     return _545;\r\n
+Action.c(45):     };\r\n
+Action.c(45):     var _547=function(n,_549){\r\n
+Action.c(45):     n=dojo.byId(n);\r\n
+Action.c(45):     if(!n||!n.style){\r\n
+Action.c(45):     return;\r\n
+Action.c(45):     }\r\n
+Action.c(45):     for(var s in _549){\r\n
+Action.c(45):     if(s=="opacity"){\r\n
+Action.c(45):     dojo.html.setOpacity(n,_549[s]);\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     n.style[s]=_549[s];\r\n
+Action.c(45):     }\r\n
+Action.c(45):     }\r\n
+Action.c(45):     };\r\n
+Action.c(45):     var _54b=function(_54c){\r\n
+Action.c(45):     this._properties=_54c;\r\n
+Action.c(45):     this.diffs=new Array(_54c.length);\r\n
+Action.c(45):     dojo.lang.forEach(_54c,function(prop,i){\r\n
+Action.c(45):     if(dojo.lang.isFunction(prop.start)){\r\n
+Action.c(45):     prop.start=prop.start(prop,i);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     if(dojo.lang.isFunction(prop.end)){\r\n
+Action.c(45):     prop.end=prop.end(prop,i);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     if(dojo.lang.isArray(prop.start)){\r\n
+Action.c(45):     this.diffs[i]=null;\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     if(prop.start instanceof dojo.gfx.color.Color){\r\n
+Action.c(45):     prop.startRgb=prop.start.toRgb();\r\n
+Action.c(45):     prop.endRgb=prop.end.toRgb();\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     this.diffs[i]=prop.end-prop.start;\r\n
+Action.c(45):     }\r\n
+Action.c(45):     }\r\n
+Action.c(45):     },this);\r\n
+Action.c(45):     this.getValue=function(n){\r\n
+Action.c(45):     var ret={};\r\n
+Action.c(45):     dojo.lang.forEach(this._properties,function(prop,i){\r\n
+Action.c(45):     var _553=null;\r\n
+Action.c(45):     if(dojo.lang.isArray(prop.start)){\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     if(prop.start instanceof dojo.gfx.color.Color){\r\n
+Action.c(45):     _553=(prop.units||"rgb")+"(";\r\n
+Action.c(45):     for(var j=0;j<prop.startRgb.length;j++){\r\n
+Action.c(45):     _553+=Math.round(((prop.endRgb[j]-prop.startRgb[j])*n)+prop.startRgb[j])+(j<prop.startRgb.
+Action.c(45):     length-1?",":"");\r\n
+Action.c(45):     }\r\n
+Action.c(45):     _553+=")";\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     _553=((this.diffs[i])*n)+prop.start+(prop.property!="opacity"?prop.units||"px":"");\r\n
+Action.c(45):     }\r\n
+Action.c(45):     }\r\n
+Action.c(45):     ret[dojo.html.toCamelCase(prop.property)]=_553;\r\n
+Action.c(45):     },this);\r\n
+Action.c(45):     return ret;\r\n
+Action.c(45):     };\r\n
+Action.c(45):     };\r\n
+Action.c(45):     var anim=new dojo.lfx.Animation({beforeBegin:function(){\r\n
+Action.c(45):     _53d(_53c);\r\n
+Action.c(45):     anim.curve=new _54b(_53c.propertyMap);\r\n
+Action.c(45):     },onAnimate:function(_556){\r\n
+Action.c(45):     dojo.lang.forEach(_53c.nodes,function(node){\r\n
+Action.c(45):     _547(node,_556);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     }},_53c.duration,null,_53c.easing);\r\n
+Action.c(45):     if(_53b){\r\n
+Action.c(45):     for(var x in _53b){\r\n
+Action.c(45):     if(dojo.lang.isFunction(_53b[x])){\r\n
+Action.c(45):     anim.connect(x,anim,_53b[x]);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     }\r\n
+Action.c(45):     }\r\n
+Action.c(45):     return anim;\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html._makeFadeable=function(_559){\r\n
+Action.c(45):     var _55a=function(node){\r\n
+Action.c(45):     if(dojo.render.html.ie){\r\n
+Action.c(45):     if((node.style.zoom.length==0)&&(dojo.html.getStyle(node,"zoom")=="normal")){\r\n
+Action.c(45):     node.style.zoom="1";\r\n
+Action.c(45):     }\r\n
+Action.c(45):     if((node.style.width.length==0)&&(dojo.html.getStyle(node,"width")=="auto")){\r\n
+Action.c(45):     node.style.width="auto";\r\n
+Action.c(45):     }\r\n
+Action.c(45):     }\r\n
+Action.c(45):     };\r\n
+Action.c(45):     if(dojo.lang.isArrayLike(_559)){\r\n
+Action.c(45):     dojo.lang.forEach(_559,_55a);\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     _55a(_559);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.fade=function(_55c,_55d,_55e,_55f,_560){\r\n
+Action.c(45):     _55c=dojo.lfx.html._byId(_55c);\r\n
+Action.c(45):     var _561={property:"opacity"};\r\n
+Action.c(45):     if(!dj_undef("start",_55d)){\r\n
+Action.c(45):     _561.start=_55d.start;\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     _561.start=function(){\r\n
+Action.c(45):     return dojo.html.getOpacity(_55c[0]);\r\n
+Action.c(45):     };\r\n
+Action.c(45):     }\r\n
+Action.c(45):     if(!dj_undef("end",_55d)){\r\n
+Action.c(45):     _561.end=_55d.end;\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     dojo.raise("dojo.lfx.html.fade needs an end value");\r\n
+Action.c(45):     }\r\n
+Action.c(45):     var anim=dojo.lfx.propertyAnimation(_55c,[_561],_55e,_55f);\r\n
+Action.c(45):     anim.connect("beforeBegin",function(){\r\n
+Action.c(45):     dojo.lfx.html._makeFadeable(_55c);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     if(_560){\r\n
+Action.c(45):     anim.connect("onEnd",function(){\r\n
+Action.c(45):     _560(_55c,anim);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     }\r\n
+Action.c(45):     return anim;\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.fadeIn=function(_563,_564,_565,_566){\r\n
+Action.c(45):     return dojo.lfx.html.fade(_563,{end:1},_564,_565,_566);\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.fadeOut=function(_567,_568,_569,_56a){\r\n
+Action.c(45):     return dojo.lfx.html.fade(_567,{end:0},_568,_569,_56a);\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.fadeShow=function(_56b,_56c,_56d,_56e){\r\n
+Action.c(45):     _56b=dojo.lfx.html._byId(_56b);\r\n
+Action.c(45):     dojo.lang.forEach(_56b,function(node){\r\n
+Action.c(45):     dojo.html.setOpacity(node,0);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     var anim=dojo.lfx.html.fadeIn(_56b,_56c,_56d,_56e);\r\n
+Action.c(45):     anim.connect("beforeBegin",function(){\r\n
+Action.c(45):     if(dojo.lang.isArrayLike(_56b)){\r\n
+Action.c(45):     dojo.lang.forEach(_56b,dojo.html.show);\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     dojo.html.show(_56b);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     });\r\n
+Action.c(45):     return anim;\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.fadeHide=function(_571,_572,_573,_574){\r\n
+Action.c(45):     var anim=dojo.lfx.html.fadeOut(_571,_572,_573,function(){\r\n
+Action.c(45):     if(dojo.lang.isArrayLike(_571)){\r\n
+Action.c(45):     dojo.lang.forEach(_571,dojo.html.hide);\r\n
+Action.c(45):     }else{\r\n
+Action.c(45):     dojo.html.hide(_571);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     if(_574){\r\n
+Action.c(45):     _574(_571,anim);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     });\r\n
+Action.c(45):     return anim;\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.wipeIn=function(_576,_577,_578,_579){\r\n
+Action.c(45):     _576=dojo.lfx.html._byId(_576);\r\n
+Action.c(45):     var _57a=[];\r\n
+Action.c(45):     dojo.lang.forEach(_576,function(node){\r\n
+Action.c(45):     var _57c={};\r\n
+Action.c(45):     dojo.html.show(node);\r\n
+Action.c(45):     var _57d=dojo.html.getBorderBox(node).height;\r\n
+Action.c(45):     dojo.html.hide(node);\r\n
+Action.c(45):     var anim=dojo.lfx.propertyAnimation(node,{"height":{start:1,end:function(){\r\n
+Action.c(45):     return _57d;\r\n
+Action.c(45):     }}},_577,_578);\r\n
+Action.c(45):     anim.connect("beforeBegin",function(){\r\n
+Action.c(45):     _57c.overflow=node.style.overflow;\r\n
+Action.c(45):     _57c.height=node.style.height;\r\n
+Action.c(45):     with(node.style){\r\n
+Action.c(45):     overflow="hidden";\r\n
+Action.c(45):     _57d="1px";\r\n
+Action.c(45):     }\r\n
+Action.c(45):     dojo.html.show(node);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     anim.connect("onEnd",function(){\r\n
+Action.c(45):     with(node.style){\r\n
+Action.c(45):     overflow=_57c.overflow;\r\n
+Action.c(45):     _57d=_57c.height;\r\n
+Action.c(45):     }\r\n
+Action.c(45):     if(_579){\r\n
+Action.c(45):     _579(node,anim);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     });\r\n
+Action.c(45):     _57a.push(anim);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     return dojo.lfx.combine(_57a);\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.wipeOut=function(_57f,_580,_581,_582){\r\n
+Action.c(45):     _57f=dojo.lfx.html._byId(_57f);\r\n
+Action.c(45):     var _583=[];\r\n
+Action.c(45):     dojo.lang.forEach(_57f,function(node){\r\n
+Action.c(45):     var _585={};\r\n
+Action.c(45):     var anim=dojo.lfx.propertyAnimation(node,{"height":{start:function(){\r\n
+Action.c(45):     return dojo.html.getContentBox(node).height;\r\n
+Action.c(45):     },end:1}},_580,_581,{"beforeBegin":function(){\r\n
+Action.c(45):     _585.overflow=node.style.overflow;\r\n
+Action.c(45):     _585.height=node.style.height;\r\n
+Action.c(45):     with(node.style){\r\n
+Action.c(45):     overflow="hidden";\r\n
+Action.c(45):     }\r\n
+Action.c(45):     dojo.html.show(node);\r\n
+Action.c(45):     },"onEnd":function(){\r\n
+Action.c(45):     dojo.html.hide(node);\r\n
+Action.c(45):     with(node.style){\r\n
+Action.c(45):     overflow=_585.overflow;\r\n
+Action.c(45):     height=_585.height;\r\n
+Action.c(45):     }\r\n
+Action.c(45):     if(_582){\r\n
+Action.c(45):     _582(node,anim);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     }});\r\n
+Action.c(45):     _583.push(anim);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     return dojo.lfx.combine(_583);\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.slideTo=function(_587,_588,_589,_58a,_58b){\r\n
+Action.c(45):     _587=dojo.lfx.html._byId(_587);\r\n
+Action.c(45):     var _58c=[];\r\n
+Action.c(45):     var _58d=dojo.html.getComputedStyle;\r\n
+Action.c(45):     if(dojo.lang.isArray(_588)){\r\n
+Action.c(45):     dojo.deprecated("dojo.lfx.html.slideTo(node, array)","use dojo.lfx.html.slideTo(node, {top
+Action.c(45):     : value, left: value});","0.5");\r\n
+Action.c(45):     _588={top:_588[0],left:_588[1]};\r\n
+Action.c(45):     }\r\n
+Action.c(45):     dojo.lang.forEach(_587,function(node){\r\n
+Action.c(45):     var top=null;\r\n
+Action.c(45):     var left=null;\r\n
+Action.c(45):     var init=(function(){\r\n
+Action.c(45):     var _592=node;\r\n
+Action.c(45):     return function(){\r\n
+Action.c(45):     var pos=_58d(_592,"position");\r\n
+Action.c(45):     top=(pos=="absolute"?node.offsetTop:parseInt(_58d(node,"top"))||0);\r\n
+Action.c(45):     left=(pos=="absolute"?node.offsetLeft:parseInt(_58d(node,"left"))||0);\r\n
+Action.c(45):     if(!dojo.lang.inArray(["absolute","relative"],pos)){\r\n
+Action.c(45):     var ret=dojo.html.abs(_592,true);\r\n
+Action.c(45):     dojo.html.setStyleAttributes(_592,"position:absolute;top:"+ret.y+"px;left:"+ret.x+"px;");\r
+Action.c(45):     \n
+Action.c(45):     top=ret.y;\r\n
+Action.c(45):     left=ret.x;\r\n
+Action.c(45):     }\r\n
+Action.c(45):     };\r\n
+Action.c(45):     })();\r\n
+Action.c(45):     init();\r\n
+Action.c(45):     var anim=dojo.lfx.propertyAnimation(node,{"top":{start:top,end:(_588.top||0)},"left":{star
+Action.c(45):     t:left,end:(_588.left||0)}},_589,_58a,{"beforeBegin":init});\r\n
+Action.c(45):     if(_58b){\r\n
+Action.c(45):     anim.connect("onEnd",function(){\r\n
+Action.c(45):     _58b(_587,anim);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     }\r\n
+Action.c(45):     _58c.push(anim);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     return dojo.lfx.combine(_58c);\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.slideBy=function(_596,_597,_598,_599,_59a){\r\n
+Action.c(45):     _596=dojo.lfx.html._byId(_596);\r\n
+Action.c(45):     var _59b=[];\r\n
+Action.c(45):     var _59c=dojo.html.getComputedStyle;\r\n
+Action.c(45):     if(dojo.lang.isArray(_597)){\r\n
+Action.c(45):     dojo.deprecated("dojo.lfx.html.slideBy(node, array)","use dojo.lfx.html.slideBy(node, {top
+Action.c(45):     : value, left: value});","0.5");\r\n
+Action.c(45):     _597={top:_597[0],left:_597[1]};\r\n
+Action.c(45):     }\r\n
+Action.c(45):     dojo.lang.forEach(_596,function(node){\r\n
+Action.c(45):     var top=null;\r\n
+Action.c(45):     var left=null;\r\n
+Action.c(45):     var init=(function(){\r\n
+Action.c(45):     var _5a1=node;\r\n
+Action.c(45):     return function(){\r\n
+Action.c(45):     var pos=_59c(_5a1,"position");\r\n
+Action.c(45):     top=(pos=="absolute"?node.offsetTop:parseInt(_59c(node,"top"))||0);\r\n
+Action.c(45):     left=(pos=="absolute"?node.offsetLeft:parseInt(_59c(node,"left"))||0);\r\n
+Action.c(45):     if(!dojo.lang.inArray(["absolute","relative"],pos)){\r\n
+Action.c(45):     var ret=dojo.html.abs(_5a1,true);\r\n
+Action.c(45):     dojo.html.setStyleAttributes(_5a1,"position:absolute;top:"+ret.y+"px;left:"+ret.x+"px;");\r
+Action.c(45):     \n
+Action.c(45):     top=ret.y;\r\n
+Action.c(45):     left=ret.x;\r\n
+Action.c(45):     }\r\n
+Action.c(45):     };\r\n
+Action.c(45):     })();\r\n
+Action.c(45):     init();\r\n
+Action.c(45):     var anim=dojo.lfx.propertyAnimation(node,{"top":{start:top,end:top+(_597.top||0)},"left":{
+Action.c(45):     start:left,end:left+(_597.left||0)}},_598,_599).connect("beforeBegin",init);\r\n
+Action.c(45):     if(_59a){\r\n
+Action.c(45):     anim.connect("onEnd",function(){\r\n
+Action.c(45):     _59a(_596,anim);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     }\r\n
+Action.c(45):     _59b.push(anim);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     return dojo.lfx.combine(_59b);\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.explode=function(_5a5,_5a6,_5a7,_5a8,_5a9){\r\n
+Action.c(45):     var h=dojo.html;\r\n
+Action.c(45):     _5a5=dojo.byId(_5a5);\r\n
+Action.c(45):     _5a6=dojo.byId(_5a6);\r\n
+Action.c(45):     var _5ab=h.toCoordinateObject(_5a5,true);\r\n
+Action.c(45):     var _5ac=document.createElement("div");\r\n
+Action.c(45):     h.copyStyle(_5ac,_5a6);\r\n
+Action.c(45):     if(_5a6.explodeClassName){\r\n
+Action.c(45):     _5ac.className=_5a6.explodeClassName;\r\n
+Action.c(45):     }\r\n
+Action.c(45):     with(_5ac.style){\r\n
+Action.c(45):     position="absolute";\r\n
+Action.c(45):     display="none";\r\n
+Action.c(45):     }\r\n
+Action.c(45):     dojo.body().appendChild(_5ac);\r\n
+Action.c(45):     with(_5a6.style){\r\n
+Action.c(45):     visibility="hidden";\r\n
+Action.c(45):     display="block";\r\n
+Action.c(45):     }\r\n
+Action.c(45):     var _5ad=h.toCoordinateObject(_5a6,true);\r\n
+Action.c(45):     with(_5a6.style){\r\n
+Action.c(45):     display="none";\r\n
+Action.c(45):     visibility="visible";\r\n
+Action.c(45):     }\r\n
+Action.c(45):     var _5ae={opacity:{start:0.5,end:1}};\r\n
+Action.c(45):     dojo.lang.forEach(["height","width","top","left"],function(type){\r\n
+Action.c(45):     _5ae[type]={start:_5ab[type],end:_5ad[type]};\r\n
+Action.c(45):     });\r\n
+Action.c(45):     var anim=new dojo.lfx.propertyAnimation(_5ac,_5ae,_5a7,_5a8,{"beforeBegin":function(){\r\n
+Action.c(45):     h.setDisplay(_5ac,"block");\r\n
+Action.c(45):     },"onEnd":function(){\r\n
+Action.c(45):     h.setDisplay(_5a6,"block");\r\n
+Action.c(45):     _5ac.parentNode.removeChild(_5ac);\r\n
+Action.c(45):     }});\r\n
+Action.c(45):     if(_5a9){\r\n
+Action.c(45):     anim.connect("onEnd",function(){\r\n
+Action.c(45):     _5a9(_5a6,anim);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     }\r\n
+Action.c(45):     return anim;\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.implode=function(_5b1,end,_5b3,_5b4,_5b5){\r\n
+Action.c(45):     var h=dojo.html;\r\n
+Action.c(45):     _5b1=dojo.byId(_5b1);\r\n
+Action.c(45):     end=dojo.byId(end);\r\n
+Action.c(45):     var _5b7=dojo.html.toCoordinateObject(_5b1,true);\r\n
+Action.c(45):     var _
+Action.c(45): t=1882ms: 2525-byte response body for "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/dojo.js" (RelFrameId=, Internal ID=12)
+Action.c(45):     5b8=dojo.html.toCoordinateObject(end,true);\r\n
+Action.c(45):     var _5b9=document.createElement("div");\r\n
+Action.c(45):     dojo.html.copyStyle(_5b9,_5b1);\r\n
+Action.c(45):     if(_5b1.explodeClassName){\r\n
+Action.c(45):     _5b9.className=_5b1.explodeClassName;\r\n
+Action.c(45):     }\r\n
+Action.c(45):     dojo.html.setOpacity(_5b9,0.3);\r\n
+Action.c(45):     with(_5b9.style){\r\n
+Action.c(45):     position="absolute";\r\n
+Action.c(45):     display="none";\r\n
+Action.c(45):     backgroundColor=h.getStyle(_5b1,"background-color").toLowerCase();\r\n
+Action.c(45):     }\r\n
+Action.c(45):     dojo.body().appendChild(_5b9);\r\n
+Action.c(45):     var _5ba={opacity:{start:1,end:0.5}};\r\n
+Action.c(45):     dojo.lang.forEach(["height","width","top","left"],function(type){\r\n
+Action.c(45):     _5ba[type]={start:_5b7[type],end:_5b8[type]};\r\n
+Action.c(45):     });\r\n
+Action.c(45):     var anim=new dojo.lfx.propertyAnimation(_5b9,_5ba,_5b3,_5b4,{"beforeBegin":function(){\r\n
+Action.c(45):     dojo.html.hide(_5b1);\r\n
+Action.c(45):     dojo.html.show(_5b9);\r\n
+Action.c(45):     },"onEnd":function(){\r\n
+Action.c(45):     _5b9.parentNode.removeChild(_5b9);\r\n
+Action.c(45):     }});\r\n
+Action.c(45):     if(_5b5){\r\n
+Action.c(45):     anim.connect("onEnd",function(){\r\n
+Action.c(45):     _5b5(_5b1,anim);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     }\r\n
+Action.c(45):     return anim;\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.highlight=function(_5bd,_5be,_5bf,_5c0,_5c1){\r\n
+Action.c(45):     _5bd=dojo.lfx.html._byId(_5bd);\r\n
+Action.c(45):     var _5c2=[];\r\n
+Action.c(45):     dojo.lang.forEach(_5bd,function(node){\r\n
+Action.c(45):     var _5c4=dojo.html.getBackgroundColor(node);\r\n
+Action.c(45):     var bg=dojo.html.getStyle(node,"background-color").toLowerCase();\r\n
+Action.c(45):     var _5c6=dojo.html.getStyle(node,"background-image");\r\n
+Action.c(45):     var _5c7=(bg=="transparent"||bg=="rgba(0, 0, 0, 0)");\r\n
+Action.c(45):     while(_5c4.length>3){\r\n
+Action.c(45):     _5c4.pop();\r\n
+Action.c(45):     }\r\n
+Action.c(45):     var rgb=new dojo.gfx.color.Color(_5be);\r\n
+Action.c(45):     var _5c9=new dojo.gfx.color.Color(_5c4);\r\n
+Action.c(45):     var anim=dojo.lfx.propertyAnimation(node,{"background-color":{start:rgb,end:_5c9}},_5bf,_5
+Action.c(45):     c0,{"beforeBegin":function(){\r\n
+Action.c(45):     if(_5c6){\r\n
+Action.c(45):     node.style.backgroundImage="none";\r\n
+Action.c(45):     }\r\n
+Action.c(45):     node.style.backgroundColor="rgb("+rgb.toRgb().join(",")+")";\r\n
+Action.c(45):     },"onEnd":function(){\r\n
+Action.c(45):     if(_5c6){\r\n
+Action.c(45):     node.style.backgroundImage=_5c6;\r\n
+Action.c(45):     }\r\n
+Action.c(45):     if(_5c7){\r\n
+Action.c(45):     node.style.backgroundColor="transparent";\r\n
+Action.c(45):     }\r\n
+Action.c(45):     if(_5c1){\r\n
+Action.c(45):     _5c1(node,anim);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     }});\r\n
+Action.c(45):     _5c2.push(anim);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     return dojo.lfx.combine(_5c2);\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lfx.html.unhighlight=function(_5cb,_5cc,_5cd,_5ce,_5cf){\r\n
+Action.c(45):     _5cb=dojo.lfx.html._byId(_5cb);\r\n
+Action.c(45):     var _5d0=[];\r\n
+Action.c(45):     dojo.lang.forEach(_5cb,function(node){\r\n
+Action.c(45):     var _5d2=new dojo.gfx.color.Color(dojo.html.getBackgroundColor(node));\r\n
+Action.c(45):     var rgb=new dojo.gfx.color.Color(_5cc);\r\n
+Action.c(45):     var _5d4=dojo.html.getStyle(node,"background-image");\r\n
+Action.c(45):     var anim=dojo.lfx.propertyAnimation(node,{"background-color":{start:_5d2,end:rgb}},_5cd,_5
+Action.c(45):     ce,{"beforeBegin":function(){\r\n
+Action.c(45):     if(_5d4){\r\n
+Action.c(45):     node.style.backgroundImage="none";\r\n
+Action.c(45):     }\r\n
+Action.c(45):     node.style.backgroundColor="rgb("+_5d2.toRgb().join(",")+")";\r\n
+Action.c(45):     },"onEnd":function(){\r\n
+Action.c(45):     if(_5cf){\r\n
+Action.c(45):     _5cf(node,anim);\r\n
+Action.c(45):     }\r\n
+Action.c(45):     }});\r\n
+Action.c(45):     _5d0.push(anim);\r\n
+Action.c(45):     });\r\n
+Action.c(45):     return dojo.lfx.combine(_5d0);\r\n
+Action.c(45):     };\r\n
+Action.c(45):     dojo.lang.mixin(dojo.lfx,dojo.lfx.html);\r\n
+Action.c(45):     dojo.provide("dojo.lfx.*");\r\n
+Action.c(45):     \r\n
+Action.c(45): t=1884ms: Request done "https://av-pt-ferrari.accela.com/portlets/framework/includes/javascript/dojo/dojo.js"  	[MsgId: MMSG-26000]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(45): t=1885ms: Closed connection [0] to av-pt-ferrari.accela.com:443 after completing 3 request(s)  	[MsgId: MMSG-26000]
+Action.c(45): t=1886ms: Closed connection [1] to av-pt-ferrari.accela.com:443 after completing 3 request(s)  	[MsgId: MMSG-26000]
+Action.c(45): t=1886ms: Closed connection [2] to use.typekit.net:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(45): t=1886ms: Closed connection [3] to av-pt-ferrari.accela.com:443 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(45): t=1886ms: Closed connection [4] to av-pt-ferrari.accela.com:443 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(45): t=1887ms: Closed connection [5] to www.accela.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(45): t=1887ms: Closed connection [6] to av-pt-ferrari.accela.com:443 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(45): t=1887ms: Closed connection [7] to av-pt-ferrari.accela.com:443 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=2, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 34012), ended OK."	[MsgId: MMSG-10695]

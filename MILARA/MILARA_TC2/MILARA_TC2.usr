@@ -1,0 +1,74 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=55
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.55.0.911
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.55.0.911
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="MILARA_Login__*delimiter*__MILARA_TC2_01_Click_Addresses__*delimiter*__MILARA_TC2_02_Search_Addresses__*delimiter*__MILARA_TC2_03_Click_Parcel__*delimiter*__MILARA_TC2_04_Search_Parcel__*delimiter*__MILARA_TC2_05_Click_Owner__*delimiter*__MILARA_TC2_06_Search_Owner__*delimiter*__MILARA_TC2_07_Click_LicenseProfessionals__*delimiter*__MILARA_TC2_08_Click_LicenseProfessionals_SearchTab__*delimiter*__MILARA_TC2_09_Search_LicenseProfessionals_Submit__*delimiter*__MILARA_TC2_10_Click_Contacts__*delimiter*__MILARA_TC2_11_Click_Search_Contacts_Tab__*delimiter*__MILARA_TC2_12_Search_Contacts_Submit__*delimiter*__MILARA_SignOut"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+MILARA_Login=
+MILARA_TC2_01_Click_Addresses=
+MILARA_TC2_02_Search_Addresses=
+MILARA_TC2_03_Click_Parcel=
+MILARA_TC2_04_Search_Parcel=
+MILARA_TC2_05_Click_Owner=
+MILARA_TC2_06_Search_Owner=
+MILARA_TC2_07_Click_LicenseProfessionals=
+MILARA_TC2_08_Click_LicenseProfessionals_SearchTab=
+MILARA_TC2_09_Search_LicenseProfessionals_Submit=
+MILARA_TC2_10_Click_Contacts=
+MILARA_TC2_11_Click_Search_Contacts_Tab=
+MILARA_TC2_12_Search_Contacts_Submit=
+MILARA_SignOut=

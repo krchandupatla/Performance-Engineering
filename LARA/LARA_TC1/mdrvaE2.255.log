@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(714): web_custom_request("expression.do_5") started  	[MsgId: MMSG-26355]
+Action.c(714): web_custom_request("expression.do_5") was successful, 80 body bytes, 528 header bytes  	[MsgId: MMSG-26386]
+Action.c(731): web_url("session.do_12") started  	[MsgId: MMSG-26355]
+Action.c(731): web_url("session.do_12") was successful, 56 body bytes, 535 header bytes  	[MsgId: MMSG-26386]
+Action.c(741): web_url("session.do_13") started  	[MsgId: MMSG-26355]
+Action.c(741): web_url("session.do_13") was successful, 56 body bytes, 535 header bytes  	[MsgId: MMSG-26386]
+Action.c(751): Notify: Transaction "LARA_TC1_06_Record_SaveRecord" ended with a "Pass" status (Duration: 0.2057).	[MsgId: MMSG-16873]
+Action.c(753): web_submit_data("capDetail.do_2") started  	[MsgId: MMSG-26355]
+Action.c(753): Error -27492: "HttpSendRequest" failed, Windows error code=12002 and retry limit (0) exceeded for URL="https://av-pt-ferrari.accela.com/portlets/cap/capDetail.do?module=Building"  	[MsgId: MERR-27492]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

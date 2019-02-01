@@ -1,0 +1,44 @@
+Start auto log messages stack - Iteration 1377.	[MsgId: MMSG-10545]
+Action.c(31):     HTTP/1.1 409 Conflict\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 23 Aug 2018 16:46:40 GMT\r\n
+Action.c(31):     Content-Type: application/json\r\n
+Action.c(31):     Content-Length: 103\r\n
+Action.c(31):     \r\n
+Action.c(31): t=716676ms: 103-byte response body for "http://10.106.21.50:3080/apis/v4/records?token=36893046065966750164942352845869002982786126948368173144191335065110666093527453242205170725004509919930027687828689251358586607&serviceProviderCode=LARA" (RelFrameId=1, Internal ID=1378)
+Action.c(31):     {"status":409,"code":"duplicate_data","message":"This item may be duplicates.","traceId":"
+Action.c(31):     rest-145787"}
+Action.c(31): Error -26622: HTTP Status-Code=409 (Conflict) for "http://10.106.21.50:3080/apis/v4/records?token=36893046065966750164942352845869002982786126948368173144191335065110666093527453242205170725004509919930027687828689251358586607&serviceProviderCode=LARA"  	[MsgId: MERR-26622]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1377.	[MsgId: MMSG-10545]
+Action.c(31): t=716678ms: Closing connection [0] to 10.106.21.50 after receiving status code 409  	[MsgId: MMSG-26000]
+Action.c(31): t=716678ms: Closed connection [0] to 10.106.21.50:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=716678ms: Request done "http://10.106.21.50:3080/apis/v4/records?token=36893046065966750164942352845869002982786126948368173144191335065110666093527453242205170725004509919930027687828689251358586607&serviceProviderCode=LARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2468.	[MsgId: MMSG-10545]
+Action.c(31):     HTTP/1.1 409 Conflict\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 23 Aug 2018 16:54:43 GMT\r\n
+Action.c(31):     Content-Type: application/json\r\n
+Action.c(31):     Content-Length: 103\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1199868ms: 103-byte response body for "http://10.106.21.50:3080/apis/v4/records?token=34806437616931659744708704553922072514336177138158304204105829491372564218474342086585352441699735486348833210359181743623579635&serviceProviderCode=LARA" (RelFrameId=1, Internal ID=2469)
+Action.c(31):     {"status":409,"code":"duplicate_data","message":"This item may be duplicates.","traceId":"
+Action.c(31):     rest-148770"}
+Action.c(31): Error -26622: HTTP Status-Code=409 (Conflict) for "http://10.106.21.50:3080/apis/v4/records?token=34806437616931659744708704553922072514336177138158304204105829491372564218474342086585352441699735486348833210359181743623579635&serviceProviderCode=LARA"  	[MsgId: MERR-26622]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2468.	[MsgId: MMSG-10545]
+Action.c(31): t=1199869ms: Closing connection [0] to 10.106.21.50 after receiving status code 409  	[MsgId: MMSG-26000]
+Action.c(31): t=1199869ms: Closed connection [0] to 10.106.21.50:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=1199869ms: Request done "http://10.106.21.50:3080/apis/v4/records?token=34806437616931659744708704553922072514336177138158304204105829491372564218474342086585352441699735486348833210359181743623579635&serviceProviderCode=LARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

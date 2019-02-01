@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(611): web_submit_data("empty.jsp_5") was successful, 79 body bytes, 551 header bytes  	[MsgId: MMSG-26386]
+Action.c(622): web_custom_request("tabRecordCount.do_2") started  	[MsgId: MMSG-26355]
+Action.c(622): web_custom_request("tabRecordCount.do_2") was successful, 195 body bytes, 622 header bytes  	[MsgId: MMSG-26386]
+Action.c(635): Notify: Transaction "MILARA_TC1_05_Click_Addtl_Info" ended with a "Pass" status (Duration: 0.4397).	[MsgId: MMSG-16873]
+Action.c(639): Notify: Transaction "MILARA_TC1_06_Save_Addtl_Info" started.	[MsgId: MMSG-16999]
+Action.c(641): web_url("session.do_13") started  	[MsgId: MMSG-26355]
+Action.c(641): web_url("session.do_13") was successful, 56 body bytes, 535 header bytes  	[MsgId: MMSG-26386]
+Action.c(651): web_submit_data("addtInfoForm.do_2") started  	[MsgId: MMSG-26355]
+Action.c(651): Error -27492: "HttpSendRequest" failed, Windows error code=12002 and retry limit (0) exceeded for URL="https://av-pt-ferrari.accela.com/portlets/addtinfo/addtInfoForm.do?module=Licenses"  	[MsgId: MERR-27492]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

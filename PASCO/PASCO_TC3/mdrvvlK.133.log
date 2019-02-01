@@ -1,0 +1,104 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(3520):     Set-Cookie: LB_SESSION=!jXJ9JON/Un8HbuFtMa0UeW3ebJ0wgpc+nPj4MlrQrWqCls7WOQRRdHID97M79+XRQx
+Action.c(3520):     qxaMVDAw/xXw==; path=/; Httponly; Secure\r\n
+Action.c(3520):     \r\n
+Action.c(3520): t=292687ms: 56-byte response body for "https://av-pt-ferrari.accela.com/portlets/spa/session.do?mode=activateSpace&spaceName=spaces.b0e82&module=Permits" (RelFrameId=1, Internal ID=447)
+Action.c(3520):     {"result":{"CURRENT_SPACE":"spaces.b0e82"},"status":200}
+Action.c(3520): t=292687ms: Request done "https://av-pt-ferrari.accela.com/portlets/spa/session.do?mode=activateSpace&spaceName=spaces.b0e82&module=Permits"  	[MsgId: MMSG-26000]
+Action.c(3520): web_url("session.do_50") was successful, 56 body bytes, 1706 header bytes  	[MsgId: MMSG-26386]
+Action.c(3529): Error: Failed to end Transaction "MIPASCO_TC3_23_Record_Inspection_ScheduleInspection_ClickOK" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(3446): web_submit_data("empty.jsp_29") was successful, 79 body bytes, 1719 header bytes  	[MsgId: MMSG-26386]
+Action.c(3456): Notify: Transaction "PASCO_TC3_22_Record_Inspection_ScheduleInspection_SubmitInspection" ended with a "Pass" status (Duration: 0.3372).	[MsgId: MMSG-16873]
+Action.c(3457): web_add_header("AppD_Header") started  	[MsgId: MMSG-26355]
+Action.c(3457): An unrecognized header ("AppD_Header") is being added  	[MsgId: MMSG-26595]
+Action.c(3457): "AppD_Header: PASCO_TC3_23_Record_Inspection_ScheduleInspection_ClickOK" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(3457): web_add_header("AppD_Header") was successful  	[MsgId: MMSG-26392]
+Action.c(3458): Error: Cannot start transaction "PASCO_TC3_23_Record_Inspection_ScheduleInspection_ClickOK". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(3520):     Set-Cookie: LB_SESSION=!Qy83uwYev1gCeHdtMa0UeW3ebJ0wgk6ROnr0pgRgGIlYXzlQhP6y2i+bYd/U1/nfbu
+Action.c(3520):     3wFHynOZoYgg==; path=/; Httponly; Secure\r\n
+Action.c(3520):     \r\n
+Action.c(3520): t=719131ms: 56-byte response body for "https://av-pt-ferrari.accela.com/portlets/spa/session.do?mode=activateSpace&spaceName=spaces.b0e82&module=Permits" (RelFrameId=1, Internal ID=924)
+Action.c(3520):     {"result":{"CURRENT_SPACE":"spaces.b0e82"},"status":200}
+Action.c(3520): t=719131ms: Request done "https://av-pt-ferrari.accela.com/portlets/spa/session.do?mode=activateSpace&spaceName=spaces.b0e82&module=Permits"  	[MsgId: MMSG-26000]
+Action.c(3520): web_url("session.do_50") was successful, 56 body bytes, 1706 header bytes  	[MsgId: MMSG-26386]
+Action.c(3529): Error: Failed to end Transaction "MIPASCO_TC3_23_Record_Inspection_ScheduleInspection_ClickOK" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(2758):     \t}else\r\n
+Action.c(2758):     \t{\r\n
+Action.c(2758):     \t\tdocument.getElementById('detailMessage').style.display='none';\r\n
+Action.c(2758):     \t}\r\n
+Action.c(2758):     \ttry{\t\t\r\n
+Action.c(2758):     \t\tthis.top.iframeResize();\r\n
+Action.c(2758):     \t}catch(e){}\r\n
+Action.c(2758):     \r\n
+Action.c(2758):     }\r\n
+Action.c(2758):     </script>\r\n
+Action.c(2758):     \t<noscript>\r\n
+Action.c(2758):     \t\tDo not support the scripting.\r\n
+Action.c(2758):     \t</noscript>\r\n
+Action.c(2758): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Permits"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(3446): web_submit_data("empty.jsp_29") was successful, 79 body bytes, 1719 header bytes  	[MsgId: MMSG-26386]
+Action.c(3456): Notify: Transaction "PASCO_TC3_22_Record_Inspection_ScheduleInspection_SubmitInspection" ended with a "Pass" status (Duration: 0.2191).	[MsgId: MMSG-16873]
+Action.c(3457): web_add_header("AppD_Header") started  	[MsgId: MMSG-26355]
+Action.c(3457): An unrecognized header ("AppD_Header") is being added  	[MsgId: MMSG-26595]
+Action.c(3457): "AppD_Header: PASCO_TC3_23_Record_Inspection_ScheduleInspection_ClickOK" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(3457): web_add_header("AppD_Header") was successful  	[MsgId: MMSG-26392]
+Action.c(3458): Error: Cannot start transaction "PASCO_TC3_23_Record_Inspection_ScheduleInspection_ClickOK". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(3446): web_submit_data("empty.jsp_29") was successful, 79 body bytes, 1720 header bytes  	[MsgId: MMSG-26386]
+Action.c(3456): Notify: Transaction "PASCO_TC3_22_Record_Inspection_ScheduleInspection_SubmitInspection" ended with a "Pass" status (Duration: 0.2258).	[MsgId: MMSG-16873]
+Action.c(3457): web_add_header("AppD_Header") started  	[MsgId: MMSG-26355]
+Action.c(3457): An unrecognized header ("AppD_Header") is being added  	[MsgId: MMSG-26595]
+Action.c(3457): "AppD_Header: PASCO_TC3_23_Record_Inspection_ScheduleInspection_ClickOK" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(3457): web_add_header("AppD_Header") was successful  	[MsgId: MMSG-26392]
+Action.c(3458): Error: Cannot start transaction "PASCO_TC3_23_Record_Inspection_ScheduleInspection_ClickOK". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Action.c(3446): web_submit_data("empty.jsp_29") was successful, 79 body bytes, 1719 header bytes  	[MsgId: MMSG-26386]
+Action.c(3456): Notify: Transaction "PASCO_TC3_22_Record_Inspection_ScheduleInspection_SubmitInspection" ended with a "Pass" status (Duration: 0.2385).	[MsgId: MMSG-16873]
+Action.c(3457): web_add_header("AppD_Header") started  	[MsgId: MMSG-26355]
+Action.c(3457): An unrecognized header ("AppD_Header") is being added  	[MsgId: MMSG-26595]
+Action.c(3457): "AppD_Header: PASCO_TC3_23_Record_Inspection_ScheduleInspection_ClickOK" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(3457): web_add_header("AppD_Header") was successful  	[MsgId: MMSG-26392]
+Action.c(3458): Error: Cannot start transaction "PASCO_TC3_23_Record_Inspection_ScheduleInspection_ClickOK". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Action.c(2758):     \t}else\r\n
+Action.c(2758):     \t{\r\n
+Action.c(2758):     \t\tdocument.getElementById('detailMessage').style.display='none';\r\n
+Action.c(2758):     \t}\r\n
+Action.c(2758):     \ttry{\t\t\r\n
+Action.c(2758):     \t\tthis.top.iframeResize();\r\n
+Action.c(2758):     \t}catch(e){}\r\n
+Action.c(2758):     \r\n
+Action.c(2758):     }\r\n
+Action.c(2758):     </script>\r\n
+Action.c(2758):     \t<noscript>\r\n
+Action.c(2758):     \t\tDo not support the scripting.\r\n
+Action.c(2758):     \t</noscript>\r\n
+Action.c(2758): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Permits"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

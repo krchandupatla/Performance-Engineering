@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\hboyina.ACCELAOPS\Desktop\PT-Ferrari\Scripts\Construct_CreateRecord\API_CreateRecord_MILARA
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\hboyina.accelaops\desktop\pt-ferrari\scripts\construct_createrecord\api_createrecord_milara\\logfile.log
+c:\users\hboyina.accelaops\desktop\pt-ferrari\scripts\construct_createrecord\api_createrecord_milara\\combined_API_CreateRecord_MILARA.c
+c:\users\hboyina.accelaops\desktop\pt-ferrari\scripts\construct_createrecord\api_createrecord_milara\\pre_cci.c

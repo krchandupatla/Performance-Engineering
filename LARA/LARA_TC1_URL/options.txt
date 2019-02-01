@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\hboyina.ACCELAOPS\Desktop\PT-Ferrari\Scripts\LARA\LARA_TC1
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\hboyina.accelaops\desktop\pt-ferrari\scripts\lara\lara_tc1\\logfile.log
+c:\users\hboyina.accelaops\desktop\pt-ferrari\scripts\lara\lara_tc1\\combined_LARA_TC1.c
+c:\users\hboyina.accelaops\desktop\pt-ferrari\scripts\lara\lara_tc1\\pre_cci.c

@@ -1,0 +1,5 @@
+Error: CCI compilation error -c:\users\hboyina.accelaops\appdata\local\temp\3\brr_wcj.94\global_dir\4541906\combined_MILARA_TC3.c:4: error: vuser_init.c: No such file or directory.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\users\hboyina.accelaops\appdata\local\temp\3\brr_wcj.94\global_dir\4541906\combined_MILARA_TC3.c:6: error: vuser_end.c: No such file or directory.	[MsgId: MERR-19799]
+Error: Vuser compilation failed. Please set CCIDebug to Off in CCI section of mdrv.dat file.	[MsgId: MERR-19797]
+Warning: Extension cciext.dll reports error -19797 on call to function ExtPerProcessInitialize	[MsgId: MWAR-10485]
+Error: Thread Context: Call to service of the driver failed, reason - thread context wasn't initialized on this thread.	[MsgId: MERR-10176]

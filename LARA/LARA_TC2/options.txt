@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Desktop_12182018\PT-Ferrari\Scripts\LARA\LARA_TC2
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ed:\desktop_12182018\pt-ferrari\scripts\lara\lara_tc2\\logfile.log
+d:\desktop_12182018\pt-ferrari\scripts\lara\lara_tc2\\combined_LARA_TC2.c
+d:\desktop_12182018\pt-ferrari\scripts\lara\lara_tc2\\pre_cci.c

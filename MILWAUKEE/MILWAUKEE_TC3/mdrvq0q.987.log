@@ -1,0 +1,910 @@
+Action.c(2078):     \t},\r\n
+Action.c(2078):     \t\r\n
+Action.c(2078):     \tonShowIconMouseMove: function (event)\r\n
+Action.c(2078):     \t{\r\n
+Action.c(2078):     \t\tvar iconDiv = event.currentTarget;\r\n
+Action.c(2078):     \t\tif (iconDiv.id == "srch_search")\r\n
+Action.c(2078):     \t\t{\r\n
+Action.c(2078):     \t\t\ticonDiv.src = "/portlets/commons/appspecinfo/images/srch_search_mousemove.png";\r\n
+Action.c(2078):     \t\t}\r\n
+Action.c(2078):     \t\telse if (iconDiv.id == "srch_clear")\r\n
+Action.c(2078):     \t\t{\r\n
+Action.c(2078):     \t\t\ticonDiv.src = "/portlets/commons/appspecinfo/images/srch_cancel_mousemove.png";\r\n
+Action.c(2078):     \t\t}\r\n
+Action.c(2078):     \t\telse if (iconDiv.id == "srch_set")\r\n
+Action.c(2078):     \t\t{\r\n
+Action.c(2078):     \t\t\ticonDiv.src = "/portlets/commons/appspecinfo/images/srch_arrow_mousemove.png";\r\n
+Action.c(2078):     \t\t}\r\n
+Action.c(2078):     \t},\r\n
+Action.c(2078):     \t\r\n
+Action.c(2078):     \tonShowIconMouseOut: function (event)\r\n
+Action.c(2078):     \t{\r\n
+Action.c(2078):     \t\tvar iconDiv = event.currentTarget;\r\n
+Action.c(2078):     \r\n
+Action.c(2078):     \t\tif (iconDiv.id == "srch_search")\r\n
+Action.c(2078):     \t\t{\r\n
+Action.c(2078):     \t\t\tthis._onShowIconMouseUp(iconDiv);\r\n
+Action.c(2078):     \t\t}\r\n
+Action.c(2078):     \t\telse if (iconDiv.id == "srch_clear")\r\n
+Action.c(2078):     \t\t{\r\n
+Action.c(2078):     \t\t\ticonDiv.src = "/portlets/commons/appspecinfo/images/srch_cancel_normal.png";\r\n
+Action.c(2078):     \t\t}\r\n
+Action.c(2078):     \t\telse if (iconDiv.id == "srch_set")\r\n
+Action.c(2078):     \t\t{\r\n
+Action.c(2078):     \t\t\ticonDiv.src = "/portlets/commons/appspecinfo/images/srch_arrow_normal.png";\r\n
+Action.c(2078):     \t\t}\r\n
+Action.c(2078):     \t},\r\n
+Action.c(2078):     \t\r\n
+Action.c(2078):     \tonShowIconMouseDown: function (event)\r\n
+Action.c(2078):     \t{\r\n
+Action.c(2078):     \t\tvar iconDiv = event.currentTarget;\r\n
+Action.c(2078):     \t\t\r\n
+Action.c(2078):     \t\tif (iconDiv.id == "srch_search")\r\n
+Action.c(2078):     \t\t{\r\n
+Action.c(2078):     \t\t\ticonDiv.src = "/portlets/commons/appspecinfo/images/srch_search_mousedown.png";\r\n
+Action.c(2078):     \t\t}\r\n
+Action.c(2078):     \t\telse if (iconDiv.id == "srch_clear")\r\n
+Action.c(2078):     \t\t{\r\n
+Action.c(2078):     \t\t\ticonDiv.src = "/portlets/commons/appspecinfo/images/srch_cancel_mousedown.png";\r\n
+Action.c(2078):     \t\t}\r\n
+Action.c(2078):     \t\telse if (iconDiv.id == "srch_set")\r\n
+Action.c(2078):     \t\t{\r\n
+Action.c(2078):     \t\t\ticonDiv.src = "/portlets/commons/appspecinfo/images/srch_arrow_mousedown.png";\r\n
+Action.c(2078):     \t\t}\r\n
+Action.c(2078):     \t},\r\n
+Action.c(2078):     \t\r\n
+Action.c(2078):     \tonShowIconMouseUp: function (event)\r\n
+Action.c(2078):     \t{\r\n
+Action.c(2078):     \t\tvar iconDiv = event.currentTarget;\r\n
+Action.c(2078):     \t\tthis._onShowIconMouseUp(iconDiv);\r\n
+Action.c(2078):     \t},\r\n
+Action.c(2078):     \t\r\n
+Action.c(2078):     \t_onShowIconMouseUp: function (iconDiv)\r\n
+Action.c(2078):     \t{\r\n
+Action.c(2078):     \t\tif (this.clearLink.style.display=='none' || this.clearLink.style.display=='')\r\n
+Action.c(2078):     \t\t{\r\n
+Action.c(2078):     \t\t\ticonDiv.src = "/portlets/commons/appspecinfo/images/srch_search_normal.png";\r\n
+Action.c(2078):     \t\t}\r\n
+Action.c(2078):     \t\telse\r\n
+Action.c(2078):     \t\t{\r\n
+Action.c(2078):     \t\t\ticonDiv.src = "/portlets/commons/appspecinfo/images/srch_search_input.png";\r\n
+Action.c(2078):     \t\t}\r\n
+Action.c(2078):     \t}\r\n
+Action.c(2078):     });\r\n
+Action.c(2078):     \r\n
+Action.c(2078):     /* END appSpecInfoTableFilter object */\r\n
+Action.c(2078): t=3736241ms: Request done "https://av-pt-ferrari.accela.com/portlets/commons/appspecinfo/appSpecInfoTableFilter.js"  	[MsgId: MMSG-26000]
+Action.c(2078): web_url("appSpecInfoTableForm.do") was successful, 21973 body bytes, 7388 header bytes, 331 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(2087): web_submit_data("search.do_3") started  	[MsgId: MMSG-26355]
+Action.c(2087): t=3736242ms: Already connected [0] to av-pt-ferrari.accela.com:443  	[MsgId: MMSG-26000]
+Action.c(2087): t=3736242ms: 1539-byte request headers for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2874)
+Action.c(2087):     POST /portlets/globalSearch/search.do?action=textResources HTTP/1.1\r\n
+Action.c(2087):     Content-Type: application/x-www-form-urlencoded\r\n
+Action.c(2087):     Referer: https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?mod
+Action.c(2087):     e=list&module=Building\r\n
+Action.c(2087):     User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
+Action.c(2087):     ome/37.0.2062.120 Safari/537.36\r\n
+Action.c(2087):     Accept-Encoding: gzip,deflate\r\n
+Action.c(2087):     Accept-Language: en-US,en;q=0.8\r\n
+Action.c(2087):     Accept: */*\r\n
+Action.c(2087):     Connection: Keep-Alive\r\n
+Action.c(2087):     Host: av-pt-ferrari.accela.com\r\n
+Action.c(2087):     Cookie: JSESSIONID=2GSYoD3my2Bdv26yIF572Hmr; LASTEST_REQUEST_TIME=1547797686002; LATEST_WE
+Action.c(2087):     B_SERVER=10.106.21.32; LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; UUID=ad65d4aa-0120-4771
+Action.c(2087):     -967e-146e0b90d517; LB_SESSION=!FOQpTHdtbcRf66htMa0UeW3ebJ0wgkkj7jzBakDBPy62TJd7oL70XtdCmK
+Action.c(2087):     FSmcEv6a3mNtR/eHcNyQ==; hostSignOn=true; g_current_language_ext=en_US; JSESSIONID=********
+Action.c(2087):     *******************; __cfduid=d31dcba031603d21d5c7ce8972fe1f1f01547797319; ACAuth=32980328
+Action.c(2087):     215427741099302136226136681601988308879439635043689695107848023600640758107965202796751697
+Action.c(2087):     963816776394376328863843873326; ACSignOnModule=SSOStandard; AAPersistLoginServProvCode=MIL
+Action.c(2087):     WAUKEE; LoginServProvCode4MultiAgency=MILWAUKEE; LoginUsername4MultiAgency=179DD13A186028F
+Action.c(2087):     4; ACSignoff="https://av-pt-ferrari.accela.com/portlets/security/signout.do"; ACSwitchAgen
+Action.c(2087):     cy="https://av-pt-ferrari.accela.com/portlets/commons/sso/blank.jsp"; ADRUM_BTa="R:103|g:1
+Action.c(2087):     2a17b3b-6fda-4a48-a4f7-8d5572616ff5|n:accela-nonprod_3f8cc631-4a71-4735-98d1-16be1d0e091f"
+Action.c(2087):     ; ADRUM_BT1="R:103|i:1519402|e:0|d:0"\r\n
+Action.c(2087):     Content-Length: 35\r\n
+Action.c(2087):     \r\n
+Action.c(2087): t=3736242ms: 35-byte request body for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2874)
+Action.c(2087):     categoryName=AppSpecInfoTableFilter
+Action.c(2087): t=3736282ms: 1597-byte response headers for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2874)
+Action.c(2087):     HTTP/1.1 200 OK\r\n
+Action.c(2087):     Server: Apache-Coyote/1.1\r\n
+Action.c(2087):     Set-Cookie: ADRUM_BTa="R:103|g:12a17b3b-6fda-4a48-a4f7-8d5572616ff5|n:accela-nonprod_3f8cc
+Action.c(2087):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 
+Action.c(2087):     GMT; Path=/; Secure\r\n
+Action.c(2087):     Set-Cookie: ADRUM_BT1="R:103|i:1519402|e:0|d:0"; Version=1; Max-Age=0; Expires=Thu, 01-Jan
+Action.c(2087):     -1970 00:00:10 GMT; Path=/; Secure\r\n
+Action.c(2087):     Set-Cookie: ADRUM_BTa="R:103|g:edb0a224-f39b-47e7-86b2-e98aa0673dfa"; Version=1; Max-Age=3
+Action.c(2087):     0; Expires=Fri, 18-Jan-2019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2087):     Set-Cookie: ADRUM_BTa="R:103|g:edb0a224-f39b-47e7-86b2-e98aa0673dfa|n:accela-nonprod_3f8cc
+Action.c(2087):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 07:48:36
+Action.c(2087):      GMT; Path=/; Secure\r\n
+Action.c(2087):     X-XSS-Protection: 0\r\n
+Action.c(2087):     Set-Cookie: LASTEST_REQUEST_TIME=1547797686049; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2087):     Set-Cookie: LATEST_WEB_SERVER=10.106.21.32; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2087):     Set-Cookie: LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; Domain=.accela.com; Path=/; Secure
+Action.c(2087):     \r\n
+Action.c(2087):     Pragma: No-cache\r\n
+Action.c(2087):     Cache-Control: no-cache\r\n
+Action.c(2087):     Expires: Thu, 01 Jan 1970 00:00:01 GMT\r\n
+Action.c(2087):     X-UA-Compatible: IE=EDGE\r\n
+Action.c(2087):     Set-Cookie: ADRUM_BT1="R:103|i:1519403"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 0
+Action.c(2087):     7:48:36 GMT; Path=/; Secure\r\n
+Action.c(2087):     Set-Cookie: ADRUM_BT1="R:103|i:1519403|e:15"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2
+Action.c(2087):     019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2087):     Content-Type: application/x-json;charset=UTF-8\r\n
+Action.c(2087):     Transfer-Encoding: chunked\r\n
+Action.c(2087):     Date: Fri, 18 Jan 2019 07:48:05 GMT\r\n
+Action.c(2087):     Set-Cookie: LB_SESSION=!IZGxOTJ5zk3KIU9tMa0UeW3ebJ0wghl9IQ3i2OY/JMq9lj6Tb1GXVNgeS0wLr23WlY
+Action.c(2087):     L7BlL7E4wKkw==; path=/; Httponly; Secure\r\n
+Action.c(2087):     \r\n
+Action.c(2087): t=3736283ms: 5-byte chunked response overhead for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2874)
+Action.c(2087):     2c4\r\n
+Action.c(2087): t=3736283ms: 2-byte chunked response overhead for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2874)
+Action.c(2087):     \r\n
+Action.c(2087): t=3736283ms: 708-byte chunked response body for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2874)
+Action.c(2087):     {"count":9,"textResources":[{"value":"Filter","key":"appspecinfotable.filter.searchbutton.
+Action.c(2087):     alt"}, {"value":"Set Columns","key":"appspecinfotable.filter.setbutton.alt"}, {"value":"Cl
+Action.c(2087):     ear Filter","key":"appspecinfotable.filter.clearbutton.alt"}, {"value":"Filter table...","
+Action.c(2087):     key":"appspecinfotable.filter.watermark.table"}, {"value":"Filter Text","key":"appspecinfo
+Action.c(2087):     table.filter.filtertext.alt"}, {"value":"Filter All","key":"appspecinfotable.filter.search
+Action.c(2087):     .all"}, {"value":"Filtered by:","key":"appspecinfotable.filter.search.desc"}, {"value":"{0
+Action.c(2087):     } record(s) found. ","key":"appspecinfotable.filter.search.statistics"}, {"value":"Filtere
+Action.c(2087):     d by selected columns...","key":"appspecinfotable.filter.watermark.columns"}]}
+Action.c(2087): t=3736284ms: 5-byte chunked response overhead for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2874)
+Action.c(2087):     0\r\n
+Action.c(2087):     \r\n
+Action.c(2087): t=3736284ms: Request done "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources"  	[MsgId: MMSG-26000]
+Action.c(2087): web_submit_data("search.do_3") was successful, 708 body bytes, 1597 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(2098): web_submit_data("empty.jsp_19") started  	[MsgId: MMSG-26355]
+Action.c(2098): t=3736284ms: Already connected [0] to av-pt-ferrari.accela.com:443  	[MsgId: MMSG-26000]
+Action.c(2098): t=3736284ms: 1481-byte request headers for "https://av-pt-ferrari.accela.com/portlets/framework/includes/error/empty.jsp" (RelFrameId=1, Internal ID=2875)
+Action.c(2098):     POST /portlets/framework/includes/error/empty.jsp HTTP/1.1\r\n
+Action.c(2098):     Content-Type: application/x-www-form-urlencoded\r\n
+Action.c(2098):     Referer: https://av-pt-ferrari.accela.com/portlets/spa/dashboard.do\r\n
+Action.c(2098):     User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
+Action.c(2098):     ome/37.0.2062.120 Safari/537.36\r\n
+Action.c(2098):     Accept-Encoding: gzip,deflate\r\n
+Action.c(2098):     Accept-Language: en-US,en;q=0.8\r\n
+Action.c(2098):     Accept: */*\r\n
+Action.c(2098):     Connection: Keep-Alive\r\n
+Action.c(2098):     Host: av-pt-ferrari.accela.com\r\n
+Action.c(2098):     Cookie: JSESSIONID=2GSYoD3my2Bdv26yIF572Hmr; LASTEST_REQUEST_TIME=1547797686049; LATEST_WE
+Action.c(2098):     B_SERVER=10.106.21.32; LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; UUID=ad65d4aa-0120-4771
+Action.c(2098):     -967e-146e0b90d517; LB_SESSION=!IZGxOTJ5zk3KIU9tMa0UeW3ebJ0wghl9IQ3i2OY/JMq9lj6Tb1GXVNgeS0
+Action.c(2098):     wLr23WlYL7BlL7E4wKkw==; hostSignOn=true; g_current_language_ext=en_US; JSESSIONID=********
+Action.c(2098):     *******************; __cfduid=d31dcba031603d21d5c7ce8972fe1f1f01547797319; ACAuth=32980328
+Action.c(2098):     215427741099302136226136681601988308879439635043689695107848023600640758107965202796751697
+Action.c(2098):     963816776394376328863843873326; ACSignOnModule=SSOStandard; AAPersistLoginServProvCode=MIL
+Action.c(2098):     WAUKEE; LoginServProvCode4MultiAgency=MILWAUKEE; LoginUsername4MultiAgency=179DD13A186028F
+Action.c(2098):     4; ACSignoff="https://av-pt-ferrari.accela.com/portlets/security/signout.do"; ACSwitchAgen
+Action.c(2098):     cy="https://av-pt-ferrari.accela.com/portlets/commons/sso/blank.jsp"; ADRUM_BTa="R:103|g:e
+Action.c(2098):     db0a224-f39b-47e7-86b2-e98aa0673dfa|n:accela-nonprod_3f8cc631-4a71-4735-98d1-16be1d0e091f"
+Action.c(2098):     ; ADRUM_BT1="R:103|i:1519403|e:15"\r\n
+Action.c(2098):     Content-Length: 0\r\n
+Action.c(2098):     \r\n
+Action.c(2098): t=3736294ms: 1721-byte response headers for "https://av-pt-ferrari.accela.com/portlets/framework/includes/error/empty.jsp" (RelFrameId=1, Internal ID=2875)
+Action.c(2098):     HTTP/1.1 200 OK\r\n
+Action.c(2098):     Server: Apache-Coyote/1.1\r\n
+Action.c(2098):     Set-Cookie: ADRUM_BTa="R:103|g:edb0a224-f39b-47e7-86b2-e98aa0673dfa|n:accela-nonprod_3f8cc
+Action.c(2098):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 
+Action.c(2098):     GMT; Path=/; Secure\r\n
+Action.c(2098):     Set-Cookie: ADRUM_BT1="R:103|i:1519403|e:15"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-19
+Action.c(2098):     70 00:00:10 GMT; Path=/; Secure\r\n
+Action.c(2098):     Set-Cookie: ADRUM_BTa="R:58|g:7d472e21-16a4-4ab0-a6ef-040b868c1f25"; Version=1; Max-Age=30
+Action.c(2098):     ; Expires=Fri, 18-Jan-2019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2098):     Set-Cookie: ADRUM_BTa="R:58|g:7d472e21-16a4-4ab0-a6ef-040b868c1f25|n:accela-nonprod_3f8cc6
+Action.c(2098):     31-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 07:48:36 
+Action.c(2098):     GMT; Path=/; Secure\r\n
+Action.c(2098):     X-XSS-Protection: 0\r\n
+Action.c(2098):     Set-Cookie: LASTEST_REQUEST_TIME=1547797686096; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2098):     Set-Cookie: LATEST_WEB_SERVER=10.106.21.32; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2098):     Set-Cookie: LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; Domain=.accela.com; Path=/; Secure
+Action.c(2098):     \r\n
+Action.c(2098):     Pragma: No-cache\r\n
+Action.c(2098):     Cache-Control: no-cache\r\n
+Action.c(2098):     Expires: Thu, 01 Jan 1970 00:00:01 GMT\r\n
+Action.c(2098):     X-UA-Compatible: IE=EDGE\r\n
+Action.c(2098):     Set-Cookie: ADRUM_BT1="R:58|i:1519399"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 07
+Action.c(2098):     :48:36 GMT; Path=/; Secure\r\n
+Action.c(2098):     Set-Cookie: ADRUM_BT1="R:58|i:1519399|e:0"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-201
+Action.c(2098):     9 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2098):     X-Powered-By: JSP/2.2\r\n
+Action.c(2098):     Set-Cookie: ADRUM_BT1="R:58|i:1519399|e:0|d:0"; Version=1; Max-Age=30; Expires=Fri, 18-Jan
+Action.c(2098):     -2019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2098):     Content-Type: text/html;charset=UTF-8\r\n
+Action.c(2098):     Content-Length: 79\r\n
+Action.c(2098):     Date: Fri, 18 Jan 2019 07:48:05 GMT\r\n
+Action.c(2098):     Set-Cookie: LB_SESSION=!mFDzPny4gTPjXx1tMa0UeW3ebJ0wgmxbXClWkcJgT/3bK0HhjFqwhKDzTs2/ifxT7M
+Action.c(2098):     b7Epa558Ntiw==; path=/; Httponly; Secure\r\n
+Action.c(2098):     \r\n
+Action.c(2098): t=3736295ms: 79-byte response body for "https://av-pt-ferrari.accela.com/portlets/framework/includes/error/empty.jsp" (RelFrameId=1, Internal ID=2875)
+Action.c(2098):     \r\n
+Action.c(2098):     \r\n
+Action.c(2098):     \r\n
+Action.c(2098):     <html>\r\n
+Action.c(2098):     <head>\r\n
+Action.c(2098):     <title>empty</title>\r\n
+Action.c(2098):     </head>\r\n
+Action.c(2098):     <body>\r\n
+Action.c(2098):     </body>\r\n
+Action.c(2098):     </html>\r\n
+Action.c(2098): t=3736296ms: Request done "https://av-pt-ferrari.accela.com/portlets/framework/includes/error/empty.jsp"  	[MsgId: MMSG-26000]
+Action.c(2098): web_submit_data("empty.jsp_19") was successful, 79 body bytes, 1721 header bytes  	[MsgId: MMSG-26386]
+Action.c(2108): web_custom_request("search.do_4") started  	[MsgId: MMSG-26355]
+Action.c(2108): t=3736296ms: Already connected [0] to av-pt-ferrari.accela.com:443  	[MsgId: MMSG-26000]
+Action.c(2108): t=3736296ms: 1537-byte request headers for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     POST /portlets/globalSearch/search.do?action=textResources HTTP/1.1\r\n
+Action.c(2108):     Content-Type: application/x-www-form-urlencoded\r\n
+Action.c(2108):     Referer: https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?mod
+Action.c(2108):     e=list&module=Building\r\n
+Action.c(2108):     User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
+Action.c(2108):     ome/37.0.2062.120 Safari/537.36\r\n
+Action.c(2108):     Accept-Encoding: gzip,deflate\r\n
+Action.c(2108):     Accept-Language: en-US,en;q=0.8\r\n
+Action.c(2108):     Accept: */*\r\n
+Action.c(2108):     Connection: Keep-Alive\r\n
+Action.c(2108):     Host: av-pt-ferrari.accela.com\r\n
+Action.c(2108):     Cookie: JSESSIONID=2GSYoD3my2Bdv26yIF572Hmr; LASTEST_REQUEST_TIME=1547797686096; LATEST_WE
+Action.c(2108):     B_SERVER=10.106.21.32; LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; UUID=ad65d4aa-0120-4771
+Action.c(2108):     -967e-146e0b90d517; LB_SESSION=!mFDzPny4gTPjXx1tMa0UeW3ebJ0wgmxbXClWkcJgT/3bK0HhjFqwhKDzTs
+Action.c(2108):     2/ifxT7Mb7Epa558Ntiw==; hostSignOn=true; g_current_language_ext=en_US; JSESSIONID=********
+Action.c(2108):     *******************; __cfduid=d31dcba031603d21d5c7ce8972fe1f1f01547797319; ACAuth=32980328
+Action.c(2108):     215427741099302136226136681601988308879439635043689695107848023600640758107965202796751697
+Action.c(2108):     963816776394376328863843873326; ACSignOnModule=SSOStandard; AAPersistLoginServProvCode=MIL
+Action.c(2108):     WAUKEE; LoginServProvCode4MultiAgency=MILWAUKEE; LoginUsername4MultiAgency=179DD13A186028F
+Action.c(2108):     4; ACSignoff="https://av-pt-ferrari.accela.com/portlets/security/signout.do"; ACSwitchAgen
+Action.c(2108):     cy="https://av-pt-ferrari.accela.com/portlets/commons/sso/blank.jsp"; ADRUM_BTa="R:58|g:7d
+Action.c(2108):     472e21-16a4-4ab0-a6ef-040b868c1f25|n:accela-nonprod_3f8cc631-4a71-4735-98d1-16be1d0e091f";
+Action.c(2108):      ADRUM_BT1="R:58|i:1519399|e:0|d:0"\r\n
+Action.c(2108):     Content-Length: 33\r\n
+Action.c(2108):     \r\n
+Action.c(2108): t=3736297ms: 33-byte request body for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     categoryName=Portlet - Expression
+Action.c(2108): t=3736334ms: 1595-byte response headers for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     HTTP/1.1 200 OK\r\n
+Action.c(2108):     Server: Apache-Coyote/1.1\r\n
+Action.c(2108):     Set-Cookie: ADRUM_BTa="R:58|g:7d472e21-16a4-4ab0-a6ef-040b868c1f25|n:accela-nonprod_3f8cc6
+Action.c(2108):     31-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 G
+Action.c(2108):     MT; Path=/; Secure\r\n
+Action.c(2108):     Set-Cookie: ADRUM_BT1="R:58|i:1519399|e:0|d:0"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-
+Action.c(2108):     1970 00:00:10 GMT; Path=/; Secure\r\n
+Action.c(2108):     Set-Cookie: ADRUM_BTa="R:103|g:9b9b510a-546a-4d46-bb12-2f49b7f84ae0"; Version=1; Max-Age=3
+Action.c(2108):     0; Expires=Fri, 18-Jan-2019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2108):     Set-Cookie: ADRUM_BTa="R:103|g:9b9b510a-546a-4d46-bb12-2f49b7f84ae0|n:accela-nonprod_3f8cc
+Action.c(2108):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 07:48:36
+Action.c(2108):      GMT; Path=/; Secure\r\n
+Action.c(2108):     X-XSS-Protection: 0\r\n
+Action.c(2108):     Set-Cookie: LASTEST_REQUEST_TIME=1547797686112; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2108):     Set-Cookie: LATEST_WEB_SERVER=10.106.21.32; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2108):     Set-Cookie: LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; Domain=.accela.com; Path=/; Secure
+Action.c(2108):     \r\n
+Action.c(2108):     Pragma: No-cache\r\n
+Action.c(2108):     Cache-Control: no-cache\r\n
+Action.c(2108):     Expires: Thu, 01 Jan 1970 00:00:01 GMT\r\n
+Action.c(2108):     X-UA-Compatible: IE=EDGE\r\n
+Action.c(2108):     Set-Cookie: ADRUM_BT1="R:103|i:1519403"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 0
+Action.c(2108):     7:48:36 GMT; Path=/; Secure\r\n
+Action.c(2108):     Set-Cookie: ADRUM_BT1="R:103|i:1519403|e:15"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2
+Action.c(2108):     019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2108):     Content-Type: application/x-json;charset=UTF-8\r\n
+Action.c(2108):     Transfer-Encoding: chunked\r\n
+Action.c(2108):     Date: Fri, 18 Jan 2019 07:48:05 GMT\r\n
+Action.c(2108):     Set-Cookie: LB_SESSION=!CnXCpXqOqcCcu/ltMa0UeW3ebJ0wguFsXp4nyqT4Q4RRbk0G9lhDAnUVzK4KMKNhVW
+Action.c(2108):     pviMePDP7hgw==; path=/; Httponly; Secure\r\n
+Action.c(2108):     \r\n
+Action.c(2108): t=3736335ms: 6-byte chunked response overhead for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     2000\r\n
+Action.c(2108): t=3736335ms: 1291-byte chunked response body for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     {"count":104,"textResources":[{"value":"message","key":"experssion.refExperssionForm.messa
+Action.c(2108):     ge.label"}, {"value":"read-only","key":"experssion.refExperssionForm.readOnly.label"}, {"v
+Action.c(2108):     alue":"required","key":"experssion.refExperssionForm.required.label"}, {"value":"value","k
+Action.c(2108):     ey":"experssion.refExperssionForm.value.label"}, {"value":"The Status Report For Last Impo
+Action.c(2108):     rt","key":"exportimport.importReport.statusrePortLast.title"}, {"value":"Additional Option
+Action.c(2108):     s","key":"expression.additionalOptions.form.label"}, {"value":"Custom Fields","key":"expre
+Action.c(2108):     ssion.asiFields.form.label"}, {"value":"Custom Lists Fields","key":"expression.asiTableFie
+Action.c(2108):     lds.form.label"}, {"value":"Custom Lists Subgroup","key":"expression.asiTableSubgroup.form
+Action.c(2108):     .label"}, {"value":"Field Name","key":"expression.criteria.fieldName.form.label"}, {"value
+Action.c(2108):     ":"Criteria","key":"expression.criteria.form.label"}, {"value":"Operator","key":"expressio
+Action.c(2108):     n.criteria.operator.form.label"}, {"value":"Prefix","key":"expression.criteria.prefix.form
+Action.c(2108):     .label"}, {"value":"Suffix","key":"expression.criteria.suffix.form.label"}, {"value":"Valu
+Action.c(2108):     e","key":"expression.criteria.value.form.label"}, {"value":"Behavior:","key":"expression.e
+Action.c(2108):     xpressions.behavior.form.label"}, {"value":"Calculate Expression","key":"expression.expres
+Action.c(2108):     sions.calculateExpression.form.
+Action.c(2108): t=3736336ms: 1380-byte chunked response body for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     label"}, {"value":"Field Name","key":"expression.expressions.fieldName.form.label"}, {"val
+Action.c(2108):     ue":"Expressions","key":"expression.expressions.form.label"}, {"value":"Property","key":"e
+Action.c(2108):     xpression.expressions.property.form.label"}, {"value":"Field Name","key":"expression.looku
+Action.c(2108):     pCriteria.fieldName.form.label"}, {"value":"Lookup Criteria","key":"expression.lookupCrite
+Action.c(2108):     ria.form.label"}, {"value":"Lookup Table Name","key":"expression.lookupCriteria.lookupTabl
+Action.c(2108):     eName.form.label"}, {"value":"Operator","key":"expression.lookupCriteria.operator.form.lab
+Action.c(2108):     el"}, {"value":"Prefix","key":"expression.lookupCriteria.prefix.form.label"}, {"value":"Re
+Action.c(2108):     turn Column","key":"expression.lookupCriteria.returnColumn.form.label"}, {"value":"Suffix"
+Action.c(2108):     ,"key":"expression.lookupCriteria.suffix.form.label"}, {"value":"Value","key":"expression.
+Action.c(2108):     lookupCriteria.value.form.label"}, {"value":"Calculate addDate(Date,int) error:","key":"ex
+Action.c(2108):     pression.message.CalculateAddDateError.lable"}, {"value":"Calculate diffDate(Date,Date) er
+Action.c(2108):     ror:","key":"expression.message.CalculateDiffdateError.lable"}, {"value":"calculation-","k
+Action.c(2108):     ey":"expression.message.Calculation.lable"}, {"value":"is not an valid date or date format
+Action.c(2108):     .","key":"expression.message.DateFormat.lable"}, {"value":"expression","key":"expression.m
+Action.c(2108):     essage.Expression.lable"}, {"value":"Failed to validate.","key":"expression.message.Failed
+Action.c(2108):     ToValidate.lable"}, {"value":"
+Action.c(2108): t=3736336ms: 1380-byte chunked response body for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     fieldName","key":"expression.message.FieldName.lable"}, {"value":"Initial referenced portl
+Action.c(2108):     et fields error - ","key":"expression.message.InitialReferenced.lable"}, {"value":"Initial
+Action.c(2108):      referenced portlet fields Error: The query SQL is empty.","key":"expression.message.Initi
+Action.c(2108):     alReferencedError.lable"}, {"value":"The length of this field cannot exceed to","key":"exp
+Action.c(2108):     ression.message.Length.lable"}, {"value":"Loading...","key":"expression.message.Loading.la
+Action.c(2108):     ble"}, {"value":"Migration failed. View the expression list that failed to migrate below."
+Action.c(2108):     ,"key":"expression.message.MigrateFailed.lable"}, {"value":"Migrated successfully.","key":
+Action.c(2108):     "expression.message.MigrateSuccessfully.lable"}, {"value":"Migrating...","key":"expression
+Action.c(2108):     .message.Migrating.lable"}, {"value":"No record(s) updated by expression.","key":"expressi
+Action.c(2108):     on.message.NoRecrodUpdatedExpression.lable"}, {"value":"Pay fields are not supported in cu
+Action.c(2108):     rrent release.","key":"expression.message.NotSupported.lable"}, {"value":"Calculation Fiel
+Action.c(2108):     d should only be target portlet field","key":"expression.message.OnlyBeTarget.lable"}, {"v
+Action.c(2108):     alue":"Parameters cannot be empty.","key":"expression.message.ParameterCanNotNull.lable"},
+Action.c(2108):      {"value":"First name, middle name and last name must be provided.","key":"expression.mess
+Action.c(2108):     age.ProvidedFullName.lable"}, {"value":"Please complete all fields in this request. Please
+Action.c(2108):      provide the Department, Servi
+Action.c(2108): t=3736337ms: 1380-byte chunked response body for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     ce, Agency, Bureau, Division, Section, Group and Office Codes.","key":"expression.message.
+Action.c(2108):     ProvidedMessage.lable"}, {"value":"Reference Portlet Value Should only use fields as below
+Action.c(2108):     :\\\\nRecord\\\\nASI\\\\nSession\\\\nTarget Portlet\\\\nConstant.","key":"expression.messa
+Action.c(2108):     ge.ReferencePortletValue.lable"}, {"value":"Required","key":"expression.message.Required.l
+Action.c(2108):     able"}, {"value":"You should input at least one calculation.","key":"expression.message.Sh
+Action.c(2108):     ouldInput.lable"}, {"value":"Validation passed.","key":"expression.message.ValidationPasse
+Action.c(2108):     d.lable"}, {"value":"is required","key":"expression.message.isRequired.lable"}, {"value":"
+Action.c(2108):     isRequiredMessage","key":"expression.message.isRequiredMessage.lable"}, {"value":"required
+Action.c(2108):     Message","key":"expression.message.requiredMessage.lable"}, {"value":"None Parameter","key
+Action.c(2108):     ":"expression.message.emseNoneParameterMessage"}, {"value":"Set EMSE Parameters","key":"ex
+Action.c(2108):     pression.emsescript.parameter.title"}, {"value":"Add EMSE Script line","key":"expression.t
+Action.c(2108):     itle.AddEMSEScriptLine.lable"}, {"value":"Delete EMSE Script line","key":"expression.title
+Action.c(2108):     .DeleteEMSEScriptLine.lable"}, {"value":"Please select at least one parameter to delete.",
+Action.c(2108):     "key":"expression.message.deleteEMSEParameterMessage"}, {"value":"Input Parameters","key":
+Action.c(2108):     "expression.scriptparameters.parametername.form.label"}, {"value":"Clear all EMSE Paramete
+Action.c(2108):     rs","key":"expression.emsescript.paramet
+Action.c(2108): t=3736337ms: 1380-byte chunked response body for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     er.clear"}, {"value":"Clear EMSE Parameter","key":"expression.message.clearEMSEParameterMe
+Action.c(2108):     ssage"}, {"value":"Please select another one","key":"expression.message.duplicateEMSEMessa
+Action.c(2108):     ge"}, {"value":"Please select EMSE Script","key":"expression.message.emptyEMSEMessage"}, {
+Action.c(2108):     "value":"Call EMSE Script","key":"expression.emsescript.form.label"}, {"value":"approved",
+Action.c(2108):     "key":"policy.contractorLicenseList.approved.label"}, {"value":"unApproved","key":"policy.
+Action.c(2108):     contractorLicenseList.unApproved.label"}, {"value":"EMSE Parameter Form","key":"expression
+Action.c(2108):     .scriptparameters.form.label"}, {"value":"EMSE Parameters","key":"expression.emsescript.sc
+Action.c(2108):     riptparameters.form.label"}, {"value":"EMSE Script Code","key":"expression.emsescript.scri
+Action.c(2108):     ptcode.form.label"}, {"value":"Custom Fields Group","key":"expression.asiGroup.label"}, {"
+Action.c(2108):     value":"fireEMSE","key":"expression.operators.functions.fireEMSE"}, {"value":"Expression i
+Action.c(2108):     s executed.","key":"expression.message.executed"}, {"value":"Select an Execute Field","key
+Action.c(2108):     ":"expression.refExpressionForm.selectExecField.label"}, {"value":"Session Variables","key
+Action.c(2108):     ":"expression.sessionVariables.form.label"}, {"value":"Add Criteria Line","key":"expressio
+Action.c(2108):     n.title.AddCriteriaLine.lable"}, {"value":"Add Expression Line","key":"expression.title.Ad
+Action.c(2108):     dExpressionLine.lable"}, {"value":"Clear Record Type","key":"expression.title.ClearCAPType
+Action.c(2108):     .lable"}, {"value":"Delete Cri
+Action.c(2108): t=3736338ms: 720-byte chunked response body for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     teria Line","key":"expression.title.DeleteCriteriaLine.lable"}, {"value":"Delete Expressio
+Action.c(2108):     n Line","key":"expression.title.DeleteExpressionLine.lable"}, {"value":"message","key":"ex
+Action.c(2108):     pression.title.Message.lable"}, {"value":"read-only","key":"expression.title.ReadOnly.labl
+Action.c(2108):     e"}, {"value":"required","key":"expression.title.TitleRequired.lable"}, {"value":"value","
+Action.c(2108):     key":"expression.title.Value.lable"}, {"value":"Save As","key":"menubar.expression.saveAs.
+Action.c(2108):     label"}, {"value":"Organization","key":"menu.portlets.organization.label"}, {"value":"Bool
+Action.c(2108):     ean Operator","key":"expression.criteria.booleanoperator.form.label"}, {"value":"hidden","
+Action.c(2108):     key":"expression.title.hidden.lable"}, {"value":"The Portlet Form can only fill in Calcula
+Action.c(2108): t=3736338ms: 7-byte chunked response overhead for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     \r\n
+Action.c(2108):     3d2\r\n
+Action.c(2108): t=3736338ms: 1373-byte chunked response body for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     tion Field.","key":"expression.message.onlyCalculationField.lable"}, {"value":"Are you sur
+Action.c(2108):     e you want to change the template form and clear the content of the expression?","key":"ex
+Action.c(2108):     pression.message.changetemplateform"}, {"value":"Are you sure you want to change the templ
+Action.c(2108):     ate table and clear the content of the expression?","key":"expression.message.changetempla
+Action.c(2108):     tetable"}, {"value":"Include in Condition Notice - Condition Name","key":"expression.varia
+Action.c(2108):     bletree.includeconditionnotice.conditionname.label"}, {"value":"Include in Condition Notic
+Action.c(2108):     e - Short Comments","key":"expression.variabletree.includeconditionnotice.shortcomments.la
+Action.c(2108):     bel"}, {"value":"Display Notice - Accela Automation","key":"expression.variabletree.displa
+Action.c(2108):     ynotice.aa.label"}, {"value":"Display Notice - ACA","key":"expression.variabletree.display
+Action.c(2108):     notice.aca.label"}, {"value":"Display Notice - ACA Fee Estimate Page","key":"expression.va
+Action.c(2108):     riabletree.displaynotice.acafee.label"}, {"value":"Insert Table Row","key":"expression.exp
+Action.c(2108):     ressions.behavior.form.insertrow.label"}, {"value":"Update Table Row","key":"expression.ex
+Action.c(2108):     pressions.behavior.form.updaterow.label"}, {"value":"blockSubmit","key":"expression.title.
+Action.c(2108):     blockSubmit.lable"}, {"value":"Calculation Field should only be Template Table Field.","ke
+Action.c(2108):     y":"expression.message.onlybetemplate.lable"}, {"value":"Value","key":"expression.scriptpa
+Action.c(2108):     rameters.parametervalue
+Action.c(2108): t=3736339ms: 7-byte chunked response overhead for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     \r\n
+Action.c(2108):     0\r\n
+Action.c(2108):     \r\n
+Action.c(2108): t=3736339ms: 266-byte chunked response body for "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources" (RelFrameId=1, Internal ID=2876)
+Action.c(2108):     .form.label"}, {"value":"Task name cannot be used as calculation field.","key":"expression
+Action.c(2108):     .message.tasknameerror.lable"}, {"value":"Are you sure you want to change contact type and
+Action.c(2108):      clear the content in the expression?","key":"expression.message.changecontacttype"}]}
+Action.c(2108): t=3736339ms: Request done "https://av-pt-ferrari.accela.com/portlets/globalSearch/search.do?action=textResources"  	[MsgId: MMSG-26000]
+Action.c(2108): web_custom_request("search.do_4") was successful, 9170 body bytes, 1595 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(2119): web_custom_request("expression.do_3") started  	[MsgId: MMSG-26355]
+Action.c(2119): t=3736340ms: Already connected [0] to av-pt-ferrari.accela.com:443  	[MsgId: MMSG-26000]
+Action.c(2119): t=3736340ms: 1533-byte request headers for "https://av-pt-ferrari.accela.com/portlets/expression/expression.do?mode=getFields" (RelFrameId=1, Internal ID=2877)
+Action.c(2119):     POST /portlets/expression/expression.do?mode=getFields HTTP/1.1\r\n
+Action.c(2119):     Content-Type: application/x-www-form-urlencoded\r\n
+Action.c(2119):     Referer: https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?mod
+Action.c(2119):     e=list&module=Building\r\n
+Action.c(2119):     User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
+Action.c(2119):     ome/37.0.2062.120 Safari/537.36\r\n
+Action.c(2119):     Accept-Encoding: gzip,deflate\r\n
+Action.c(2119):     Accept-Language: en-US,en;q=0.8\r\n
+Action.c(2119):     Accept: */*\r\n
+Action.c(2119):     Connection: Keep-Alive\r\n
+Action.c(2119):     Host: av-pt-ferrari.accela.com\r\n
+Action.c(2119):     Cookie: JSESSIONID=2GSYoD3my2Bdv26yIF572Hmr; LASTEST_REQUEST_TIME=1547797686112; LATEST_WE
+Action.c(2119):     B_SERVER=10.106.21.32; LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; UUID=ad65d4aa-0120-4771
+Action.c(2119):     -967e-146e0b90d517; LB_SESSION=!CnXCpXqOqcCcu/ltMa0UeW3ebJ0wguFsXp4nyqT4Q4RRbk0G9lhDAnUVzK
+Action.c(2119):     4KMKNhVWpviMePDP7hgw==; hostSignOn=true; g_current_language_ext=en_US; JSESSIONID=********
+Action.c(2119):     *******************; __cfduid=d31dcba031603d21d5c7ce8972fe1f1f01547797319; ACAuth=32980328
+Action.c(2119):     215427741099302136226136681601988308879439635043689695107848023600640758107965202796751697
+Action.c(2119):     963816776394376328863843873326; ACSignOnModule=SSOStandard; AAPersistLoginServProvCode=MIL
+Action.c(2119):     WAUKEE; LoginServProvCode4MultiAgency=MILWAUKEE; LoginUsername4MultiAgency=179DD13A186028F
+Action.c(2119):     4; ACSignoff="https://av-pt-ferrari.accela.com/portlets/security/signout.do"; ACSwitchAgen
+Action.c(2119):     cy="https://av-pt-ferrari.accela.com/portlets/commons/sso/blank.jsp"; ADRUM_BTa="R:103|g:9
+Action.c(2119):     b9b510a-546a-4d46-bb12-2f49b7f84ae0|n:accela-nonprod_3f8cc631-4a71-4735-98d1-16be1d0e091f"
+Action.c(2119):     ; ADRUM_BT1="R:103|i:1519403|e:15"\r\n
+Action.c(2119):     Content-Length: 248\r\n
+Action.c(2119):     \r\n
+Action.c(2119): t=3736340ms: 248-byte request body for "https://av-pt-ferrari.accela.com/portlets/expression/expression.do?mode=getFields" (RelFrameId=1, Internal ID=2877)
+Action.c(2119):     argumentPKs=%5B%7B%22portletID%22%3A-2%2C%22viewKey1%22%3A%22PIPE%20FOOTAGE%22%2C%22viewKe
+Action.c(2119):     y2%22%3A%22%22%2C%22viewKey3%22%3A%22%22%7D%5D&expressionPageType=SINGLEPORTLET&isReload=f
+Action.c(2119):     alse&module=Building&capType=Building%2FPlumbing%2FGas%20Piping%2FNA
+Action.c(2119): t=3736361ms: 1706-byte response headers for "https://av-pt-ferrari.accela.com/portlets/expression/expression.do?mode=getFields" (RelFrameId=1, Internal ID=2877)
+Action.c(2119):     HTTP/1.1 200 OK\r\n
+Action.c(2119):     Server: Apache-Coyote/1.1\r\n
+Action.c(2119):     Set-Cookie: ADRUM_BTa="R:103|g:9b9b510a-546a-4d46-bb12-2f49b7f84ae0|n:accela-nonprod_3f8cc
+Action.c(2119):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 
+Action.c(2119):     GMT; Path=/; Secure\r\n
+Action.c(2119):     Set-Cookie: ADRUM_BT1="R:103|i:1519403|e:15"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-19
+Action.c(2119):     70 00:00:10 GMT; Path=/; Secure\r\n
+Action.c(2119):     Set-Cookie: ADRUM_BTa="R:103|g:3ae948e3-534b-4170-aff6-9d9688373cc9"; Version=1; Max-Age=3
+Action.c(2119):     0; Expires=Fri, 18-Jan-2019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2119):     Set-Cookie: ADRUM_BTa="R:103|g:3ae948e3-534b-4170-aff6-9d9688373cc9|n:accela-nonprod_3f8cc
+Action.c(2119):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 07:48:36
+Action.c(2119):      GMT; Path=/; Secure\r\n
+Action.c(2119):     X-XSS-Protection: 0\r\n
+Action.c(2119):     Set-Cookie: LASTEST_REQUEST_TIME=1547797686143; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2119):     Set-Cookie: LATEST_WEB_SERVER=10.106.21.32; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2119):     Set-Cookie: LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; Domain=.accela.com; Path=/; Secure
+Action.c(2119):     \r\n
+Action.c(2119):     Pragma: No-cache\r\n
+Action.c(2119):     Cache-Control: no-cache\r\n
+Action.c(2119):     Expires: Thu, 01 Jan 1970 00:00:01 GMT\r\n
+Action.c(2119):     X-UA-Compatible: IE=EDGE\r\n
+Action.c(2119):     Set-Cookie: ADRUM_BT1="R:103|i:1519404"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 0
+Action.c(2119):     7:48:36 GMT; Path=/; Secure\r\n
+Action.c(2119):     Set-Cookie: ADRUM_BT1="R:103|i:1519404|e:15"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2
+Action.c(2119):     019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2119):     Set-Cookie: ADRUM_BT1="R:103|i:1519404|e:15|d:15"; Version=1; Max-Age=30; Expires=Fri, 18-
+Action.c(2119):     Jan-2019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2119):     Content-Type: text/html;charset=UTF-8\r\n
+Action.c(2119):     Content-Length: 37\r\n
+Action.c(2119):     Date: Fri, 18 Jan 2019 07:48:05 GMT\r\n
+Action.c(2119):     Set-Cookie: LB_SESSION=!MpTU+voiUrnB12ZtMa0UeW3ebJ0wglLqrutuTPSRbMPZGUjqb3upM+7UFWk3LOz+b6
+Action.c(2119):     coyM+IDtllug==; path=/; Httponly; Secure\r\n
+Action.c(2119):     \r\n
+Action.c(2119): t=3736362ms: 37-byte response body for "https://av-pt-ferrari.accela.com/portlets/expression/expression.do?mode=getFields" (RelFrameId=1, Internal ID=2877)
+Action.c(2119):     {"isReload":false,"executeFields":[]}
+Action.c(2119): t=3736362ms: Request done "https://av-pt-ferrari.accela.com/portlets/expression/expression.do?mode=getFields"  	[MsgId: MMSG-26000]
+Action.c(2119): web_custom_request("expression.do_3") was successful, 37 body bytes, 1706 header bytes  	[MsgId: MMSG-26386]
+Action.c(2130): web_custom_request("tabRecordCount.do_9") started  	[MsgId: MMSG-26355]
+Action.c(2130): Notify: Parameter Substitution: parameter "Param_ID3" =  "0001Q"	[MsgId: MMSG-13992]
+Action.c(2130): t=3736362ms: Already connected [0] to av-pt-ferrari.accela.com:443  	[MsgId: MMSG-26000]
+Action.c(2130): t=3736363ms: 1575-byte request headers for "https://av-pt-ferrari.accela.com/portlets/cap/tabRecordCount.do?module=Building&ID1=18CAP&ID2=00000&ID3=0001Q&xmlin=%3Croot%3E%3CcountID%3E18%3C/countID%3E%3C/root%3E" (RelFrameId=1, Internal ID=2878)
+Action.c(2130):     GET /portlets/cap/tabRecordCount.do?module=Building&ID1=18CAP&ID2=00000&ID3=0001Q&xmlin=%3
+Action.c(2130):     Croot%3E%3CcountID%3E18%3C/countID%3E%3C/root%3E HTTP/1.1\r\n
+Action.c(2130):     Content-Type: txt/xml\r\n
+Action.c(2130):     Referer: https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?mod
+Action.c(2130):     e=list&module=Building\r\n
+Action.c(2130):     User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
+Action.c(2130):     ome/37.0.2062.120 Safari/537.36\r\n
+Action.c(2130):     Accept-Encoding: gzip,deflate\r\n
+Action.c(2130):     Accept-Language: en-US,en;q=0.8\r\n
+Action.c(2130):     Accept: */*\r\n
+Action.c(2130):     Connection: Keep-Alive\r\n
+Action.c(2130):     Host: av-pt-ferrari.accela.com\r\n
+Action.c(2130):     Cookie: JSESSIONID=2GSYoD3my2Bdv26yIF572Hmr; LASTEST_REQUEST_TIME=1547797686143; LATEST_WE
+Action.c(2130):     B_SERVER=10.106.21.32; LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; UUID=ad65d4aa-0120-4771
+Action.c(2130):     -967e-146e0b90d517; LB_SESSION=!MpTU+voiUrnB12ZtMa0UeW3ebJ0wglLqrutuTPSRbMPZGUjqb3upM+7UFW
+Action.c(2130):     k3LOz+b6coyM+IDtllug==; hostSignOn=true; g_current_language_ext=en_US; JSESSIONID=********
+Action.c(2130):     *******************; __cfduid=d31dcba031603d21d5c7ce8972fe1f1f01547797319; ACAuth=32980328
+Action.c(2130):     215427741099302136226136681601988308879439635043689695107848023600640758107965202796751697
+Action.c(2130):     963816776394376328863843873326; ACSignOnModule=SSOStandard; AAPersistLoginServProvCode=MIL
+Action.c(2130):     WAUKEE; LoginServProvCode4MultiAgency=MILWAUKEE; LoginUsername4MultiAgency=179DD13A186028F
+Action.c(2130):     4; ACSignoff="https://av-pt-ferrari.accela.com/portlets/security/signout.do"; ACSwitchAgen
+Action.c(2130):     cy="https://av-pt-ferrari.accela.com/portlets/commons/sso/blank.jsp"; ADRUM_BTa="R:103|g:3
+Action.c(2130):     ae948e3-534b-4170-aff6-9d9688373cc9|n:accela-nonprod_3f8cc631-4a71-4735-98d1-16be1d0e091f"
+Action.c(2130):     ; ADRUM_BT1="R:103|i:1519404|e:15|d:15"\r\n
+Action.c(2130):     \r\n
+Action.c(2130): t=3736397ms: 1752-byte response headers for "https://av-pt-ferrari.accela.com/portlets/cap/tabRecordCount.do?module=Building&ID1=18CAP&ID2=00000&ID3=0001Q&xmlin=%3Croot%3E%3CcountID%3E18%3C/countID%3E%3C/root%3E" (RelFrameId=1, Internal ID=2878)
+Action.c(2130):     HTTP/1.1 200 OK\r\n
+Action.c(2130):     Server: Apache-Coyote/1.1\r\n
+Action.c(2130):     Cache-Control: no-cache\r\n
+Action.c(2130):     Expires: Wed, 31 Dec 1969 16:00:00 PST\r\n
+Action.c(2130):     Set-Cookie: ADRUM_BTa="R:103|g:3ae948e3-534b-4170-aff6-9d9688373cc9|n:accela-nonprod_3f8cc
+Action.c(2130):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 
+Action.c(2130):     GMT; Path=/; Secure\r\n
+Action.c(2130):     Set-Cookie: ADRUM_BT1="R:103|i:1519404|e:15|d:15"; Version=1; Max-Age=0; Expires=Thu, 01-J
+Action.c(2130):     an-1970 00:00:10 GMT; Path=/; Secure\r\n
+Action.c(2130):     Set-Cookie: ADRUM_BTa="R:103|g:7e6355e0-fcc9-40a1-b79d-f4f80e606135"; Version=1; Max-Age=3
+Action.c(2130):     0; Expires=Fri, 18-Jan-2019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2130):     Set-Cookie: ADRUM_BTa="R:103|g:7e6355e0-fcc9-40a1-b79d-f4f80e606135|n:accela-nonprod_3f8cc
+Action.c(2130):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 07:48:36
+Action.c(2130):      GMT; Path=/; Secure\r\n
+Action.c(2130):     X-XSS-Protection: 0\r\n
+Action.c(2130):     Set-Cookie: LASTEST_REQUEST_TIME=1547797686174; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2130):     Set-Cookie: LATEST_WEB_SERVER=10.106.21.32; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2130):     Set-Cookie: LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; Domain=.accela.com; Path=/; Secure
+Action.c(2130):     \r\n
+Action.c(2130):     Pragma: No-cache\r\n
+Action.c(2130):     Set-Cookie: ADRUM_BT1="R:103|i:1519400|e:105"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-
+Action.c(2130):     2019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2130):     Expires: Thu, 01 Jan 1970 00:00:01 GMT\r\n
+Action.c(2130):     X-UA-Compatible: IE=EDGE\r\n
+Action.c(2130):     Set-Cookie: ADRUM_BT1="R:103|i:1519400"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 0
+Action.c(2130):     7:48:36 GMT; Path=/; Secure\r\n
+Action.c(2130):     Set-Cookie: ADRUM_BT1="R:103|i:1519400|e:105|d:16"; Version=1; Max-Age=30; Expires=Fri, 18
+Action.c(2130):     -Jan-2019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2130):     Content-Type: text/xml;charset=UTF-8\r\n
+Action.c(2130):     Content-Length: 77\r\n
+Action.c(2130):     Date: Fri, 18 Jan 2019 07:48:05 GMT\r\n
+Action.c(2130):     Set-Cookie: LB_SESSION=!esDm+XZ+1GF6lgxtMa0UeW3ebJ0wgkssG4ast10lO9eiawVSVVi/w34guusVRuWsUP
+Action.c(2130):     RSfGBCzPG1eA==; path=/; Httponly; Secure\r\n
+Action.c(2130):     \r\n
+Action.c(2130): t=3736398ms: 77-byte response body for "https://av-pt-ferrari.accela.com/portlets/cap/tabRecordCount.do?module=Building&ID1=18CAP&ID2=00000&ID3=0001Q&xmlin=%3Croot%3E%3CcountID%3E18%3C/countID%3E%3C/root%3E" (RelFrameId=1, Internal ID=2878)
+Action.c(2130):     <root><count><countID>18</countID><recordCount>0</recordCount></count></root>
+Action.c(2130): t=3736399ms: Request done "https://av-pt-ferrari.accela.com/portlets/cap/tabRecordCount.do?module=Building&ID1=18CAP&ID2=00000&ID3=0001Q&xmlin=%3Croot%3E%3CcountID%3E18%3C/countID%3E%3C/root%3E"  	[MsgId: MMSG-26000]
+Action.c(2130): web_custom_request("tabRecordCount.do_9") was successful, 77 body bytes, 1752 header bytes  	[MsgId: MMSG-26386]
+Action.c(2141): web_custom_request("tabRecordCount.do_10") started  	[MsgId: MMSG-26355]
+Action.c(2141): Notify: Parameter Substitution: parameter "Param_ID3" =  "0001Q"	[MsgId: MMSG-13992]
+Action.c(2141): t=3736399ms: Already connected [0] to av-pt-ferrari.accela.com:443  	[MsgId: MMSG-26000]
+Action.c(2141): t=3736399ms: 2214-byte request headers for "https://av-pt-ferrari.accela.com/portlets/cap/tabRecordCount.do?module=Building&ID1=18CAP&ID2=00000&ID3=0001Q&xmlin=%3Croot%3E%3CcountID%3E5%3C/countID%3E%3CcountID%3E6%3C/countID%3E%3CcountID%3E2%3C/countID%3E%3CcountID%3E134%3C/countID%3E%3CcountID%3E23%3C/countID%3E%3CcountID%3E17%3C/countID%3E%3CcountID%3E397%3C/countID%3E%3CcountID%3E1%3C/countID%3E%3CcountID%3E21%3C/countID%3E%3CcountID%3E10%3C/countID%3E%3CcountID%3E133%3C/countID%3E%3CcountID%3E8%3C/countID%3E%3CcountID%3E19%3C/countID%3E%3CcountID%3E373%3C/countID%3E%3CcountID%3E14%3C/countID%3E%3CcountID%3E12%3C/countID%3E%3CcountID%3E13%3C/countID%3E%3CcountID%3E371%3C/countID%3E%3CcountID%3E27%3C/countID%3E%3CcountID%3E360%3C/countID%3E%3CcountID%3E3%3C/countID%3E%3CcountID%3E152%3C/countID%3E%3CcountID%3E4%3C/countID%3E%3C/root%3E" (RelFrameId=1, Internal ID=2879)
+Action.c(2141):     GET /portlets/cap/tabRecordCount.do?module=Building&ID1=18CAP&ID2=00000&ID3=0001Q&xmlin=%3
+Action.c(2141):     Croot%3E%3CcountID%3E5%3C/countID%3E%3CcountID%3E6%3C/countID%3E%3CcountID%3E2%3C/countID%
+Action.c(2141):     3E%3CcountID%3E134%3C/countID%3E%3CcountID%3E23%3C/countID%3E%3CcountID%3E17%3C/countID%3E
+Action.c(2141):     %3CcountID%3E397%3C/countID%3E%3CcountID%3E1%3C/countID%3E%3CcountID%3E21%3C/countID%3E%3C
+Action.c(2141):     countID%3E10%3C/countID%3E%3CcountID%3E133%3C/countID%3E%3CcountID%3E8%3C/countID%3E%3Ccou
+Action.c(2141):     ntID%3E19%3C/countID%3E%3CcountID%3E373%3C/countID%3E%3CcountID%3E14%3C/countID%3E%3Ccount
+Action.c(2141):     ID%3E12%3C/countID%3E%3CcountID%3E13%3C/countID%3E%3CcountID%3E371%3C/countID%3E%3CcountID
+Action.c(2141):     %3E27%3C/countID%3E%3CcountID%3E360%3C/countID%3E%3CcountID%3E3%3C/countID%3E%3CcountID%3E
+Action.c(2141):     152%3C/countID%3E%3CcountID%3E4%3C/countID%3E%3C/root%3E HTTP/1.1\r\n
+Action.c(2141):     Content-Type: txt/xml\r\n
+Action.c(2141):     Referer: https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?mod
+Action.c(2141):     e=list&module=Building\r\n
+Action.c(2141):     User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
+Action.c(2141):     ome/37.0.2062.120 Safari/537.36\r\n
+Action.c(2141):     Accept-Encoding: gzip,deflate\r\n
+Action.c(2141):     Accept-Language: en-US,en;q=0.8\r\n
+Action.c(2141):     Accept: */*\r\n
+Action.c(2141):     Connection: Keep-Alive\r\n
+Action.c(2141):     Host: av-pt-ferrari.accela.com\r\n
+Action.c(2141):     Cookie: JSESSIONID=2GSYoD3my2Bdv26yIF572Hmr; LASTEST_REQUEST_TIME=1547797686174; LATEST_WE
+Action.c(2141):     B_SERVER=10.106.21.32; LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; UUID=ad65d4aa-0120-4771
+Action.c(2141):     -967e-146e0b90d517; LB_SESSION=!esDm+XZ+1GF6lgxtMa0UeW3ebJ0wgkssG4ast10lO9eiawVSVVi/w34guu
+Action.c(2141):     sVRuWsUPRSfGBCzPG1eA==; hostSignOn=true; g_current_language_ext=en_US; JSESSIONID=********
+Action.c(2141):     *******************; __cfduid=d31dcba031603d21d5c7ce8972fe1f1f01547797319; ACAuth=32980328
+Action.c(2141):     215427741099302136226136681601988308879439635043689695107848023600640758107965202796751697
+Action.c(2141):     963816776394376328863843873326; ACSignOnModule=SSOStandard; AAPersistLoginServProvCode=MIL
+Action.c(2141):     WAUKEE; LoginServProvCode4MultiAgency=MILWAUKEE; LoginUsername4MultiAgency=179DD13A186028F
+Action.c(2141):     4; ACSignoff="https://av-pt-ferrari.accela.com/portlets/security/signout.do"; ACSwitchAgen
+Action.c(2141):     cy="https://av-pt-ferrari.accela.com/portlets/commons/sso/blank.jsp"; ADRUM_BTa="R:103|g:7
+Action.c(2141):     e6355e0-fcc9-40a1-b79d-f4f80e606135|n:accela-nonprod_3f8cc631-4a71-4735-98d1-16be1d0e091f"
+Action.c(2141):     ; ADRUM_BT1="R:103|i:1519400|e:105|d:16"\r\n
+Action.c(2141):     \r\n
+Action.c(2141): t=3736478ms: 1755-byte response headers for "https://av-pt-ferrari.accela.com/portlets/cap/tabRecordCount.do?module=Building&ID1=18CAP&ID2=00000&ID3=0001Q&xmlin=%3Croot%3E%3CcountID%3E5%3C/countID%3E%3CcountID%3E6%3C/countID%3E%3CcountID%3E2%3C/countID%3E%3CcountID%3E134%3C/countID%3E%3CcountID%3E23%3C/countID%3E%3CcountID%3E17%3C/countID%3E%3CcountID%3E397%3C/countID%3E%3CcountID%3E1%3C/countID%3E%3CcountID%3E21%3C/countID%3E%3CcountID%3E10%3C/countID%3E%3CcountID%3E133%3C/countID%3E%3CcountID%3E8%3C/countID%3E%3CcountID%3E19%3C/countID%3E%3CcountID%3E373%3C/countID%3E%3CcountID%3E14%3C/countID%3E%3CcountID%3E12%3C/countID%3E%3CcountID%3E13%3C/countID%3E%3CcountID%3E371%3C/countID%3E%3CcountID%3E27%3C/countID%3E%3CcountID%3E360%3C/countID%3E%3CcountID%3E3%3C/countID%3E%3CcountID%3E152%3C/countID%3E%3CcountID%3E4%3C/countID%3E%3C/root%3E" (RelFrameId=1, Internal ID=2879)
+Action.c(2141):     HTTP/1.1 200 OK\r\n
+Action.c(2141):     Server: Apache-Coyote/1.1\r\n
+Action.c(2141):     Cache-Control: no-cache\r\n
+Action.c(2141):     Expires: Wed, 31 Dec 1969 16:00:00 PST\r\n
+Action.c(2141):     Set-Cookie: ADRUM_BTa="R:103|g:7e6355e0-fcc9-40a1-b79d-f4f80e606135|n:accela-nonprod_3f8cc
+Action.c(2141):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 
+Action.c(2141):     GMT; Path=/; Secure\r\n
+Action.c(2141):     Set-Cookie: ADRUM_BT1="R:103|i:1519400|e:105|d:16"; Version=1; Max-Age=0; Expires=Thu, 01-
+Action.c(2141):     Jan-1970 00:00:10 GMT; Path=/; Secure\r\n
+Action.c(2141):     Set-Cookie: ADRUM_BTa="R:103|g:2cb69ea6-f732-4cd5-9e63-e27b10b3ea30"; Version=1; Max-Age=3
+Action.c(2141):     0; Expires=Fri, 18-Jan-2019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2141):     Set-Cookie: ADRUM_BTa="R:103|g:2cb69ea6-f732-4cd5-9e63-e27b10b3ea30|n:accela-nonprod_3f8cc
+Action.c(2141):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 07:48:36
+Action.c(2141):      GMT; Path=/; Secure\r\n
+Action.c(2141):     X-XSS-Protection: 0\r\n
+Action.c(2141):     Set-Cookie: LASTEST_REQUEST_TIME=1547797686205; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2141):     Set-Cookie: LATEST_WEB_SERVER=10.106.21.32; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2141):     Set-Cookie: LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; Domain=.accela.com; Path=/; Secure
+Action.c(2141):     \r\n
+Action.c(2141):     Pragma: No-cache\r\n
+Action.c(2141):     Set-Cookie: ADRUM_BT1="R:103|i:1519400|e:105"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-
+Action.c(2141):     2019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2141):     Expires: Thu, 01 Jan 1970 00:00:01 GMT\r\n
+Action.c(2141):     X-UA-Compatible: IE=EDGE\r\n
+Action.c(2141):     Set-Cookie: ADRUM_BT1="R:103|i:1519400"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 0
+Action.c(2141):     7:48:36 GMT; Path=/; Secure\r\n
+Action.c(2141):     Set-Cookie: ADRUM_BT1="R:103|i:1519400|e:105|d:63"; Version=1; Max-Age=30; Expires=Fri, 18
+Action.c(2141):     -Jan-2019 07:48:36 GMT; Path=/; Secure\r\n
+Action.c(2141):     Content-Type: text/xml;charset=UTF-8\r\n
+Action.c(2141):     Content-Length: 1487\r\n
+Action.c(2141):     Date: Fri, 18 Jan 2019 07:48:05 GMT\r\n
+Action.c(2141):     Set-Cookie: LB_SESSION=!4aUSNRDPVU8hhBRtMa0UeW3ebJ0wgupFc7i36o5s413VExRnQjHsypfFj8UJpI7rkh
+Action.c(2141):     42OU70qkDtPg==; path=/; Httponly; Secure\r\n
+Action.c(2141):     \r\n
+Action.c(2141): t=3736479ms: 1137-byte response body for "https://av-pt-ferrari.accela.com/portlets/cap/tabRecordCount.do?module=Building&ID1=18CAP&ID2=00000&ID3=0001Q&xmlin=%3Croot%3E%3CcountID%3E5%3C/countID%3E%3CcountID%3E6%3C/countID%3E%3CcountID%3E2%3C/countID%3E%3CcountID%3E134%3C/countID%3E%3CcountID%3E23%3C/countID%3E%3CcountID%3E17%3C/countID%3E%3CcountID%3E397%3C/countID%3E%3CcountID%3E1%3C/countID%3E%3CcountID%3E21%3C/countID%3E%3CcountID%3E10%3C/countID%3E%3CcountID%3E133%3C/countID%3E%3CcountID%3E8%3C/countID%3E%3CcountID%3E19%3C/countID%3E%3CcountID%3E373%3C/countID%3E%3CcountID%3E14%3C/countID%3E%3CcountID%3E12%3C/countID%3E%3CcountID%3E13%3C/countID%3E%3CcountID%3E371%3C/countID%3E%3CcountID%3E27%3C/countID%3E%3CcountID%3E360%3C/countID%3E%3CcountID%3E3%3C/countID%3E%3CcountID%3E152%3C/countID%3E%3CcountID%3E4%3C/countID%3E%3C/root%3E" (RelFrameId=1, Internal ID=2879)
+Action.c(2141):     <root><count><countID>5</countID><recordCount>0</recordCount></count><count><countID>6</co
+Action.c(2141):     untID><recordCount>24</recordCount></count><count><countID>2</countID><recordCount>1</reco
+Action.c(2141):     rdCount></count><count><countID>134</countID><recordCount>5</recordCount></count><count><c
+Action.c(2141):     ountID>23</countID><recordCount>0</recordCount></count><count><countID>17</countID><record
+Action.c(2141):     Count>0</recordCount></count><count><countID>397</countID><recordCount>0</recordCount></co
+Action.c(2141):     unt><count><countID>1</countID><recordCount>1</recordCount></count><count><countID>21</cou
+Action.c(2141):     ntID><recordCount>0</recordCount></count><count><countID>10</countID><recordCount>4</recor
+Action.c(2141):     dCount></count><count><countID>133</countID><recordCount>4</recordCount></count><count><co
+Action.c(2141):     untID>8</countID><recordCount>1</recordCount></count><count><countID>19</countID><recordCo
+Action.c(2141):     unt>1</recordCount></count><count><countID>373</countID><recordCount>0</recordCount></coun
+Action.c(2141):     t><count><countID>14</countID><recordCount>1</recordCount></count><count><countID>12</coun
+Action.c(2141):     tID><recordCount>1</recordCount></count><count><countID>13</countID><recordCount>1</record
+Action.c(2141):     Count></count><count><countID>371</countID><recordCount>0
+Action.c(2141): t=3736479ms: 350-byte response body for "https://av-pt-ferrari.accela.com/portlets/cap/tabRecordCount.do?module=Building&ID1=18CAP&ID2=00000&ID3=0001Q&xmlin=%3Croot%3E%3CcountID%3E5%3C/countID%3E%3CcountID%3E6%3C/countID%3E%3CcountID%3E2%3C/countID%3E%3CcountID%3E134%3C/countID%3E%3CcountID%3E23%3C/countID%3E%3CcountID%3E17%3C/countID%3E%3CcountID%3E397%3C/countID%3E%3CcountID%3E1%3C/countID%3E%3CcountID%3E21%3C/countID%3E%3CcountID%3E10%3C/countID%3E%3CcountID%3E133%3C/countID%3E%3CcountID%3E8%3C/countID%3E%3CcountID%3E19%3C/countID%3E%3CcountID%3E373%3C/countID%3E%3CcountID%3E14%3C/countID%3E%3CcountID%3E12%3C/countID%3E%3CcountID%3E13%3C/countID%3E%3CcountID%3E371%3C/countID%3E%3CcountID%3E27%3C/countID%3E%3CcountID%3E360%3C/countID%3E%3CcountID%3E3%3C/countID%3E%3CcountID%3E152%3C/countID%3E%3CcountID%3E4%3C/countID%3E%3C/root%3E" (RelFrameId=1, Internal ID=2879)
+Action.c(2141):     </recordCount></count><count><countID>27</countID><recordCount>0</recordCount></count><cou
+Action.c(2141):     nt><countID>360</countID><recordCount>0</recordCount></count><count><countID>3</countID><r
+Action.c(2141):     ecordCount>0</recordCount></count><count><countID>152</countID><recordCount>0</recordCount
+Action.c(2141):     ></count><count><countID>4</countID><recordCount>25</recordCount></count></root>
+Action.c(2141): t=3736479ms: Request done "https://av-pt-ferrari.accela.com/portlets/cap/tabRecordCount.do?module=Building&ID1=18CAP&ID2=00000&ID3=0001Q&xmlin=%3Croot%3E%3CcountID%3E5%3C/countID%3E%3CcountID%3E6%3C/countID%3E%3CcountID%3E2%3C/countID%3E%3CcountID%3E134%3C/countID%3E%3CcountID%3E23%3C/countID%3E%3CcountID%3E17%3C/countID%3E%3CcountID%3E397%3C/countID%3E%3CcountID%3E1%3C/countID%3E%3CcountID%3E21%3C/countID%3E%3CcountID%3E10%3C/countID%3E%3CcountID%3E133%3C/countID%3E%3CcountID%3E8%3C/countID%3E%3CcountID%3E19%3C/countID%3E%3CcountID%3E373%3C/countID%3E%3CcountID%3E14%3C/countID%3E%3CcountID%3E12%3C/countID%3E%3CcountID%3E13%3C/countID%3E%3CcountID%3E371%3C/countID%3E%3CcountID%3E27%3C/countID%3E%3CcountID%3E360%3C/countID%3E%3CcountID%3E3%3C/countID%3E%3CcountID%3E152%3C/countID%3E%3CcountID%3E4%3C/countID%3E%3C/root%3E"  	[MsgId: MMSG-26000]
+Action.c(2141): web_custom_request("tabRecordCount.do_10") was successful, 1487 body bytes, 1755 header bytes  	[MsgId: MMSG-26386]
+Action.c(2152): Notify: Transaction "MILWAUKEE_TC3_13_Record_Click_CustomList" ended with a "Pass" status (Duration: 0.4572).	[MsgId: MMSG-16873]
+Action.c(2154): lr_think_time: 4.00 seconds.	[MsgId: MMSG-15948]
+Action.c(2155): web_add_header("AppD_Header") started  	[MsgId: MMSG-26355]
+Action.c(2155): An unrecognized header ("AppD_Header") is being added  	[MsgId: MMSG-26595]
+Action.c(2155): "AppD_Header: MILWAUKEE_TC3_14_Records_CustomList_Save" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(2155): web_add_header("AppD_Header") was successful  	[MsgId: MMSG-26392]
+Action.c(2156): Notify: Transaction "MILWAUKEE_TC3_14_Records_CustomList_Save" started.	[MsgId: MMSG-16999]
+Action.c(2158): web_url("session.do_23") started  	[MsgId: MMSG-26355]
+Action.c(2158): t=3740484ms: Already connected [0] to av-pt-ferrari.accela.com:443  	[MsgId: MMSG-26000]
+Action.c(2158): t=3740484ms: 1556-byte request headers for "https://av-pt-ferrari.accela.com/portlets/spa/session.do?mode=activateSpace&spaceName=spaces.4e772&module=Building" (RelFrameId=1, Internal ID=2880)
+Action.c(2158):     GET /portlets/spa/session.do?mode=activateSpace&spaceName=spaces.4e772&module=Building HTT
+Action.c(2158):     P/1.1\r\n
+Action.c(2158):     Referer: https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?mod
+Action.c(2158):     e=list&module=Building\r\n
+Action.c(2158):     AppD_Header: MILWAUKEE_TC3_14_Records_CustomList_Save\r\n
+Action.c(2158):     User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
+Action.c(2158):     ome/37.0.2062.120 Safari/537.36\r\n
+Action.c(2158):     Accept-Encoding: gzip,deflate\r\n
+Action.c(2158):     Accept-Language: en-US,en;q=0.8\r\n
+Action.c(2158):     Accept: */*\r\n
+Action.c(2158):     Connection: Keep-Alive\r\n
+Action.c(2158):     Host: av-pt-ferrari.accela.com\r\n
+Action.c(2158):     Cookie: JSESSIONID=2GSYoD3my2Bdv26yIF572Hmr; LASTEST_REQUEST_TIME=1547797686205; LATEST_WE
+Action.c(2158):     B_SERVER=10.106.21.32; LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; UUID=ad65d4aa-0120-4771
+Action.c(2158):     -967e-146e0b90d517; LB_SESSION=!4aUSNRDPVU8hhBRtMa0UeW3ebJ0wgupFc7i36o5s413VExRnQjHsypfFj8
+Action.c(2158):     UJpI7rkh42OU70qkDtPg==; hostSignOn=true; g_current_language_ext=en_US; JSESSIONID=********
+Action.c(2158):     *******************; __cfduid=d31dcba031603d21d5c7ce8972fe1f1f01547797319; ACAuth=32980328
+Action.c(2158):     215427741099302136226136681601988308879439635043689695107848023600640758107965202796751697
+Action.c(2158):     963816776394376328863843873326; ACSignOnModule=SSOStandard; AAPersistLoginServProvCode=MIL
+Action.c(2158):     WAUKEE; LoginServProvCode4MultiAgency=MILWAUKEE; LoginUsername4MultiAgency=179DD13A186028F
+Action.c(2158):     4; ACSignoff="https://av-pt-ferrari.accela.com/portlets/security/signout.do"; ACSwitchAgen
+Action.c(2158):     cy="https://av-pt-ferrari.accela.com/portlets/commons/sso/blank.jsp"; ADRUM_BTa="R:103|g:2
+Action.c(2158):     cb69ea6-f732-4cd5-9e63-e27b10b3ea30|n:accela-nonprod_3f8cc631-4a71-4735-98d1-16be1d0e091f"
+Action.c(2158):     ; ADRUM_BT1="R:103|i:1519400|e:105|d:63"\r\n
+Action.c(2158):     \r\n
+Action.c(2158): t=3740495ms: 1718-byte response headers for "https://av-pt-ferrari.accela.com/portlets/spa/session.do?mode=activateSpace&spaceName=spaces.4e772&module=Building" (RelFrameId=1, Internal ID=2880)
+Action.c(2158):     HTTP/1.1 200 OK\r\n
+Action.c(2158):     Server: Apache-Coyote/1.1\r\n
+Action.c(2158):     Set-Cookie: ADRUM_BTa="R:103|g:2cb69ea6-f732-4cd5-9e63-e27b10b3ea30|n:accela-nonprod_3f8cc
+Action.c(2158):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 
+Action.c(2158):     GMT; Path=/; Secure\r\n
+Action.c(2158):     Set-Cookie: ADRUM_BT1="R:103|i:1519400|e:105|d:63"; Version=1; Max-Age=0; Expires=Thu, 01-
+Action.c(2158):     Jan-1970 00:00:10 GMT; Path=/; Secure\r\n
+Action.c(2158):     Set-Cookie: ADRUM_BTa="R:103|g:0c1523a7-719e-4fe3-a296-7d61cd10e79f"; Version=1; Max-Age=3
+Action.c(2158):     0; Expires=Fri, 18-Jan-2019 07:48:40 GMT; Path=/; Secure\r\n
+Action.c(2158):     Set-Cookie: ADRUM_BTa="R:103|g:0c1523a7-719e-4fe3-a296-7d61cd10e79f|n:accela-nonprod_3f8cc
+Action.c(2158):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 07:48:40
+Action.c(2158):      GMT; Path=/; Secure\r\n
+Action.c(2158):     X-XSS-Protection: 0\r\n
+Action.c(2158):     Set-Cookie: LASTEST_REQUEST_TIME=1547797690284; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2158):     Set-Cookie: LATEST_WEB_SERVER=10.106.21.32; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2158):     Set-Cookie: LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; Domain=.accela.com; Path=/; Secure
+Action.c(2158):     \r\n
+Action.c(2158):     Pragma: No-cache\r\n
+Action.c(2158):     Cache-Control: no-cache\r\n
+Action.c(2158):     Expires: Thu, 01 Jan 1970 00:00:01 GMT\r\n
+Action.c(2158):     X-UA-Compatible: IE=EDGE\r\n
+Action.c(2158):     Set-Cookie: ADRUM_BT1="R:103|i:1519694"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 0
+Action.c(2158):     7:48:40 GMT; Path=/; Secure\r\n
+Action.c(2158):     Set-Cookie: ADRUM_BT1="R:103|i:1519694|e:41"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2
+Action.c(2158):     019 07:48:40 GMT; Path=/; Secure\r\n
+Action.c(2158):     Set-Cookie: ADRUM_BT1="R:103|i:1519694|e:41|d:0"; Version=1; Max-Age=30; Expires=Fri, 18-J
+Action.c(2158):     an-2019 07:48:40 GMT; Path=/; Secure\r\n
+Action.c(2158):     Content-Type: application/json;charset=UTF-8\r\n
+Action.c(2158):     Content-Length: 56\r\n
+Action.c(2158):     Date: Fri, 18 Jan 2019 07:48:10 GMT\r\n
+Action.c(2158):     Set-Cookie: LB_SESSION=!YZkXStbUZouza7NtMa0UeW3ebJ0wgn5s91TW4H8BTesyMLaMuaZ2slCbkrX1LXgadr
+Action.c(2158):     KZlVagizFFBg==; path=/; Httponly; Secure\r\n
+Action.c(2158):     \r\n
+Action.c(2158): t=3740496ms: 56-byte response body for "https://av-pt-ferrari.accela.com/portlets/spa/session.do?mode=activateSpace&spaceName=spaces.4e772&module=Building" (RelFrameId=1, Internal ID=2880)
+Action.c(2158):     {"result":{"CURRENT_SPACE":"spaces.4e772"},"status":200}
+Action.c(2158): t=3740496ms: Request done "https://av-pt-ferrari.accela.com/portlets/spa/session.do?mode=activateSpace&spaceName=spaces.4e772&module=Building"  	[MsgId: MMSG-26000]
+Action.c(2158): web_url("session.do_23") was successful, 56 body bytes, 1718 header bytes  	[MsgId: MMSG-26386]
+Action.c(2167): web_submit_data("appSpecInfoTableForm.do_2") started  	[MsgId: MMSG-26355]
+Action.c(2167): Notify: Parameter Substitution: parameter "Param_ID3" =  "0001Q"	[MsgId: MMSG-13992]
+Action.c(2167): t=3740497ms: Already connected [0] to av-pt-ferrari.accela.com:443  	[MsgId: MMSG-26000]
+Action.c(2167): t=3740497ms: 1549-byte request headers for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building" (RelFrameId=1, Internal ID=2881)
+Action.c(2167):     POST /portlets/appspecinfo/appSpecInfoTableForm.do?module=Building HTTP/1.1\r\n
+Action.c(2167):     Content-Type: application/x-www-form-urlencoded\r\n
+Action.c(2167):     Referer: https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?mod
+Action.c(2167):     e=list&module=Building\r\n
+Action.c(2167):     User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
+Action.c(2167):     ome/37.0.2062.120 Safari/537.36\r\n
+Action.c(2167):     Accept-Encoding: gzip,deflate\r\n
+Action.c(2167):     Accept-Language: en-US,en;q=0.8\r\n
+Action.c(2167):     Accept: */*\r\n
+Action.c(2167):     Connection: Keep-Alive\r\n
+Action.c(2167):     Host: av-pt-ferrari.accela.com\r\n
+Action.c(2167):     Cookie: JSESSIONID=2GSYoD3my2Bdv26yIF572Hmr; LASTEST_REQUEST_TIME=1547797690284; LATEST_WE
+Action.c(2167):     B_SERVER=10.106.21.32; LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; UUID=ad65d4aa-0120-4771
+Action.c(2167):     -967e-146e0b90d517; LB_SESSION=!YZkXStbUZouza7NtMa0UeW3ebJ0wgn5s91TW4H8BTesyMLaMuaZ2slCbkr
+Action.c(2167):     X1LXgadrKZlVagizFFBg==; hostSignOn=true; g_current_language_ext=en_US; JSESSIONID=********
+Action.c(2167):     *******************; __cfduid=d31dcba031603d21d5c7ce8972fe1f1f01547797319; ACAuth=32980328
+Action.c(2167):     215427741099302136226136681601988308879439635043689695107848023600640758107965202796751697
+Action.c(2167):     963816776394376328863843873326; ACSignOnModule=SSOStandard; AAPersistLoginServProvCode=MIL
+Action.c(2167):     WAUKEE; LoginServProvCode4MultiAgency=MILWAUKEE; LoginUsername4MultiAgency=179DD13A186028F
+Action.c(2167):     4; ACSignoff="https://av-pt-ferrari.accela.com/portlets/security/signout.do"; ACSwitchAgen
+Action.c(2167):     cy="https://av-pt-ferrari.accela.com/portlets/commons/sso/blank.jsp"; ADRUM_BTa="R:103|g:0
+Action.c(2167):     c1523a7-719e-4fe3-a296-7d61cd10e79f|n:accela-nonprod_3f8cc631-4a71-4735-98d1-16be1d0e091f"
+Action.c(2167):     ; ADRUM_BT1="R:103|i:1519694|e:41|d:0"\r\n
+Action.c(2167):     Content-Length: 936\r\n
+Action.c(2167):     \r\n
+Action.c(2167): t=3740498ms: 936-byte request body for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building" (RelFrameId=1, Internal ID=2881)
+Action.c(2167):     value%28FirstEntryURL%29=%2Fportlets%2Fappspecinfo%2FappSpecInfoTableForm.do%3Fmode%3Dlist
+Action.c(2167):     %26module%3DBuilding&value%28CurrentEntryURL%29=%2Fportlets%2Fappspecinfo%2FappSpecInfoTab
+Action.c(2167):     leForm.do%3Fmode%3Dlist%26module%3DBuilding&portlet_language=en_US&refresh_target=&refresh
+Action.c(2167):     _url=&buttonName=&modeName=list&module=Building&accelasubmitbuttonname=Save&itemName=&Curr
+Action.c(2167):     entViewID=&exceptionLogID=&generalCAPSearch=&objectName=&CheckBoxName=&MaxNumber=&ExportFi
+Action.c(2167):     leType=print&CurrentViewID=&sessionIdFromWindow=PqSvzpeQYx9--b5OQ0Z7M4BJ&listID=&printType
+Action.c(2167):     =&checkBoxValue=&expression_portlet_to_be_populate=-2&expression_portlet_to_be_populate=-9
+Action.c(2167):     9999&expressionPageType=SINGLEPORTLET&expression_page_reload_after_submit_or_validate_fail
+Action.c(2167):     ed=true&value%28appSpecTable*tableName%29=DNS_GAS_LIST%3A%3APIPE%2BFOOTAGE&value%28capID*I
+Action.c(2167):     D1%29=18CAP&value%28capID*ID2%29=00000&value%28capID*ID3%29=0001Q&tableName=DNS_GAS_LIST%3
+Action.c(2167):     A%3APIPE%2BFOOTAGE&INTEGRITY_CHECK=0
+Action.c(2167): t=3740571ms: 3101-byte response headers for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building" (RelFrameId=1, Internal ID=2881)
+Action.c(2167):     HTTP/1.1 500 Internal Server Error\r\n
+Action.c(2167):     Server: Apache-Coyote/1.1\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BTa="R:103|g:0c1523a7-719e-4fe3-a296-7d61cd10e79f|n:accela-nonprod_3f8cc
+Action.c(2167):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 
+Action.c(2167):     GMT; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BT1="R:103|i:1519694|e:41|d:0"; Version=1; Max-Age=0; Expires=Thu, 01-Ja
+Action.c(2167):     n-1970 00:00:10 GMT; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BTa="R:103|g:36f110c2-7320-4379-941a-6b3a200d6f09"; Version=1; Max-Age=3
+Action.c(2167):     0; Expires=Fri, 18-Jan-2019 07:48:40 GMT; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BTa="R:103|g:36f110c2-7320-4379-941a-6b3a200d6f09|n:accela-nonprod_3f8cc
+Action.c(2167):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 07:48:40
+Action.c(2167):      GMT; Path=/; Secure\r\n
+Action.c(2167):     X-XSS-Protection: 0\r\n
+Action.c(2167):     Set-Cookie: LASTEST_REQUEST_TIME=1547797690299; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: LATEST_WEB_SERVER=10.106.21.32; Domain=.accela.com; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: LATEST_SESSION_ID=2GSYoD3my2Bdv26yIF572Hmr; Domain=.accela.com; Path=/; Secure
+Action.c(2167):     \r\n
+Action.c(2167):     Pragma: No-cache\r\n
+Action.c(2167):     Cache-Control: no-cache\r\n
+Action.c(2167):     Expires: Thu, 01 Jan 1970 00:00:01 GMT\r\n
+Action.c(2167):     X-UA-Compatible: IE=EDGE\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BT1="R:103|i:1519652"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 0
+Action.c(2167):     7:48:40 GMT; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BT1="R:103|i:1519652|e:352"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-
+Action.c(2167):     2019 07:48:40 GMT; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BTs="R:103|s:f"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 07:48:4
+Action.c(2167):     0 GMT; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BTh="R:103|h:e"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 07:48:4
+Action.c(2167):     0 GMT; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BT1="R:103|i:1519652|e:352|d:16"; Version=1; Max-Age=30; Expires=Fri, 18
+Action.c(2167):     -Jan-2019 07:48:40 GMT; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BTa="R:103|g:0c1523a7-719e-4fe3-a296-7d61cd10e79f|n:accela-nonprod_3f8cc
+Action.c(2167):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 
+Action.c(2167):     GMT; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BT1="R:103|i:1519694|e:41|d:0"; Version=1; Max-Age=0; Expires=Thu, 01-Ja
+Action.c(2167):     n-1970 00:00:10 GMT; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BTa="R:103|g:e948c1ba-33aa-4006-b8ed-8d1c6fc1a82b"; Version=1; Max-Age=3
+Action.c(2167):     0; Expires=Fri, 18-Jan-2019 07:48:40 GMT; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BTa="R:103|g:e948c1ba-33aa-4006-b8ed-8d1c6fc1a82b|n:accela-nonprod_3f8cc
+Action.c(2167):     631-4a71-4735-98d1-16be1d0e091f"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 07:48:40
+Action.c(2167):      GMT; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BT1="R:103|i:1519399"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-2019 0
+Action.c(2167):     7:48:40 GMT; Path=/; Secure\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BT1="R:103|i:1519399|e:0"; Version=1; Max-Age=30; Expires=Fri, 18-Jan-20
+Action.c(2167):     19 07:48:40 GMT; Path=/; Secure\r\n
+Action.c(2167):     X-Powered-By: JSP/2.2\r\n
+Action.c(2167):     Set-Cookie: ADRUM_BT1="R:103|i:1519399|e:0|d:0"; Version=1; Max-Age=30; Expires=Fri, 18-Ja
+Action.c(2167):     n-2019 07:48:40 GMT; Path=/; Secure\r\n
+Action.c(2167):     Content-Type: text/html;charset=UTF-8\r\n
+Action.c(2167):     Transfer-Encoding: chunked\r\n
+Action.c(2167):     Content-Encoding: gzip\r\n
+Action.c(2167):     Vary: Accept-Encoding\r\n
+Action.c(2167):     Date: Fri, 18 Jan 2019 07:48:10 GMT\r\n
+Action.c(2167):     Connection: close\r\n
+Action.c(2167):     Set-Cookie: LB_SESSION=!M9fg7r4xP/747UFtMa0UeW3ebJ0wglDPchxa8w8XCYlOKWHd7QLS8EGwGnBJpC7n8C
+Action.c(2167):     oanCu9qggFow==; path=/; Httponly; Secure\r\n
+Action.c(2167):     \r\n
+Action.c(2167): t=3740572ms: 3-byte chunked response overhead for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building" (RelFrameId=1, Internal ID=2881)
+Action.c(2167):     a\r\n
+Action.c(2167): t=3740572ms: 2-byte chunked response overhead for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building" (RelFrameId=1, Internal ID=2881)
+Action.c(2167):     \r\n
+Action.c(2167): t=3740572ms: 10-byte ENCODED response body received for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building" (RelFrameId=1, Internal ID=2881)
+Action.c(2167): t=3740572ms: 5-byte chunked response overhead for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building" (RelFrameId=1, Internal ID=2881)
+Action.c(2167):     200\r\n
+Action.c(2167): t=3740573ms: 6-byte chunked response overhead for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building" (RelFrameId=1, Internal ID=2881)
+Action.c(2167):     \r\n
+Action.c(2167):     5c\r\n
+Action.c(2167): t=3740573ms: 7-byte chunked response overhead for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building" (RelFrameId=1, Internal ID=2881)
+Action.c(2167):     \r\n
+Action.c(2167):     0\r\n
+Action.c(2167):     \r\n
+Action.c(2167): t=3740573ms: 604-byte ENCODED response body received for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building" (RelFrameId=1, Internal ID=2881)
+Action.c(2167): t=3740573ms: 1179-byte DECODED response body for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building" (RelFrameId=1, Internal ID=2881)
+Action.c(2167):     \r\n
+Action.c(2167):     \r\n
+Action.c(2167):     \r\n
+Action.c(2167):     \r\n
+Action.c(2167):     \r\n
+Action.c(2167):     \r\n
+Action.c(2167):     \r\n
+Action.c(2167):     <script type="text/javascript" src="/portlets/framework/includes/javascript/ac360base.js">
+Action.c(2167):     </script><script type="text/javascript" src="/portlets/framework/includes/javascript/widge
+Action.c(2167):     t/widget.js"></script>\r\n
+Action.c(2167):     <table border="0" cellpadding="0" cellspacing="0" width=100%>\r\n
+Action.c(2167):       <tr> \r\n
+Action.c(2167):         <td  width="83%" class="AlignL">\r\n
+Action.c(2167):           <p>An error has occurred while processing your request.</p>\r\n
+Action.c(2167):           \r\n
+Action.c(2167):        <p> Please contact <a href='mailto:DEFAULT_AGENCY_EMAIL'>Agency Administrator. </a></p>
+Action.c(2167):     \r\n
+Action.c(2167):        \r\n
+Action.c(2167):     \t\t</td>\r\n
+Action.c(2167):       </tr>\r\n
+Action.c(2167):       <input type="hidden" name="exceptionLogID" value=""/>\r\n
+Action.c(2167):     </table>\r\n
+Action.c(2167):     <p></p>\r\n
+Action.c(2167):     \r\n
+Action.c(2167):     \r\n
+Action.c(2167):     \r\n
+Action.c(2167):     <div id="detailMessage" style="display:none"><b>\r\n
+Action.c(2167):     </b></div>\r\n
+Action.c(2167):     \r\n
+Action.c(2167):     <script language="javascript">\r\n
+Action.c(2167):     var processBarObj = new UI.ProcessBar();\r\n
+Action.c(2167):     processBarObj.forceDestroy(processBarObj.getTargetDoc().targetDoc);\r\n
+Action.c(2167):     function showError()\r\n
+Action.c(2167):     {\r\n
+Action.c(2167):     \tif(document.getElementById('detailMessage').style.display == 'none')\r\n
+Action.c(2167):     \t{\t\r\n
+Action.c(2167):     \t\tdocument.getElementById('detailMessage').style.display='';\r\n
+Action.c(2167):     \t}else\r\n
+Action.c(2167):     \t{\r\n
+Action.c(2167):     \t\tdocument.getElementById('detailMessage').style.display='none';\r\n
+Action.c(2167):     \t}\r\n
+Action.c(2167):     \ttry{\t\t\r\n
+Action.c(2167):     \t\tthis.top.iframeResize();\r\n
+Action.c(2167):     \t}catch(e){}\r\n
+Action.c(2167):     \r\n
+Action.c(2167):     }\r\n
+Action.c(2167):     </script>\r\n
+Action.c(2167):     \t<noscript>\r\n
+Action.c(2167):     \t\tDo not support the scripting.\r\n
+Action.c(2167):     \t</noscript>\r\n
+Action.c(2167): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building"  	[MsgId: MERR-26612]
+Action.c(2167): t=3740574ms: Closing connection [0] to server av-pt-ferrari.accela.com - server indicated that the connection should be closed  	[MsgId: MMSG-26000]
+Action.c(2167): t=3740575ms: Closed connection [0] to av-pt-ferrari.accela.com:443 after completing 136 request(s)  	[MsgId: MMSG-26000]
+Action.c(2167): t=3740575ms: Request done "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building"  	[MsgId: MMSG-26000]
+Action.c(2167): web_submit_data("appSpecInfoTableForm.do_2") highest severity level was "ERROR", 614 body bytes, 3101 header bytes, 23 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(2167): Notify: Transaction "MILWAUKEE_TC3_14_Records_CustomList_Save" ended with a "Fail" status (Duration: 0.0919).	[MsgId: MMSG-16873]
+Action.c(2167): Notify: Transaction "MILWAUKEE_TC3_14_Records_CustomList_Save" has 1 error message(s).	[MsgId: MMSG-16818]
+Action.c(2167): Notify: The 1st error message associated with transaction "MILWAUKEE_TC3_14_Records_CustomList_Save" is "Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://av-pt-ferrari.accela.com/portlets/appspecinfo/appSpecInfoTableForm.do?module=Building""	[MsgId: MMSG-16819]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(2167): t=3740576ms: Closed connection [1] to av-pt-ferrari.accela.com:443 after completing 6 request(s)  	[MsgId: MMSG-26000]
+Action.c(2167): t=3740577ms: Closed connection [2] to www.accela.com:443 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(2167): t=3740577ms: Closed connection [3] to av-pt-ferrari.accela.com:443 after completing 8 request(s)  	[MsgId: MMSG-26000]
+Action.c(2167): t=3740578ms: Closed connection [4] to av-pt-ferrari.accela.com:443 after completing 4 request(s)  	[MsgId: MMSG-26000]
+Action.c(2167): t=3740578ms: Closed connection [5] to www.accela.com:443 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(2167): t=3740578ms: Closed connection [6] to av-pt-ferrari.accela.com:443 after completing 2 request(s)  	[MsgId: MMSG-26000]
+Action.c(2167): t=3740578ms: Closed connection [7] to av-pt-ferrari.accela.com:443 after completing 3 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=79, NonReusable=18, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 78352), ended OK."	[MsgId: MMSG-10695]

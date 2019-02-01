@@ -1,0 +1,19 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(713):     etailModel*asgnStaff%29=
+Action.c(713): t=404929ms: Inactive socket [5] was closed by www.accela.com:443, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+Action.c(713): t=404930ms: Closed connection [5] to www.accela.com:443 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(713): t=405001ms: Inactive socket [2] was closed by www.accela.com:443, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+Action.c(713): t=405001ms: Closed connection [2] to www.accela.com:443 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(713): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(713): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]read to host "av-pt-ferrari.accela.com" failed: [10054] Connection reset by peer
+This is probably because the SSL protocol version is not supported. Try switching the TLS/SSL version using "web_set_sockets_option" API.  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(713): t=631505ms: Closed connection [0] to av-pt-ferrari.accela.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(713): t=631506ms: Server av-pt-ferrari.accela.com has shut down the connection [0] prematurely (empty response, no HTTP headers received). No retry attempted  	[MsgId: MMSG-26000]
+Action.c(713): Error -27787: Server "av-pt-ferrari.accela.com" has shut down the connection prematurely  	[MsgId: MERR-27787]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

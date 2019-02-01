@@ -1,0 +1,1877 @@
+Action.c(31): t=64635512ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635512ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Start auto log messages stack - Iteration 5467.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(31): t=64635513ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5468)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+
+
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5467.	[MsgId: MMSG-10545]
+Action.c(31): t=64635513ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635513ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635513ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3854.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635516ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3855)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3854.	[MsgId: MMSG-10545]
+Action.c(31): t=64635516ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635516ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635516ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3775.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 5468.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635518ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3776)
+Action.c(31): t=64635518ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5469)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3775.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 5468.	[MsgId: MMSG-10545]
+Action.c(31): t=64635518ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635518ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635518ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635518ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): t=64635518ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): t=64635518ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3855.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635521ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3856)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3855.	[MsgId: MMSG-10545]
+Action.c(31): t=64635521ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635521ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635521ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5469.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635523ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5470)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Start auto log messages stack - Iteration 3776.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635523ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3777)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Start auto log messages stack - Iteration 5469.	[MsgId: MMSG-10545]
+Action.c(31): t=64635523ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635523ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(31): t=64635523ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+
+
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Start auto log messages stack - Iteration 3776.	[MsgId: MMSG-10545]
+
+
+Action.c(31): t=64635523ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635523ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635523ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5470.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Start auto log messages stack - Iteration 3777.	[MsgId: MMSG-10545]
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31): t=64635530ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5471)
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): t=64635530ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3778)
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     \r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 5470.	[MsgId: MMSG-10545]
+Action.c(31): t=64635530ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635530ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635531ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Start auto log messages stack - Iteration 3777.	[MsgId: MMSG-10545]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): t=64635530ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635531ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635531ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3856.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Start auto log messages stack - Iteration 5471.	[MsgId: MMSG-10545]
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Start auto log messages stack - Iteration 3778.	[MsgId: MMSG-10545]
+Action.c(31): t=64635535ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3857)
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635535ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5472)
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31): t=64635535ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3779)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     \r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3856.	[MsgId: MMSG-10545]
+Action.c(31): t=64635536ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Start auto log messages stack - Iteration 5471.	[MsgId: MMSG-10545]
+Action.c(31): t=64635536ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635536ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): t=64635536ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): t=64635536ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635536ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Start auto log messages stack - Iteration 3778.	[MsgId: MMSG-10545]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): t=64635536ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): t=64635536ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635536ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3857.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635540ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3858)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Start auto log messages stack - Iteration 5472.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635540ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5473)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+
+
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3857.	[MsgId: MMSG-10545]
+Action.c(31): t=64635540ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635540ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635540ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Start auto log messages stack - Iteration 5472.	[MsgId: MMSG-10545]
+Action.c(31): t=64635540ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635541ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(31): t=64635541ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+
+
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3779.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635541ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3780)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3779.	[MsgId: MMSG-10545]
+Action.c(31): t=64635542ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635542ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635542ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3858.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635545ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3859)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3858.	[MsgId: MMSG-10545]
+Action.c(31): t=64635545ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635545ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635545ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5473.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635546ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5474)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5473.	[MsgId: MMSG-10545]
+Action.c(31): t=64635546ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635546ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635546ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3780.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635547ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3781)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3780.	[MsgId: MMSG-10545]
+Action.c(31): t=64635548ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635548ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635548ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3859.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 5474.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31): t=64635550ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3860)
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): t=64635550ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5475)
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     \r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 5474.	[MsgId: MMSG-10545]
+Action.c(31): t=64635551ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635551ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635551ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Start auto log messages stack - Iteration 3859.	[MsgId: MMSG-10545]
+Action.c(31): t=64635551ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635551ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635551ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3781.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635552ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3782)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3781.	[MsgId: MMSG-10545]
+Action.c(31): t=64635552ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635553ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635553ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5475.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635555ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5476)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Start auto log messages stack - Iteration 3860.	[MsgId: MMSG-10545]
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): t=64635555ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3861)
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5475.	[MsgId: MMSG-10545]
+Action.c(31): t=64635556ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Start auto log messages stack - Iteration 3860.	[MsgId: MMSG-10545]
+Action.c(31): t=64635556ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635556ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): t=64635556ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): t=64635556ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635556ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3782.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635557ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3783)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3782.	[MsgId: MMSG-10545]
+Action.c(31): t=64635557ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635557ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635557ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3861.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 5476.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635560ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3862)
+Action.c(31): t=64635560ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5477)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 5476.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 3861.	[MsgId: MMSG-10545]
+Action.c(31): t=64635561ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635561ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635561ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635561ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635561ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): t=64635561ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3783.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635562ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3784)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3783.	[MsgId: MMSG-10545]
+Action.c(31): t=64635562ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635562ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635563ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3862.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Start auto log messages stack - Iteration 5477.	[MsgId: MMSG-10545]
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31): t=64635565ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3863)
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): t=64635565ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5478)
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     \r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 5477.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 3862.	[MsgId: MMSG-10545]
+Action.c(31): t=64635565ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635565ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635565ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635565ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635566ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): t=64635566ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3784.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635567ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3785)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3784.	[MsgId: MMSG-10545]
+Action.c(31): t=64635567ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635568ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635568ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5478.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 3863.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31): t=64635570ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5479)
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): t=64635570ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3864)
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     \r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3863.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 5478.	[MsgId: MMSG-10545]
+Action.c(31): t=64635570ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635570ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635570ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635570ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635570ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): t=64635571ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3785.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635572ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3786)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3785.	[MsgId: MMSG-10545]
+Action.c(31): t=64635572ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635573ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635573ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5479.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 3864.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31): t=64635575ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5480)
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): t=64635575ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3865)
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     \r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3864.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 5479.	[MsgId: MMSG-10545]
+Action.c(31): t=64635575ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635575ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635575ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635575ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): t=64635575ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): t=64635575ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3786.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635578ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3787)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3786.	[MsgId: MMSG-10545]
+Action.c(31): t=64635578ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635578ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635578ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5480.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635580ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5481)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5480.	[MsgId: MMSG-10545]
+Action.c(31): t=64635580ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635580ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635580ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3865.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635581ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3866)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3865.	[MsgId: MMSG-10545]
+Action.c(31): t=64635582ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635582ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635582ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3787.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635583ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3788)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3787.	[MsgId: MMSG-10545]
+Action.c(31): t=64635584ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635584ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635584ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5481.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635586ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5482)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3866.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635586ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3867)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Start auto log messages stack - Iteration 5481.	[MsgId: MMSG-10545]
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31): t=64635586ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635586ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635586ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Start auto log messages stack - Iteration 3866.	[MsgId: MMSG-10545]
+
+
+Action.c(31): t=64635587ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635587ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635587ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3788.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635589ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3789)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3788.	[MsgId: MMSG-10545]
+Action.c(31): t=64635590ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635590ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635590ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3867.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Start auto log messages stack - Iteration 5482.	[MsgId: MMSG-10545]
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635593ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3868)
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31): t=64635593ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5483)
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     \r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3867.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 5482.	[MsgId: MMSG-10545]
+Action.c(31): t=64635593ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635593ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635593ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635593ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635593ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): t=64635593ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3789.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635594ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3790)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3789.	[MsgId: MMSG-10545]
+Action.c(31): t=64635595ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635595ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635595ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3868.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Start auto log messages stack - Iteration 5483.	[MsgId: MMSG-10545]
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635598ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3869)
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31): t=64635598ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5484)
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3868.	[MsgId: MMSG-10545]
+Action.c(31): t=64635598ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635598ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635598ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Start auto log messages stack - Iteration 5483.	[MsgId: MMSG-10545]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(31): t=64635598ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+
+
+Action.c(31): t=64635598ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635598ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3790.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635601ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3791)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3790.	[MsgId: MMSG-10545]
+Action.c(31): t=64635601ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635601ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635601ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3869.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635603ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3870)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3869.	[MsgId: MMSG-10545]
+Action.c(31): t=64635603ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635603ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635603ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5484.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635604ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5485)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5484.	[MsgId: MMSG-10545]
+Action.c(31): t=64635605ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635605ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635605ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3791.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635606ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3792)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3791.	[MsgId: MMSG-10545]
+Action.c(31): t=64635607ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635607ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635607ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3870.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635609ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3871)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3870.	[MsgId: MMSG-10545]
+Action.c(31): t=64635610ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635610ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635610ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5485.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Start auto log messages stack - Iteration 3792.	[MsgId: MMSG-10545]
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31): t=64635611ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5486)
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): t=64635611ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3793)
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     \r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 5485.	[MsgId: MMSG-10545]
+Action.c(31): t=64635611ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Start auto log messages stack - Iteration 3792.	[MsgId: MMSG-10545]
+Action.c(31): t=64635611ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635611ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635612ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): t=64635612ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): t=64635612ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3793.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 3871.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31): t=64635624ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3794)
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): t=64635624ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3872)
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     \r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3793.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 3871.	[MsgId: MMSG-10545]
+Action.c(31): t=64635624ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635624ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635624ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635624ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635625ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): t=64635625ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5486.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635627ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5487)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5486.	[MsgId: MMSG-10545]
+Action.c(31): t=64635628ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635628ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635628ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3872.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 3794.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31): t=64635629ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3873)
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): t=64635629ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3795)
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3872.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 3794.	[MsgId: MMSG-10545]
+Action.c(31): t=64635630ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635630ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635630ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635630ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635630ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): t=64635630ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 5487.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635633ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5488)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5487.	[MsgId: MMSG-10545]
+Action.c(31): t=64635633ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635633ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635633ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3795.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635634ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3796)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3873.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 3795.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31): t=64635635ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635635ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635635ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3874)
+Action.c(31): t=64635635ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3873.	[MsgId: MMSG-10545]
+Action.c(31): t=64635635ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635635ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635635ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5488.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635638ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5489)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5488.	[MsgId: MMSG-10545]
+Action.c(31): t=64635638ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635638ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635638ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3796.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635639ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3797)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3796.	[MsgId: MMSG-10545]
+Action.c(31): t=64635640ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635640ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635640ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3874.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635641ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3875)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3874.	[MsgId: MMSG-10545]
+Action.c(31): t=64635641ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635641ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635641ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5489.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635643ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5490)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5489.	[MsgId: MMSG-10545]
+Action.c(31): t=64635644ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635644ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635644ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5490.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 3875.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Start auto log messages stack - Iteration 3797.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31): t=64635655ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5491)
+Action.c(31): t=64635655ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3876)
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): t=64635655ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3798)
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     \r\n
+Action.c(31):     \r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3875.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 5490.	[MsgId: MMSG-10545]
+Action.c(31): t=64635655ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635655ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635655ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635655ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Start auto log messages stack - Iteration 3797.	[MsgId: MMSG-10545]
+Action.c(31): t=64635656ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): t=64635656ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): t=64635655ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635655ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): t=64635656ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5491.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 3876.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31): t=64635660ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5492)
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): t=64635660ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3877)
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     \r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5491.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 3798.	[MsgId: MMSG-10545]
+Action.c(31): t=64635660ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Start auto log messages stack - Iteration 3876.	[MsgId: MMSG-10545]
+Action.c(31): t=64635660ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635660ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): t=64635660ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3799)
+Action.c(31): t=64635660ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): t=64635660ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31): t=64635661ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3798.	[MsgId: MMSG-10545]
+Action.c(31): t=64635661ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635661ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635661ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3877.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635671ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3878)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Start auto log messages stack - Iteration 3799.	[MsgId: MMSG-10545]
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635671ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3800)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+
+
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Start auto log messages stack - Iteration 3877.	[MsgId: MMSG-10545]
+Action.c(31): t=64635671ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635671ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635671ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3799.	[MsgId: MMSG-10545]
+Action.c(31): t=64635671ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635672ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635672ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5492.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635676ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5493)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3878.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635676ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3879)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Start auto log messages stack - Iteration 5492.	[MsgId: MMSG-10545]
+Action.c(31): t=64635676ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31): t=64635676ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635676ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3878.	[MsgId: MMSG-10545]
+Action.c(31): t=64635677ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635677ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635677ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3800.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635678ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3801)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3800.	[MsgId: MMSG-10545]
+Action.c(31): t=64635678ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635679ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635679ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5493.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 3879.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31): t=64635681ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5494)
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31): t=64635681ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3880)
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     \r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3879.	[MsgId: MMSG-10545]
+Action.c(31): t=64635681ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Start auto log messages stack - Iteration 5493.	[MsgId: MMSG-10545]
+Action.c(31): t=64635681ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635681ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635681ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): t=64635681ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): t=64635681ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+
+
+Start auto log messages stack - Iteration 3801.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635684ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3802)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3801.	[MsgId: MMSG-10545]
+Action.c(31): t=64635685ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635685ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635685ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5494.	[MsgId: MMSG-10545]
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635686ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5495)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Start auto log messages stack - Iteration 3880.	[MsgId: MMSG-10545]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Action.c(31):     , "booking": false, "infraction": false, "misdemeanor": false, "offenseWitnessed": false, 
+Action.c(31):     "defendantSignature": false, "publicOwned": false }
+Action.c(31): t=64635686ms: 109-byte response headers for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=3881)
+Action.c(31):     HTTP/1.1 404 Not Found\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Content-Length: 0\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 09:51:28 GMT\r\n
+Action.c(31):     \r\n
+Action.c(31): Error -26627: HTTP Status-Code=404 (Not Found) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26627]
+Start auto log messages stack - Iteration 5494.	[MsgId: MMSG-10545]
+Action.c(31): t=64635687ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635687ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635687ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=62680242914300957975538768168577872696089998555422103102897822874495687379960280295426213248185041774473777675061139808693537713&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+End auto log messages stack.	[MsgId: MMSG-10544]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+
+
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3880.	[MsgId: MMSG-10545]
+Action.c(31): t=64635687ms: Closing connection [0] to 10.106.21.51 after receiving status code 404  	[MsgId: MMSG-26000]
+Action.c(31): t=64635687ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=64635687ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 109 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4432.	[MsgId: MMSG-10545]
+Action.c(31):     HTTP/1.1 409 Conflict\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 16:52:13 GMT\r\n
+Action.c(31):     Content-Type: application/json\r\n
+Action.c(31):     Content-Length: 101\r\n
+Action.c(31):     \r\n
+Action.c(31): t=89880244ms: 101-byte response body for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=4433)
+Action.c(31):     {"status":409,"code":"duplicate_data","message":"This item may be duplicates.","traceId":"
+Action.c(31):     rest-3404"}
+Action.c(31): Error -26622: HTTP Status-Code=409 (Conflict) for "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MERR-26622]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4432.	[MsgId: MMSG-10545]
+Action.c(31): t=89880245ms: Closing connection [0] to 10.106.21.51 after receiving status code 409  	[MsgId: MMSG-26000]
+Action.c(31): t=89880245ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=89880245ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=45353770597739116010602012216480135121597199813046151076583400588634893429174440745026729601178225749799267023685300148418895533&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5516.	[MsgId: MMSG-10545]
+Action.c(31):     HTTP/1.1 409 Conflict\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 18:57:52 GMT\r\n
+Action.c(31):     Content-Type: application/json\r\n
+Action.c(31):     Content-Length: 101\r\n
+Action.c(31):     \r\n
+Action.c(31): t=97419126ms: 101-byte response body for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5517)
+Action.c(31):     {"status":409,"code":"duplicate_data","message":"This item may be duplicates.","traceId":"
+Action.c(31):     rest-4422"}
+Action.c(31): Error -26622: HTTP Status-Code=409 (Conflict) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26622]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5516.	[MsgId: MMSG-10545]
+Action.c(31): t=97419127ms: Closing connection [0] to 10.106.21.51 after receiving status code 409  	[MsgId: MMSG-26000]
+Action.c(31): t=97419127ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=97419127ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5986.	[MsgId: MMSG-10545]
+Action.c(31):     HTTP/1.1 409 Conflict\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 30 Aug 2018 21:34:31 GMT\r\n
+Action.c(31):     Content-Type: application/json\r\n
+Action.c(31):     Content-Length: 101\r\n
+Action.c(31):     \r\n
+Action.c(31): t=106817194ms: 101-byte response body for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=5987)
+Action.c(31):     {"status":409,"code":"duplicate_data","message":"This item may be duplicates.","traceId":"
+Action.c(31):     rest-5690"}
+Action.c(31): Error -26622: HTTP Status-Code=409 (Conflict) for "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MERR-26622]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5986.	[MsgId: MMSG-10545]
+Action.c(31): t=106817195ms: Closing connection [0] to 10.106.21.51 after receiving status code 409  	[MsgId: MMSG-26000]
+Action.c(31): t=106817195ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=106817195ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=70025193769012014751650326149012113498229527929832570925677303913637186379391791845865491711170027795687330011658402698066195413&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

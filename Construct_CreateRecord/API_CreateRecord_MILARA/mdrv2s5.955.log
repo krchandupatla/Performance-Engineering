@@ -1,0 +1,22 @@
+Start auto log messages stack - Iteration 2406.	[MsgId: MMSG-10545]
+Action.c(31):     HTTP/1.1 409 Conflict\r\n
+Action.c(31):     Server: Apache-Coyote/1.1\r\n
+Action.c(31):     Date: Thu, 23 Aug 2018 16:55:58 GMT\r\n
+Action.c(31):     Content-Type: application/json\r\n
+Action.c(31):     Content-Length: 103\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1280236ms: 103-byte response body for "http://10.106.21.51:3080/apis/v4/records?token=83709271017336266618386348558263429354827798447738113912092092282661959581175152197228535606053698102661970040762243631303077862&serviceProviderCode=MILARA" (RelFrameId=1, Internal ID=2407)
+Action.c(31):     {"status":409,"code":"duplicate_data","message":"This item may be duplicates.","traceId":"
+Action.c(31):     rest-145008"}
+Action.c(31): Error -26622: HTTP Status-Code=409 (Conflict) for "http://10.106.21.51:3080/apis/v4/records?token=83709271017336266618386348558263429354827798447738113912092092282661959581175152197228535606053698102661970040762243631303077862&serviceProviderCode=MILARA"  	[MsgId: MERR-26622]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2406.	[MsgId: MMSG-10545]
+Action.c(31): t=1280238ms: Closing connection [0] to 10.106.21.51 after receiving status code 409  	[MsgId: MMSG-26000]
+Action.c(31): t=1280238ms: Closed connection [0] to 10.106.21.51:3080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(31): t=1280238ms: Request done "http://10.106.21.51:3080/apis/v4/records?token=83709271017336266618386348558263429354827798447738113912092092282661959581175152197228535606053698102661970040762243631303077862&serviceProviderCode=MILARA"  	[MsgId: MMSG-26000]
+Action.c(31): Error -26366: "Text=200" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
